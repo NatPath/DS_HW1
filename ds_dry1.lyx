@@ -11,12 +11,12 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "default"
-\font_sans "default" "default"
-\font_typewriter "default" "default"
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "David"
 \font_math "auto" "auto"
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf false
 \font_sf_scale 100 100
@@ -310,6 +310,29 @@
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+בדיקה:
+\series bold
+בדיקה 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+בדיקה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\intop_{9}^{\infty}f(x)\in
+\]
+
+\end_inset
+
+
 \end_layout
 
 \end_body
