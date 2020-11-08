@@ -1687,5 +1687,796 @@
 
 \end_layout
 
+\begin_layout Subsection*
+סעיף
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+נראה הגדרה שקולה:
+\end_layout
+
+\begin_layout Standard
+נראה שלכל 
+\begin_inset Formula $\epsilon>0$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{\ensuremath{\underset{n\rightarrow\infty}{lim}\dfrac{loglogn}{log^{\epsilon}(n)}=0}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{\ensuremath{\underset{x\rightarrow\infty}{lim}\dfrac{loglogx}{log^{\epsilon}(x)}=0}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן הגבול שצריך להוכיח נובע לפי משפט היינה מאינפי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+מ.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\underset{x\rightarrow\infty}{lim}\dfrac{loglogx}{log^{\epsilon}(x)}\underbrace{=}_{lopital}\underset{x\rightarrow\infty}{lim}\dfrac{\dfrac{1}{logx}*\dfrac{1}{x}}{\epsilon log^{\epsilon-1}(x)*\dfrac{1}{x}}=\underset{x\rightarrow\infty}{lim}\dfrac{1}{\epsilon log^{\epsilon}(x)}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Subsection*
+סעיף ב
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=4T(\dfrac{n}{2})+n^{3}+nlog^{2}(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש
+\begin_inset Formula $T(n)=\Theta(n^{3})$
+\end_inset
+
+ לפי הסעיף השלישי של משפט המאסטר:
+\end_layout
+
+\begin_layout Standard
+בהצגה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=a(T(n/b)+f(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a=4,b=2,f(n)=n^{3}+nlog^{2}(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה שמתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f(n)=\Omega(n^{log_{b}a+\epsilon})$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\epsilon=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log_{b}a+\epsilon}=n^{2+1}=n^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ואכן מתקיים כי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{3}+nlog^{2}(n)=\Omega(n^{3})$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+)כי 
+\begin_inset Formula $n^{3}+nlog^{2}(n)\geq n^{3}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n>1$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+בנוסף, 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $af(n/b)=4(\dfrac{n}{2})^{3}+2nlog^{2}(n/2)=\dfrac{n^{3}}{2}+2n(log(n)-1)^{2}\leq\dfrac{n^{3}}{2}+2nlog^{2}(n)\underbrace{\leq}_{\text{for n>\ensuremath{n_{0}}*}}\dfrac{3n^{3}}{4}\leq\dfrac{3}{4}(n^{3}+nlog^{2}n)=\dfrac{3}{4}f(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+)
+\end_layout
+
+\begin_layout Standard
+נראה*:
+\end_layout
+
+\begin_layout Standard
+נראה שקיים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2nlog^{2}(n)\leq\dfrac{n^{3}}{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש 
+\begin_inset Formula $nlog^{2}(n)=o(n^{3})$
+\end_inset
+
+ ובאופן שקול 
+\begin_inset Formula $\underset{n\rightarrow\infty}{lim}\dfrac{nlog^{2}(n)}{n^{3}}=0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dfrac{nlog^{2}(n)}{n^{3}}=\dfrac{log^{2}(n)}{n^{2}}\underset{n\rightarrow\infty}{\rightarrow}0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן לכל 
+\begin_inset Formula $0<c$
+\end_inset
+
+ ובפרט עבור 
+\begin_inset Formula $c=\dfrac{1}{8}$
+\end_inset
+
+ קיים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $nlog^{2}(n)\leq cn^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(
+\end_layout
+
+\begin_layout Standard
+מצאנו שתנאי הסעיף השלישי של משפט המאסטר מתקיימים ולכן :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=\Theta(f(n))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+2
+\numeric off
+.)לא בטוח בזה(
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=log((n^{2})!)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $n^{2}=m$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=T(\sqrt{m})=log(m!)=\Theta(mlogm)=\Theta(n^{2}log(n^{2}))=\Theta(2n^{2}log(n))=\Theta(n^{2}logn)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=T(\sqrt{n})+n^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $n=2^{m}$
+\end_inset
+
+ או לחילופין 
+\begin_inset Formula $m=log(n)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+ונגדיר פונקציה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=T(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=T(n)=T(2^{m})=T(2^{m/2})+2^{2m}=S(m/2)+4^{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה 
+\begin_inset Formula $S(m)=\Theta(4^{m})$
+\end_inset
+
+ בעזרת הסעיף השלישי של משפט המאסטר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f(m)=4^{m},a=1,b=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש 
+\begin_inset Formula $f(m)=\Omega(m^{log_{b}a+\epsilon})$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\epsilon=1$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל :
+\begin_inset Formula $4^{m}=\Omega(m)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש 
+\begin_inset Formula $m=o(4^{m})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{\ensuremath{\underset{m\rightarrow\infty}{lim}\dfrac{m}{4^{m}}\underbrace{=}_{lopital}\underset{m\rightarrow\infty}{lim}\text{\ensuremath{\dfrac{1}{ln(4)4^{m}}=0}}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן לכל 
+\begin_inset Formula $c>0$
+\end_inset
+
+ ובפרט עבור 
+\begin_inset Formula $c=1$
+\end_inset
+
+ קיים 
+\begin_inset Formula $m_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $m>m_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m\leq4^{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומתקיימת הגדרת 
+\begin_inset Formula $4^{m}=\Omega(m)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה את התנאי הנוסף של המשפט:
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $\dfrac{1}{2}=c<1$
+\end_inset
+
+ ו 
+\begin_inset Formula $1=m_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $m>m_{0}$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a*f(m/b)=2^{m}\leq\dfrac{1}{2}*4^{m}=cf(m)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תנאי הסעיף השלישי של משפט המאסטר מתקיימים ולכן :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=\Theta(4^{m})\Rightarrow\boldsymbol{T(n)}=\Theta(4^{log(n)})=\Theta(2^{2logn})=\boldsymbol{\Theta(n^{2})}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=log(n)$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $2^{m}=n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ו
+\begin_inset Formula $S(m)=T(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=T(n)=16n^{4}T(\sqrt{n})+2n^{8}log^{4}(n)=..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $..=16*16^{m}S(\dfrac{m}{2})+2*16^{2m}*m^{4}\Rightarrow..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\dfrac{S(m)}{16^{m}}=16*S(\dfrac{m}{2})+2*16^{m}*m^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\Theta(16^{m}*m^{4})$
+\end_inset
+
+ בעזרת משפט המאסטר סעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a=16,b=2,f(m)=2*16^{m}*m^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה שתנאיו מתקיימים:
+\end_layout
+
+\begin_layout Standard
+ראשית נראה ש
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f(m)=\Omega(m^{log_{b}a+\epsilon})$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\epsilon=1$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $m_{0}=(*)$
+\end_inset
+
+ ו 
+\begin_inset Formula $c$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $m>m_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m^{5}\underbrace{\leq}_{\text{(*)m=o(\ensuremath{16^{m}})}\text{so there exists an \ensuremath{m_{0}}s.t for every \ensuremath{m>m_{0}:} m\ensuremath{\leq16^{m}}}}16^{m}*m^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+נראה גם שקיים 
+\begin_inset Formula $8=c<1$
+\end_inset
+
+ ו 
+\begin_inset Formula $m_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $m>m_{0}$
+\end_inset
+
+ : 
+\begin_inset Formula $af(m/b)\leq cf(m)$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $af(m/b)=16^{m+1}m^{4}\underbrace{\leq}_{\text{\ensuremath{for}all m}}2*16^{m+1}m^{4}=cf(n)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+תנאי משפט המאסטר סעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתקיימים ולכן
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\Theta(16^{m}*m^{4})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\dfrac{S(m)}{16^{m}}=\Theta(16^{m}*m^{4})\Rightarrow S(m)=\Theta(16^{2m}*m^{4})\Rightarrow..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $..\Rightarrow\boldsymbol{T(n)}=\Theta(16^{2log(n)}log^{4}(n))=\boldsymbol{\Theta(n^{8}log^{4}(n))}$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
