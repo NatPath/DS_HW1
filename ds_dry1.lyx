@@ -2229,6 +2229,7 @@
 4
 \numeric off
 .
+ שטות גמורה..
 \end_layout
 
 \begin_layout Standard
@@ -2473,6 +2474,113 @@
 
 \begin_layout Standard
 \begin_inset Formula $..\Rightarrow\boldsymbol{T(n)}=\Theta(16^{2log(n)}log^{4}(n))=\boldsymbol{\Theta(n^{8}log^{4}(n))}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=log(n)$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $2^{m}=n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ו
+\begin_inset Formula $S(m)=T(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=T(n)=16n^{4}T(\sqrt{n})+2n^{8}log^{4}(n)=..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $..=16*16^{m}S(\dfrac{m}{2})+2*16^{2m}*m^{4}\Rightarrow..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)\underbrace{=}_{\text{define K(m)}}\dfrac{S(m)}{16^{2m}}=16*\dfrac{S(\dfrac{m}{2})}{16^{m}}+2*m^{4}=16*K(\dfrac{m}{2})+2*m^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציג את הביטוי כעץ )שרוך(:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2m^{4}\rightarrow16*2*(\dfrac{m}{2})^{4}\rightarrow16^{2}*2*(\dfrac{m}{4})^{4}\rightarrow...\rightarrow2*16^{i}*(\dfrac{m}{2^{i}})^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עומק העץ הוא :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $log(m)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+איבר כללי של צומת בשרוך בדרגה 
+\begin_inset Formula $i$
+\end_inset
+
+ הוא :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2*16^{i}*(\dfrac{m}{2^{i}})^{4}=2*m^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן כדי למצוא ביטוי מפורש לסכום יש לסכום:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\underset{i=0}{\overset{log(m)}{\sum}}2*m^{4}=2*m^{4}log(m)=\Theta(m^{4}log(m)\Rightarrow..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\dfrac{S(m)}{16^{2m}}=\Theta(m^{4}log(m))\Rightarrow T(n)=S(m)=\Theta(16^{2m}m^{4}log(m))=\Theta(n^{8}log^{4}(n)log(log(n))$
 \end_inset
 
 
