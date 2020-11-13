@@ -1,0 +1,2289 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Subsection*
+)
+\numeric on
+2
+\numeric off
+(
+\begin_inset Formula 
+\[
+\sqrt{f_{1}(n)}=\Omega(f_{1}(n))\iff f_{1}(n)=O(1)
+\]
+
+\end_inset
+
+ 
+\series medium
+הטענה נכונה.
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Formula $:\Leftarrow$
+\end_inset
+
+ 
+\series medium
+נניח כי 
+\begin_inset Formula $f_{1}(n)=O(1)$
+\end_inset
+
+.
+ אז קיימים קבועים 
+\begin_inset Formula $c_{1},n_{0}>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+f_{1}(n)\leq c_{1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\sqrt{f_{1}(n)}\leq\sqrt{c_{1}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\frac{f_{1}(n)}{\sqrt{f_{1}(n)}}\leq\frac{c_{1}}{\sqrt{c_{1}}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\sqrt{f_{1}(n)}\cdot c_{1}\geq\sqrt{c_{1}}\cdot f_{1}(n)
+\]
+
+\end_inset
+
+
+\series default
+
+\begin_inset Formula 
+\[
+\sqrt{f_{1}(n)}\geq\frac{\sqrt{c_{1}}}{c_{1}}\cdot f_{1}(n)\Rightarrow\sqrt{f_{1}(n)}\geq\frac{1}{\sqrt{c_{1}}}\cdot f_{1}(n)
+\]
+
+\end_inset
+
+
+\series medium
+נגדיר 
+\begin_inset Formula $c_{2}=\frac{1}{\sqrt{c_{1}}}$
+\end_inset
+
+.
+ אז עבור הקבועים 
+\begin_inset Formula $n_{0},c_{2}>0$
+\end_inset
+
+ , לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\sqrt{f_{1}(n)}\geq c_{2}\cdot f_{1}(n)$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $\sqrt{f_{1}(n)}=\Omega(f_{1}(n))$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+: נניח כי 
+\begin_inset Formula $\sqrt{f_{1}(n)}=\Omega(f_{1}(n))$
+\end_inset
+
+.
+ אז קיימים קבועים 
+\begin_inset Formula $c_{1},n_{0}>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+\sqrt{f_{1}(n)}\geq c_{1}\cdot f_{1}(n)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\sqrt{f_{1}(n)}\geq c_{1}\cdot\sqrt{f_{1}(n)}\sqrt{f_{1}(n)}
+\]
+
+\end_inset
+
+ מהגדרת תמונת 
+\begin_inset Formula $f_{1}$
+\end_inset
+
+ נובע 
+\begin_inset Formula $\sqrt{f_{1}(n)}>0$
+\end_inset
+
+ ולכן:
+\begin_inset Formula 
+\[
+\Rightarrow1\geq c_{1}\cdot\sqrt{f_{1}(n)}\Rightarrow\sqrt{f_{1}(n)}\leq\frac{1}{c_{1}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow f_{1}(n)\leq\frac{1}{c_{1}^{2}}
+\]
+
+\end_inset
+
+נגדיר 
+\begin_inset Formula $c_{2}=\frac{1}{c_{1}^{2}}$
+\end_inset
+
+ ולכן עבור הקבועים 
+\begin_inset Formula $n_{0},c_{2}>0$
+\end_inset
+
+ , לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $f_{1}(n)\leq c_{2}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $f_{1}(n)=O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+)
+\numeric on
+4
+\numeric off
+( 
+\begin_inset Formula 
+\[
+\left|log\left(\frac{f_{1}}{g_{1}}\right)\right|=O(log(g_{1}))\Rightarrow f_{1}(n)=O(g_{1}(n))
+\]
+
+\end_inset
+
+ 
+\series medium
+הטענה אינה נכונה.
+ נתבונן לדוגמה בפונקציות 
+\begin_inset Formula $f_{1}(n)=n^{2},g_{1}(n)=n$
+\end_inset
+
+.
+ מתקיים:
+\begin_inset Formula 
+\[
+\left|log\left(\frac{n^{2}}{n}\right)\right|=\left|log\left(n\right)\right|\underset{n\geq1}{\underbrace{=}}log(n)
+\]
+
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $log(n)=O(log(n))$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $\left|log\left(\frac{n^{2}}{n}\right)\right|=O(log(n))$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $\left|log\left(\frac{f_{1}}{g_{1}}\right)\right|=O(log(g_{1}))$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+נניח בשלילה כי 
+\begin_inset Formula $n^{2}=O(n)$
+\end_inset
+
+.
+ אז קיימים 
+\begin_inset Formula $c,n_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $n^{2}\leq c\cdot n$
+\end_inset
+
+.
+ לכל 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula $n^{2}\geq n$
+\end_inset
+
+ ולכן בהכרח 
+\begin_inset Formula $c\geq1$
+\end_inset
+
+.
+ כלומר 
+\begin_inset Formula $cn_{0}\geq n_{0}$
+\end_inset
+
+ ולכן עבור 
+\begin_inset Formula $n'=c\cdot\max\{n_{0},2\}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+c^{2}\cdot n'^{2}\leq c^{2}n'\Rightarrow n'^{2}\leq n'
+\]
+
+\end_inset
+
+ בסתירה לכך ש
+\begin_inset Formula $n'\geq2>1$
+\end_inset
+
+.
+ לכן 
+\begin_inset Formula $n^{2}\neq O(n)$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $f_{1}\neq O(g_{1})$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+)
+\numeric on
+6
+\numeric off
+(
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+אם 
+\begin_inset Formula $\left|log\left(\frac{f_{1}(n)}{g_{1}(n)}\right)\right|=O(f_{2}(n))$
+\end_inset
+
+ וגם 
+\begin_inset Formula $\left|log\left(\frac{g_{1}(n)}{g_{2}(n)}\right)\right|=O(f_{2}(n))$
+\end_inset
+
+ אז 
+\begin_inset Formula $\left|log\left(\frac{f_{1}(n)}{g_{2}(n)}\right)\right|=O(f_{2}(n))$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+הטענה נכונה.
+ נתון כי קיימים 
+\begin_inset Formula $n_{1},c_{1}>0$
+\end_inset
+
+ כך ש: 
+\begin_inset Formula 
+\[
+\left|log\left(\frac{f_{1}(n)}{g_{1}(n)}\right)\right|\leq c_{1}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ מתכונות לוגריתמים נקבל:
+\begin_inset Formula 
+\[
+\Rightarrow\left|log\left(f_{1}(n)\right)-log\left(g_{1}(n)\right)\right|\leq c_{1}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ נתון גם כי קיימים 
+\begin_inset Formula $n_{2},c_{2}>0$
+\end_inset
+
+ כך ש:
+\begin_inset Formula 
+\[
+\left|log\left(\frac{g_{1}(n)}{g_{2}(n)}\right)\right|\leq c_{2}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\left|log\left(g_{1}(n)\right)-log\left(g_{2}(n)\right)\right|\leq c_{2}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ נגדיר 
+\begin_inset Formula $n_{3}=\max\{n_{1},n_{2}\}$
+\end_inset
+
+.
+ לכל 
+\begin_inset Formula $n\geq n_{3}$
+\end_inset
+
+ כל אי השוויונות מתקיימים במקביל ולכן נוכל לחבר אותם:
+\begin_inset Formula 
+\[
+\left|log\left(f_{1}(n)\right)-log\left(g_{1}(n)\right)\right|+\left|log\left(g_{1}(n)\right)-log\left(g_{2}(n)\right)\right|\leq c_{1}\cdot f_{2}(n)+c_{2}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ מאי שוויון המשולש נקבל:
+\begin_inset Formula 
+\[
+\Rightarrow\left|log\left(f_{1}(n)\right)-log\left(g_{1}(n)\right)+log\left(g_{1}(n)\right)-log\left(g_{2}(n)\right)\right|\leq(c_{1}+c_{2})\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ נגדיר 
+\begin_inset Formula $c_{3}=c_{1}+c_{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $c_{2},c_{1}>0$
+\end_inset
+
+ ולכן גם 
+\begin_inset Formula $c_{3}>0$
+\end_inset
+
+.
+ 
+\begin_inset Formula 
+\[
+\Rightarrow\left|log\left(f_{1}(n)\right)-log\left(g_{2}(n)\right)\right|\leq c_{3}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ מתכונות לוגריתמים נקבל:
+\begin_inset Formula 
+\[
+\Rightarrow\left|log\left(\frac{f_{1}(n)}{g_{2}(n)}\right)\right|\leq c_{3}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ כלומר עבור הקבועים 
+\begin_inset Formula $c_{3},n_{3}>0$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\left|log\left(\frac{f_{1}(n)}{g_{2}(n)}\right)\right|=O(f_{2}(n))$
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Subsection*
+
+\bar under
+\begin_inset Formula $nlog^{2}(n)$
+\end_inset
+
+
+\series medium
+: 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\begin_inset Formula $n$
+\end_inset
+
+: עבור 
+\begin_inset Formula $n_{0}=2$
+\end_inset
+
+ ו
+\begin_inset Formula $c=1$
+\end_inset
+
+ מתקיים לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+log(n)\geq1\Rightarrow log^{2}(n)\geq1\Rightarrow nlog^{2}(n)\geq1\cdot n
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $nlog^{2}(n)=\Omega(n)$
+\end_inset
+
+.
+ נניח כי 
+\begin_inset Formula $nlog^{2}(n)=\Theta(n)$
+\end_inset
+
+.
+ אז 
+\begin_inset Formula $nlog^{2}(n)=O(n)$
+\end_inset
+
+ ולכן קיימים 
+\begin_inset Formula $n_{0},c>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+nlog^{2}(n)\leq c\cdot n\Rightarrow log^{2}(n)\leq c\Rightarrow log(n)\leq\sqrt{c}
+\]
+
+\end_inset
+
+ לכן גם עבור 
+\begin_inset Formula $n'=\max\{2^{\sqrt{c}}+1,n_{0}+1\}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula 
+\[
+log(n')\leq\sqrt{c}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow2^{\sqrt{c}}+1\leq n'\leq2^{\sqrt{c}}
+\]
+
+\end_inset
+
+ בסתירה, ולכן 
+\begin_inset Formula $nlog^{2}(n)=\Omega(n)$
+\end_inset
+
+ הוא היחס החזק ביותר בין הפונקציות.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\begin_inset Formula $nlog(n)$
+\end_inset
+
+: עבור 
+\begin_inset Formula $n_{0}=2$
+\end_inset
+
+ ו
+\begin_inset Formula $c=1$
+\end_inset
+
+ מתקיים לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+log(n)\geq1\Rightarrow nlog(n)\cdot log(n)\geq1\cdot nlog(n)\Rightarrow nlog^{2}(n)\geq1\cdot nlog(n)
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $nlog^{2}(n)=\Omega(nlog(n))$
+\end_inset
+
+.
+ נניח כי 
+\begin_inset Formula $nlog^{2}(n)=\Theta(nlog(n))$
+\end_inset
+
+.
+ אז 
+\begin_inset Formula $nlog^{2}(n)=O(nlog(n))$
+\end_inset
+
+ ולכן קיימים 
+\begin_inset Formula $n_{0},c>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+nlog^{2}(n)\leq c\cdot nlog(n)\Rightarrow log(n)\leq c
+\]
+
+\end_inset
+
+ לכן גם עבור 
+\begin_inset Formula $n'=\max\{2^{c}+1,n_{0}+1\}$
+\end_inset
+
+ מתקיים
+\begin_inset Formula 
+\[
+log(n')\leq c\Rightarrow2^{c}+1\leq n'\leq2^{c}
+\]
+
+\end_inset
+
+ בסתירה, ולכן 
+\begin_inset Formula $nlog^{2}(n)=\Omega(nlog(n))$
+\end_inset
+
+ הוא היחס החזק ביותר בין הפונקציות.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\begin_inset Formula $n^{2}$
+\end_inset
+
+: עבור 
+\begin_inset Formula $n_{0}=1$
+\end_inset
+
+ ו
+\begin_inset Formula $c=4$
+\end_inset
+
+, מתקיים לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+log(n)\leq n\Rightarrow log(\sqrt{n})\leq\sqrt{n}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+log(n)=2log(\sqrt{n})\leq2\sqrt{n}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow log^{2}(n)\leq4n
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow nlog^{2}(n)\leq4n^{2}
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $nlog^{2}(n)=O(n^{2})$
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+נניח כי 
+\begin_inset Formula $nlog^{2}(n)=\Theta(n^{2})$
+\end_inset
+
+.
+ אז 
+\begin_inset Formula $nlog^{2}(n)=\Omega(n^{2})$
+\end_inset
+
+ ולכן קיימים 
+\begin_inset Formula $c,n_{0}>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+nlog^{2}(n)\geq c\cdot n^{2}\Rightarrow log^{2}(n)\geq c\cdot n\Rightarrow log(n)\geq\sqrt{c\cdot n}
+\]
+
+\end_inset
+
+ אם 
+\begin_inset Formula $\sqrt{c}\geq2$
+\end_inset
+
+ אז גם עבור 
+\begin_inset Formula $n'=\max\{n_{0}^{\sqrt{c}},3^{\sqrt{c}}\}\geq n_{0}$
+\end_inset
+
+ מתקיים
+\begin_inset Formula 
+\[
+log(n')\geq log(n^{\sqrt{c}})\geq log(n_{0}^{2})\geq\sqrt{c\cdot n_{0}^{2}}=\sqrt{c}\cdot n_{0}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow log(n_{0}^{\sqrt{c}})\geq\sqrt{c}\cdot n_{0}\Rightarrow\sqrt{c}\cdot log(n_{0})>\sqrt{c}\cdot n_{0}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow log(n_{0})>n_{0}
+\]
+
+\end_inset
+
+ אם 
+\begin_inset Formula $\sqrt{c}<2$
+\end_inset
+
+ אז גם עבור 
+\begin_inset Formula $n'=n_{0}^{2}\geq n_{0}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula 
+\[
+log(n_{0}^{2})\geq\sqrt{c\cdot n_{0}^{2}}=\sqrt{c}\cdot n
+\]
+
+\end_inset
+
+בסתירה, ולכן 
+\begin_inset Formula $nlog^{2}(n)=O(n^{2})$
+\end_inset
+
+ הוא היחס החזק ביותר בין הפונקציות.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\begin_inset Formula $\underline{log(n!)}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\begin_inset Formula $n$
+\end_inset
+
+: נבחר 
+\begin_inset Formula $n_{0}=4$
+\end_inset
+
+ ו
+\begin_inset Formula $c=1$
+\end_inset
+
+.
+ נראה ראשית כי לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula $n!\geq2^{n}$
+\end_inset
+
+.
+ עבור 
+\begin_inset Formula $n_{0}=4$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula 
+\[
+n_{0}!=1\cdot2\cdot3\cdot4=24>16=2^{n_{0}}
+\]
+
+\end_inset
+
+נניח כי עבור 
+\begin_inset Formula $n'$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula $n'!\geq2^{n'}$
+\end_inset
+
+.
+ אז עבור 
+\begin_inset Formula $n=n'+1$
+\end_inset
+
+ נקבל:
+\begin_inset Formula 
+\[
+n!=n'!\cdot n\geq2^{n'}\cdot n\underset{n\geq4}{\underbrace{\geq}}2^{n'}\cdot2=2^{n'+1}=2^{n}
+\]
+
+\end_inset
+
+ ולכן מאינדוקציה לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+ מתקיים
+\begin_inset Formula 
+\[
+n!\geq1\cdot2^{n}\Rightarrow log(n!)\geq1\cdot log(2^{n})\Rightarrow log(n!)\geq1\cdot n
+\]
+
+\end_inset
+
+כלומר 
+\begin_inset Formula $log(n!)=\Omega(n)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\begin_inset Formula $nlog(n)$
+\end_inset
+
+: עבור 
+\begin_inset Formula $n_{0}=1,c=1$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+ מתקיים:
+\begin_inset Formula 
+\[
+log(n!)=log(1\cdot2\cdot\ldots\cdot n)=log(1)+log(2)+\ldots+log(n)
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula $log(n)$
+\end_inset
+
+ היא פונקציה עולה ולכן לכל 
+\begin_inset Formula $1\leq k\leq n$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $log(k)\leq log(n)$
+\end_inset
+
+.
+ כלומר:
+\begin_inset Formula 
+\[
+log(1)+\ldots+log(n)\leq log(n)+\ldots+log(n)=nlog(n)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow log(n!)\leq1\cdot nlog(n)
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $log(n!)=O(nlog(n))$
+\end_inset
+
+.
+ עבור 
+\begin_inset Formula $c=\frac{1}{4}$
+\end_inset
+
+ ו
+\begin_inset Formula $n_{0}\geq4$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+ מתקיים:
+\begin_inset Formula 
+\[
+log(n!)=log(1)+\ldots+log\left(\frac{n}{2}\right)+\ldots+logn(n)\geq log\left(\frac{n}{2}\right)+\ldots+log(n)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\geq log\left(\frac{n}{2}\right)+\ldots+log\left(\frac{n}{2}\right)=\frac{n}{2}log\left(\frac{n}{2}\right)=\frac{n}{2}\left(log(n)-log(2)\right)=\frac{n}{2}\left(log(n)-1\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{n}{2}log(n)-\frac{n}{2}=\frac{n}{4}log(n)+\frac{n}{4}log(n)-\frac{n}{4}\cdot2=\frac{n}{4}log(n)+\frac{n}{4}\left(log(n)-2\right)\underset{n\geq4}{\underbrace{\geq}}\frac{1}{4}nlog(n)
+\]
+
+\end_inset
+
+ כפי שנראה בתרגול.
+ ולכן מתקיים גם 
+\begin_inset Formula $log(n!)=\Omega(nlog(n))$
+\end_inset
+
+ ובסך הכל 
+\begin_inset Formula $log(n!)=\Theta(nlog(n))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\begin_inset Formula $n^{2}$
+\end_inset
+
+: עבור 
+\begin_inset Formula $n_{0}=0$
+\end_inset
+
+ ו
+\begin_inset Formula $c=1$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+ מתקיים:
+\begin_inset Formula 
+\[
+log(n!)=log(1\cdot\ldots\cdot n)=\sum_{k=1}^{n}log(k)\leq\sum_{k=1}^{n}k=\frac{n(n+1)}{2}=\frac{n^{2}}{2}+\frac{n}{2}
+\]
+
+\end_inset
+
+ לכל 
+\begin_inset Formula $n$
+\end_inset
+
+ טבעי מתקיים 
+\begin_inset Formula $n\leq n^{2}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $\frac{n}{2}\leq\frac{n^{2}}{2}$
+\end_inset
+
+ כלומר:
+\begin_inset Formula 
+\[
+log(n!)\leq\frac{n^{2}}{2}+\frac{n}{2}\leq\frac{n^{2}}{2}+\frac{n^{2}}{2}=n^{2}
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $log(n!)=O(n^{2})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+)ג(
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+יהי 
+\begin_inset Formula $c>0$
+\end_inset
+
+.
+ נפצל למקרים.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\numeric on
+1
+\numeric off
+.
+ אם 
+\begin_inset Formula $c\geq1$
+\end_inset
+
+: נתון 
+\begin_inset Formula $f(n)=\omega(log(n))$
+\end_inset
+
+ ולכן קיים עבורו 
+\begin_inset Formula $n_{0}>0$
+\end_inset
+
+ כך ש
+\begin_inset Formula $f(n)\geq c\cdot log(n)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\begin_inset Formula 
+\[
+f(n)\geq c\cdot log(n)\Rightarrow2^{f(n)}\geq\left(2^{log(n)}\right)^{c}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow2^{f(n)}\geq n^{c}\Rightarrow c\cdot2^{f(n)}\geq c\cdot n^{c}\geq n
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow n\leq c\cdot2^{f(n)}
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $n=o\left(2^{f(n)}\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\numeric on
+2
+\numeric off
+.
+ אם 
+\begin_inset Formula $0<c<1$
+\end_inset
+
+: נסמן 
+\begin_inset Formula $c_{1}=log\left(\frac{1}{c}\right)+1$
+\end_inset
+
+.
+ 
+\begin_inset Formula $c<1$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $\frac{1}{c}>1$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $log\left(\frac{1}{c}\right)>0$
+\end_inset
+
+ ו 
+\begin_inset Formula $c_{1}>1$
+\end_inset
+
+.
+ נתון 
+\begin_inset Formula $f(n)=\omega(log(n))$
+\end_inset
+
+.
+ לכן קיים 
+\begin_inset Formula $n_{0}>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+ מתקיים
+\begin_inset Formula 
+\[
+f(n)\geq\left(log\left(\frac{1}{c}\right)+1\right)log(n)
+\]
+
+\end_inset
+
+ נסמן 
+\begin_inset Formula $n_{2}=\max\{n_{0},2\}$
+\end_inset
+
+ ואז לכל 
+\begin_inset Formula $n\geq n_{2}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\Rightarrow2^{f(n)}\geq2^{\left(log\left(\frac{1}{c}\right)+1\right)log(n)}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow2^{f(n)}\geq\left(2^{log(n)}\right)^{log\left(\frac{1}{c}\right)+1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow2^{f(n)}\geq n^{log\left(\frac{1}{c}\right)+1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow c\cdot2^{f(n)}\geq c\cdot n^{log\left(\frac{1}{c}\right)+1}=c\cdot n^{log\left(\frac{1}{c}\right)}\cdot n\underset{n\geq2}{\underbrace{\geq}}c\cdot2^{log\left(\frac{1}{c}\right)}\cdot n=c\cdot\frac{1}{c}\cdot n=n
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow n\leq c\cdot2^{f(n)}
+\]
+
+\end_inset
+
+ ולכן גם במקרה זה 
+\begin_inset Formula $n=o\left(2^{f(n)}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+נתונה המשוואה הרקורסיבית:
+\begin_inset Formula 
+\[
+T(n)=T\left(\frac{n}{10}\right)+T(a\cdot n)+n
+\]
+
+\end_inset
+
+ נתחיל לפתח לעץ רקורסיה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename recTree.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+נראה באינדוקציה כי סכום הרמה ה
+\begin_inset Formula $k$
+\end_inset
+
+ הוא 
+\begin_inset Formula $n\cdot\left(a+\frac{1}{10}\right)^{k}$
+\end_inset
+
+, כאשר הרמה הראשונה היא 
+\begin_inset Formula $k=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\bar under
+בסיס:
+\bar default
+ האיבר היחיד ברמה 
+\begin_inset Formula $k=0$
+\end_inset
+
+ הוא 
+\begin_inset Formula $n$
+\end_inset
+
+ ולכן סכומה הוא 
+\begin_inset Formula $n=n\cdot\left(a+\frac{1}{10}\right)^{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\bar under
+צעד:
+\bar default
+ נניח כי סכום הרמה ה
+\begin_inset Formula $k$
+\end_inset
+
+ הוא 
+\begin_inset Formula $n\cdot\left(a+\frac{1}{10}\right)^{k}$
+\end_inset
+
+.
+ נסמן כל צומת ברמה ה
+\begin_inset Formula $k$
+\end_inset
+
+ כ
+\begin_inset Formula $n'_{i}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $1\leq i\leq2^{k}$
+\end_inset
+
+.
+ עבור 
+\series default
+כל 
+\series medium
+צומת 
+\begin_inset Formula $n'_{i}$
+\end_inset
+
+, יש 
+\series default
+בדיוק
+\series medium
+ שני צמתים ברמה ה
+\begin_inset Formula $k+1$
+\end_inset
+
+: 
+\begin_inset Formula $a\cdot n_{i}',\frac{1}{10}\cdot n_{i}'$
+\end_inset
+
+.
+ לכן סכום השורה ה
+\begin_inset Formula $k+1$
+\end_inset
+
+ הוא:
+\begin_inset Formula 
+\[
+\sum_{i=1}^{2^{k}}a\cdot n'_{i}+\frac{1}{10}n'_{i}=\sum_{i=1}^{2^{k}}n'_{i}\left(a+\frac{1}{10}\right)=\left(a+\frac{1}{10}\right)\sum_{i=1}^{2^{k}}n'_{i}
+\]
+
+\end_inset
+
+ אבל 
+\begin_inset Formula $\sum_{i=1}^{2^{k}}n'_{i}$
+\end_inset
+
+ הוא פשוט סכום הצמתים ברמה ה
+\begin_inset Formula $k$
+\end_inset
+
+, שלפי הנחת האינדוקציה מקיים 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\begin_inset Formula $\sum_{i=1}^{2^{k}}n'_{i}=n\cdot\left(a+\frac{1}{10}\right)^{k}$
+\end_inset
+
+ ולכן סכום השורה ה
+\begin_inset Formula $k+1$
+\end_inset
+
+ הוא:
+\begin_inset Formula 
+\[
+\sum_{i=1}^{2^{k}}a\cdot n'_{i}+\frac{1}{10}n'_{i}=\left(a+\frac{1}{10}\right)\sum_{i=1}^{2^{k}}n'_{i}=\left(a+\frac{1}{10}\right)\cdot n\cdot\left(a+\frac{1}{10}\right)^{k}=n\cdot\left(a+\frac{1}{10}\right)^{k+1}
+\]
+
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+בסך הכל, 
+\begin_inset Formula $T(n)$
+\end_inset
+
+ שווה לסכום כל הרמות.
+ ניתן למצוא חסם מלעיל ומלרע ל
+\begin_inset Formula $T(n)$
+\end_inset
+
+ שכן סכום כל רמה בנפרד הוא חיובי, ומספר הרמות תלוי בגובה העץ.
+ הקריאות הרקורסיביות הן מהצורה 
+\begin_inset Formula $T(a\cdot n)$
+\end_inset
+
+ ו 
+\begin_inset Formula $T\left(\frac{n}{10}\right)$
+\end_inset
+
+ ולכן גובה העץ תחום בין 
+\begin_inset Formula $m=\min\left\{ log_{10}(n),log_{\frac{1}{a}}(n)\right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+ו 
+\begin_inset Formula $M=\max\left\{ log_{10}(n),log_{\frac{1}{a}}(n)\right\} $
+\end_inset
+
+.
+ לכן:
+\begin_inset Formula 
+\[
+\sum_{k=0}^{m}n\cdot\left(a+\frac{1}{10}\right)^{k}\leq T(n)\leq\sum_{k=0}^{M}n\cdot\left(a+\frac{1}{10}\right)^{k}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow n\cdot\sum_{k=0}^{m}\left(a+\frac{1}{10}\right)^{k}\leq T(n)\leq n\cdot\sum_{k=0}^{M}\left(a+\frac{1}{10}\right)^{k}
+\]
+
+\end_inset
+
+ נבדוק עבור אילו ערכי 
+\begin_inset Formula $a$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $T(n)=\omega(n)$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{n}{T(n)}=0$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+\frac{1}{\sum_{k=0}^{m}\left(a+\frac{1}{10}\right)^{k}}\leq\frac{n}{T(n)}\leq\frac{1}{\sum_{k=0}^{M}\left(a+\frac{1}{10}\right)^{k}}
+\]
+
+\end_inset
+
+ נשים לב כי כיוון ש - 
+\begin_inset Formula $m$
+\end_inset
+
+ ו -
+\begin_inset Formula $M$
+\end_inset
+
+ הם לוגריתמים בבסיסים שונים של 
+\begin_inset Formula $n$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula 
+\[
+\lim_{n\rightarrow\infty}\sum_{k=0}^{m}\left(a+\frac{1}{10}\right)^{k}=\lim_{n\rightarrow\infty}\sum_{k=0}^{M}\left(a+\frac{1}{10}\right)^{k}=\sum_{k=0}^{\infty}\left(a+\frac{1}{10}\right)^{k}
+\]
+
+\end_inset
+
+ ולכן מכלל הסנדוויץ' מתקיים 
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{n}{T(n)}=\lim_{n\rightarrow\infty}\frac{1}{\sum_{k=0}^{m}\left(a+\frac{1}{10}\right)^{k}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+לכן נרצה למצוא מתי מתקיים 
+\begin_inset Formula $\frac{1}{\sum_{k=0}^{\infty}\left(a+\frac{1}{10}\right)^{k}}=0$
+\end_inset
+
+ כלומר מתי מתקיים 
+\begin_inset Formula $\sum_{k=0}^{\infty}\left(a+\frac{1}{10}\right)^{k}=\infty$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+הטור 
+\begin_inset Formula $\sum_{k=0}^{\infty}\left(a+\frac{1}{10}\right)^{k}$
+\end_inset
+
+ הוא טור גיאומטרי ולכן 
+\begin_inset Formula 
+\[
+\sum_{k=0}^{\infty}\left(a+\frac{1}{10}\right)^{k}=\infty\iff a+\frac{1}{10}\geq1\iff a\geq\frac{9}{10}
+\]
+
+\end_inset
+
+לכן 
+\begin_inset Formula $a=\frac{9}{10}$
+\end_inset
+
+ הוא הערך המינימלי של 
+\begin_inset Formula $a$
+\end_inset
+
+ עבורו מתקיים 
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{1}{\sum_{k=0}^{m}\left(a+\frac{1}{10}\right)^{k}}=0$
+\end_inset
+
+ כלומר
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{n}{T(n)}=0$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $T(n)=\omega(n)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\begin_inset Note Note
+status open
+
+\begin_layout Subsection*
+
+\series medium
+ניתן לראות כי סכום של כל שורה בעץ הוא מכפלה של 
+\begin_inset Formula $n$
+\end_inset
+
+ בפולינום של 
+\begin_inset Formula $a$
+\end_inset
+
+.
+
+\series default
+ 
+\series medium
+נראה באינדוקציה כי סכום השורה ה
+\begin_inset Formula $k$
+\end_inset
+
+ עבור 
+\begin_inset Formula $k\geq1$
+\end_inset
+
+ כאשר השורה הראשונה היא 
+\begin_inset Formula $k=0$
+\end_inset
+
+ הוא מהצורה 
+\begin_inset Formula $n\cdot\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{i}$
+\end_inset
+
+ כאשר לכל 
+\begin_inset Formula $1\leq i\leq k$
+\end_inset
+
+, 
+\begin_inset Formula $b_{i}\geq1$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\bar under
+בסיס:
+\bar default
+ עבור 
+\begin_inset Formula $k=1$
+\end_inset
+
+ סכום השורה הוא 
+\begin_inset Formula $\frac{n}{10}+an=n\cdot\left(\frac{1}{10^{1}}+a^{1}\right)=\sum_{i=0}^{1}\frac{1}{10^{1-i}}\cdot a^{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\bar under
+צעד:
+\bar default
+ נניח כי סכום השורה ה
+\begin_inset Formula $k$
+\end_inset
+
+ הוא 
+\series default
+
+\begin_inset Formula $n\cdot\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}$
+\end_inset
+
+
+\series medium
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+אז עבור השורה ה
+\begin_inset Formula $k+1$
+\end_inset
+
+, לכל חזקה 
+\begin_inset Formula $1\leq i\leq k$
+\end_inset
+
+, האיבר 
+\begin_inset Formula $a^{i}$
+\end_inset
+
+ יתווסף לפולינום על ידי שני סוגי קריאות:
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\begin_inset Formula $n_{i}=T(a\cdot n')$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $n'$
+\end_inset
+
+ הוא האיבר בעל החזקה ה
+\begin_inset Formula $i-1$
+\end_inset
+
+ בשורה 
+\begin_inset Formula $k$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $n'=\frac{1}{10^{k-i+1}}\cdot a^{i-1}\cdot n$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $n_{i}=a\cdot n'=\frac{1}{10^{k+1-i}}\cdot a^{i}\cdot n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $n_{i}=T\left(\frac{n'}{10}\right)$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $n'$
+\end_inset
+
+ הוא האיבר בעל החזקה ה
+\begin_inset Formula $i$
+\end_inset
+
+ בשורה 
+\begin_inset Formula $k$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $n'=\frac{1}{10^{k-i}}a^{i}\cdot n$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $n_{i}=\frac{n'}{10}=\frac{1}{10^{k+1-i}}\cdot a^{i1}\cdot n$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+מכאן שמקדם האיבר 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ בשורה 
+\begin_inset Formula $k+1$
+\end_inset
+
+ הוא 
+\begin_inset Formula $b_{k,i}+b_{k,i-1}$
+\end_inset
+
+.
+ מהנחת האינדוקציה 
+\begin_inset Formula $b_{k,i},b_{k,i-1}\geq1$
+\end_inset
+
+ ולכן גם 
+\begin_inset Formula $b_{k+1,i}=(b_{i}+b_{i-1})\geq1$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+הקריאות היחידות שעדיין לא כוסו הן:
+\end_layout
+
+\begin_layout Enumerate
+
+\series medium
+\begin_inset Formula $n_{i}=T(a\cdot n')$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $n'$
+\end_inset
+
+ הוא האיבר היחיד בעל החזקה ה
+\begin_inset Formula $k$
+\end_inset
+
+ בשורה 
+\begin_inset Formula $k$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $n=a^{k}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $n'=a^{k+1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $n_{i}=T\left(\frac{n'}{10}\right)$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $n'$
+\end_inset
+
+ הוא האיבר החופשי היחיד בשורה 
+\begin_inset Formula $k$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $n=\frac{1}{10^{k}}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $n'=\frac{1}{10^{k+1}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+במקרים אלה 
+\begin_inset Formula $b_{k+1,0}=b_{k+1,k+1}=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+סך הכל נקבל כי סכום השורה ה
+\begin_inset Formula $k+1$
+\end_inset
+
+ הוא:
+\begin_inset Formula 
+\[
+n\cdot\left(a^{k+1}+\frac{1}{10^{k+1}}+\sum_{i=1}^{k}\frac{1}{10^{k+1-i}}\cdot a^{i}\cdot b_{k+1,i}\right)
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula $a^{k+1}=\frac{1}{10^{k+1-(k+1)}}\cdot a^{k+1}$
+\end_inset
+
+ ו
+\begin_inset Formula $\frac{1}{10^{k+1}}=\frac{1}{10^{k+1-0}}\cdot a^{0}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula 
+\[
+n\cdot\left(a^{k+1}+\frac{1}{10^{k+1}}+\sum_{i=1}^{k}\frac{1}{10^{k+1-i}}\cdot a^{i}\cdot b_{k+1,i}\right)=n\cdot\sum_{i=0}^{k+1}\frac{1}{10^{k+1-i}}\cdot a^{i}\cdot b_{k+1,i}
+\]
+
+\end_inset
+
+כפי שרצינו להוכיח.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+בסך הכל, 
+\begin_inset Formula $T(n)$
+\end_inset
+
+ שווה לסכום כל סכומי השורות.
+ ניתן למצוא חסם מלעיל ומלרע ל
+\begin_inset Formula $T(n)$
+\end_inset
+
+ שכן סכום כל שורה בנפרד הוא חיובי, ומספר השורות תלוי בגובה העץ.
+ הקריאות הרקורסיביות הן מהצורה 
+\begin_inset Formula $T(a\cdot n)$
+\end_inset
+
+ ו 
+\begin_inset Formula $T\left(\frac{n}{10}\right)$
+\end_inset
+
+ ולכן עומק העץ תחום בין 
+\begin_inset Formula $m=\min\left\{ log_{10}(n),log_{\frac{1}{a}}(n)\right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+ו 
+\begin_inset Formula $M=\max\left\{ log_{10}(n),log_{\frac{1}{a}}(n)\right\} $
+\end_inset
+
+.
+ מתקיים:
+\begin_inset Formula 
+\[
+n\cdot\sum_{k=0}^{m}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}\leq T(n)\leq n\cdot\sum_{k=0}^{M}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}
+\]
+
+\end_inset
+
+ נבדוק עבור אילו ערכי 
+\begin_inset Formula $a$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $T(n)=\omega(n)$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{n}{T(n)}=0$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+\frac{1}{\sum_{k=0}^{m}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}}\leq\frac{n}{T(n)}\leq\frac{1}{\sum_{k=0}^{M}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}}
+\]
+
+\end_inset
+
+ נשים לב כי כיוון ש - 
+\begin_inset Formula $m$
+\end_inset
+
+ ו -
+\begin_inset Formula $M$
+\end_inset
+
+ הם לוגריתמים בבסיסים שונים של 
+\begin_inset Formula $n$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula 
+\[
+\lim_{n\rightarrow\infty}\sum_{k=0}^{m}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}=\sum_{k=0}^{M}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}=\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}
+\]
+
+\end_inset
+
+ ולכן מכלל הסנדוויץ' מתקיים 
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{n}{T(n)}=\frac{1}{\sum_{k=0}^{M}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+לכן נרצה למצוא מתי מתקיים 
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{1}{\sum_{k=0}^{M}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}}=0$
+\end_inset
+
+ כלומר מתי מתקיים 
+\begin_inset Formula $\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}=\infty$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+ראינו כי לכל 
+\begin_inset Formula $k,i$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $b_{k},i\geq1$
+\end_inset
+
+.
+ לכן:
+\begin_inset Formula 
+\[
+\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}\geq\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}=\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot\frac{10^{i}}{10^{i}}\cdot a^{i}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k}}\cdot(10a)^{i}=\sum_{k=0}^{\infty}\frac{1}{10^{k}}\sum_{i=0}^{k}(10a)^{i}
+\]
+
+\end_inset
+
+ נבדוק את התכנסות הטור לפי מבחן המנה:
+\begin_inset Formula 
+\[
+\lim_{k\to\infty}\frac{c_{k+1}}{ck}=\lim_{k\to\infty}\frac{(k+2)\left(\frac{a}{10}\right)^{k+1}}{(k+1)\left(\frac{a}{10}\right)^{k}}=\lim_{k\to\infty}\left(\frac{a}{10}\right)^{k}
+\]
+
+\end_inset
+
+לכן:
+\begin_inset Formula 
+\[
+\lim_{k\rightarrow\infty}\frac{c_{k+1}}{ck}>1\iff\lim_{k\to\infty}\left(\frac{a}{10}\right)^{k}>1\iff\frac{a}{10}>1\iff a>10
+\]
+
+\end_inset
+
+ עבור הערך 
+\begin_inset Formula $a=10$
+\end_inset
+
+ נקבל את הטור 
+\begin_inset Formula $\sum_{k=0}^{\infty}(k+1)$
+\end_inset
+
+ שאיברו הכללי אינו שואף לאפס ולכן מתבדר.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+כלומר, כאשר 
+\begin_inset Formula $a\geq10$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k}}\cdot a^{k}=\infty$
+\end_inset
+
+ וממבחן ההשוואה לטורים חיוביים נקבל שגם 
+\begin_inset Formula $\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}=\infty$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{1}{\sum_{k=0}^{M}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}}=0$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+ולכן 
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{n}{T(n)}=0$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $T(n)=\omega(n)$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset CommandInset include
+LatexCommand include
+filename "../../../../../../Program Files (x86)/LyX 2.3/Resources/templates/MacrosHeb.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Subsection*
+)ג(
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Subsection*
+)ג(
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Subsection*
+)ג(
+\end_layout
+
+\end_body
+\end_document
