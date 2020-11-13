@@ -11,12 +11,12 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "default" "David"
-\font_sans "default" "David"
-\font_typewriter "default" "David"
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
 \font_math "auto" "auto"
 \font_default_family default
-\use_non_tex_fonts true
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100 100
@@ -124,11 +124,114 @@
 \end_layout
 
 \begin_layout Standard
-הפרכה : 
-\begin_inset Formula $f(n)=\dfrac{1}{n}$
+הפרכה : עבור 
+\begin_inset Formula $f_{1}(n)=\dfrac{1}{n}$
 \end_inset
 
  
+\end_layout
+
+\begin_layout Standard
+הכיוון 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $f_{1}(n)=O(1)\Rightarrow f_{1}(n)=\Theta(1)$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ לא מתקיים כיוון ש
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{1}(n)\neq\Omega(1)$
+\end_inset
+
+ , ולכן לפי הגדרת 
+\begin_inset Formula $\Theta$
+\end_inset
+
+, לא מתקיים 
+\begin_inset Formula $f_{1}(n)=\Theta(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה 
+\begin_inset Formula $f_{1}(n)\neq\Omega(1)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש 
+\begin_inset Formula $f_{1}(n)=\Omega(1)$
+\end_inset
+
+, לכן קיימים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ו
+\begin_inset Formula $c$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c\leq f_{1}(n)=\dfrac{1}{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בסתירה לכך ש 
+\begin_inset Formula $\dfrac{1}{n}$
+\end_inset
+
+ שואף ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -312,24 +415,2172 @@
 .
 \end_layout
 
+\begin_layout Subsection*
+
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
 \begin_layout Standard
-בדיקה:
+הפרכה:
+\end_layout
+
+\begin_layout Standard
+עבור :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{1}(n)=n$
+\end_inset
+
+ , 
+\begin_inset Formula $f_{2}(n)=n$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{1}(n)=n$
+\end_inset
+
+ , 
+\begin_inset Formula $g_{2}(n)=n^{2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+מתקיים 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{1}(n)=O(g_{1}(n))$
+\end_inset
+
+ )כל פונקציה היא 
+\begin_inset Formula $O$
+\end_inset
+
+ של עצמה ,עבור 
+\begin_inset Formula $c=1$
+\end_inset
+
+ וכל 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+ו-
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{1}(n)=O(g_{1}(n))$
+\end_inset
+
+ ) 
+\begin_inset Formula $n=O(n^{2})$
+\end_inset
+
+ , הוכח בתרגול (.
+\end_layout
+
+\begin_layout Standard
+אבל,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dfrac{f_{1}(n)}{f_{2}(n)}=1$
+\end_inset
+
+ ו 
+\begin_inset Formula $\dfrac{g_{1}(n)}{g_{2}(n)}=\dfrac{1}{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש 
+\begin_inset Formula $1\neq O(\dfrac{1}{n})$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה שקיים 
+\begin_inset Formula $c$
+\end_inset
+
+ ו
+\begin_inset Formula $n_{0}$
+\end_inset
+
+כל שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $1\leq\dfrac{c}{n}\Rightarrow n\leq c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בסתירה לכך שאין חסם עליון לטבעיים.
+\end_layout
+
+\begin_layout Subsection*
+
+\numeric on
+5
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נניח כי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{1}(n)=\Theta(g_{1}(n))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{2}(n)=\Theta(g_{2}(n))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן 
+\end_layout
+
+\begin_layout Standard
+קיימים 
+\begin_inset Formula $c_{1}$
+\end_inset
+
+,
+\begin_inset Formula $c_{2}$
+\end_inset
+
+ ו
+\begin_inset Formula $n_{1}$
+\end_inset
+
+כך שלכל 
+\begin_inset Formula $n>n_{1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{1}g_{1}(n)\leq f_{1}(n)\leq c_{2}g_{1}(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וגם
+\end_layout
+
+\begin_layout Standard
+קיימים 
+\begin_inset Formula $c_{3}$
+\end_inset
+
+,
+\begin_inset Formula $c_{4}$
+\end_inset
+
+ ו
+\begin_inset Formula $n_{2}$
+\end_inset
+
+כך שלכל 
+\begin_inset Formula $n>n_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{3}g_{2}(n)\leq f_{2}(n)\leq c_{4}g_{2}(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $n$
+\end_inset
+
+ שגדול מ 
+\begin_inset Formula $n_{3}=max\{n_{1},n_{2})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dfrac{c_{1}}{c_{4}}\dfrac{g_{1}(n)}{g_{2}(n)}\leq\dfrac{f_{1}(n)}{f_{2}(n)}\leq\dfrac{c_{2}}{c_{3}}\dfrac{g_{1}(n)}{g_{2}(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור קבועים 
+\begin_inset Formula $c_{5}=\dfrac{c_{2}}{c_{3}}$
+\end_inset
+
+ ו 
+\begin_inset Formula $c_{6}=\dfrac{c_{1}}{c_{4}}$
+\end_inset
+
+ מתקיימת הגדרת 
+\begin_inset Formula $\dfrac{f_{1}(n)}{f_{2}(n)}=\Theta(\dfrac{g_{1}(n)}{g_{2}(n)})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
 \series bold
-בדיקה 
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Section*
+טבלה:
+\end_layout
+
+\begin_layout Subsection*
+שורה
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+ )בטעות(
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $nlog^{2}(n)=\Omega(n)$
+\end_inset
+
+ :
 \end_layout
 
 \begin_layout Standard
+עבור 
+\begin_inset Formula $n_{0}=2$
+\end_inset
 
-\bar under
-בדיקה
+ ו
+\begin_inset Formula $c=1$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-\intop_{9}^{\infty}f(x)\in
-\]
+\begin_inset Formula $n=cn\leq nlog^{2}n$
+\end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+כי 
+\begin_inset Formula $1<log^{2}n$
+\end_inset
+
+ עבור 
+\begin_inset Formula $n>2$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Standard
+ולכן מתקיימת הגדרת 
+\begin_inset Formula $nlog^{2}(n)=\Omega(n)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+שורה
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נציין כי 
+\begin_inset Formula $2^{log^{2}(n)}=n^{log(n)}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2^{log^{2}(n)}=(2^{log(n)})^{log(n)}=n^{log(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $2^{log^{2}(n)}=n^{log(n)}=\Omega(n)$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $n_{0}=2$
+\end_inset
+
+ ו
+\begin_inset Formula $c=1$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c*n=n\leq n^{log(n)}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+)כי 
+\begin_inset Formula $1<log(n)$
+\end_inset
+
+ עבור 
+\begin_inset Formula $n>2$
+\end_inset
+
+ (
+\end_layout
+
+\begin_layout Standard
+ולכן מתקיימת הגדרת 
+\begin_inset Formula $nlog^{2}(n)=\Omega(n)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+\end_layout
+
+\begin_layout Standard
+נראה 
+\begin_inset Formula $n^{log(n)}\neq O(n)$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש 
+\begin_inset Formula $n^{log(n)}=O(n)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ ו 
+\begin_inset Formula $c$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}\leq cn\Rightarrow n^{log(n)-1}\leq c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אבל עבור 
+\begin_inset Formula $n>max\{c,4\}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $log(n)-1>1$
+\end_inset
+
+ ו 
+\begin_inset Formula $n>c$
+\end_inset
+
+ ולכן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c<n\leq n^{log(n)-1}\leq c$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+וזו סתירה.
+\end_layout
+
+\begin_layout Standard
+מכאן שהיחס החזק ביותר המתקיים הוא :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2^{log^{2}(n)}=\Omega(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $n^{log(n)}=\Omega(n^{2})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $n_{0}=8$
+\end_inset
+
+ ו 
+\begin_inset Formula $c=1$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cn^{2}=n^{2}\leq n^{3}\underbrace{\leq}_{3<log(n)}\leq n^{log(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן מתקיימת הגדרת 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}=\Omega(n^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+\end_layout
+
+\begin_layout Standard
+נראה 
+\begin_inset Formula $n^{log(n)}\neq O(n^{2})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש 
+\begin_inset Formula $n^{log(n)}=O(n^{2})$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ ו 
+\begin_inset Formula $c$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}\leq cn^{2}\Rightarrow n^{log(n)-2}\leq c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אבל עבור 
+\begin_inset Formula $n>max\{8,c\}$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $log(n)-2>1$
+\end_inset
+
+, 
+\begin_inset Formula $n>c$
+\end_inset
+
+ ולכן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c<n\leq n^{log(n)-2}\leq c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וזו סתירה.
+\end_layout
+
+\begin_layout Standard
+לכן ההיחס החזק ביותר המתקיים הוא 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}=\Omega(n^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $n^{log(n)}=\Omega(nlog(n))$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+הראנו ש 
+\begin_inset Formula $n^{log(n)}=\Omega(n^{2})$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $c_{1}$
+\end_inset
+
+ו
+\begin_inset Formula $n_{1}$
+\end_inset
+
+כך ש לכל 
+\begin_inset Formula $n>n_{1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{1}n^{2}\leq n^{log(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וראינו בהרצאה ש 
+\begin_inset Formula $n^{2}=\Omega(nlogn)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $c_{2}$
+\end_inset
+
+ו
+\begin_inset Formula $n_{2}$
+\end_inset
+
+כך ש לכל 
+\begin_inset Formula $n>n_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{2}n\leq n^{2}\Rightarrow c_{2}c_{1}nlog(n)\leq c_{1}n^{2}\leq n^{log(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן עבור 
+\begin_inset Formula $c=c_{1}*c_{2}$
+\end_inset
+
+ ו 
+\begin_inset Formula $n_{0}=max\{n_{1},n_{2}\}$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cnlog(n)\leq n^{log(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומתקיימת הגדרת 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}=\Omega(nlog(n))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה בנוסף ש 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}\neq O(nlog(n))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הראנו כבר ש 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}\neq O(n^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן לכל 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ ולכל 
+\begin_inset Formula $c>0$
+\end_inset
+
+ קיים 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+ כך ש:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cnlog(n)<cn^{2}<n^{log(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן נשללת הגדרת 
+\begin_inset Formula $n^{log(n)}=O(nlog(n))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+שורה
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $n^{log(3)}=\Omega(n)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $n_{0}=1$
+\end_inset
+
+ ועבור 
+\begin_inset Formula $c=1$
+\end_inset
+
+ מתקיים כי לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cn=n\leq n^{log(3)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומתקיימת הגדרת
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(3)}=\Omega(n)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה כי 
+\begin_inset Formula $n^{log(3)}\neq O(n)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש 
+\begin_inset Formula $n^{log(3)}=O(n)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ ו 
+\begin_inset Formula $c$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(3)}\leq cn\Rightarrow n^{log(3)-1}\leq c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אבל 
+\begin_inset Formula $n^{log(3)-1}$
+\end_inset
+
+ שואף ל
+\begin_inset Formula $\infty$
+\end_inset
+
+ כש
+\begin_inset Formula $n$
+\end_inset
+
+ שואף ל
+\begin_inset Formula $\infty$
+\end_inset
+
+ וזו סתירה.
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $n^{log(3)}=\Omega(nlogn)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+ראינו בתרגול שלכל 
+\begin_inset Formula $\epsilon>0$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $logn=o(n^{\epsilon})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן לכל 
+\begin_inset Formula $c>0$
+\end_inset
+
+ קיים 
+\begin_inset Formula $n_{0}>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $logn\leq cn^{\epsilon}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן עבור 
+\begin_inset Formula $c=1$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $nlogn\leq n*n^{log(3)-1}=n^{log(3)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומתקיימת הגדרת
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(3)}=\Omega(nlogn)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה כי 
+\begin_inset Formula $n^{log(3)}\neq O(nlogn)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש 
+\begin_inset Formula $n^{log(3)}=O(nlogn)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ ו 
+\begin_inset Formula $c$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(3)}\leq cnlogn\Rightarrow n^{log(3)-1}\leq clogn$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אבל 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $logn=o(n^{\epsilon})$
+\end_inset
+
+ ולכן
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $c>0$
+\end_inset
+
+ קיים 
+\begin_inset Formula $n_{0}>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $logn\leq cn^{\epsilon}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומכך נובע ש
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $clogn<n^{log(3)-1}\leq clogn$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וזו סתירה.
+\end_layout
+
+\begin_layout Standard
+היחס החזק ביותר הוא 
+\begin_inset Formula $n^{log(3)}=\Omega(nlogn)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $n^{log(3)}=O(n^{2})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $n_{0}=1$
+\end_inset
+
+ ועבור 
+\begin_inset Formula $c=1$
+\end_inset
+
+ מתקיים כי לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(3)}\leq n^{2}$
+\end_inset
+
+ )כי 
+\begin_inset Formula $log3<2$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+נראה בנוסף ש 
+\begin_inset Formula $n^{log(3)}\neq\Omega(n^{2})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה כי 
+\begin_inset Formula $n^{log(3)}=\Omega(n^{2})$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ ו
+\begin_inset Formula $c$
+\end_inset
+
+ כך ש לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cn^{2}\leq n^{log3}\Rightarrow c\leq n^{log3-2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אבל 
+\begin_inset Formula $0>log3-2$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $n^{log3-2}$
+\end_inset
+
+ שואף ל
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וזו סתירה לכך שקיים קבוע חיובי שחוסם את הסדרה מלרע.
+\end_layout
+
+\begin_layout Standard
+לכן היחס החזק ביותר המתאים הוא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(3)}=O(n^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+סעיף
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+נראה הגדרה שקולה:
+\end_layout
+
+\begin_layout Standard
+נראה שלכל 
+\begin_inset Formula $\epsilon>0$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{\ensuremath{\underset{n\rightarrow\infty}{lim}\dfrac{loglogn}{log^{\epsilon}(n)}=0}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{\ensuremath{\underset{x\rightarrow\infty}{lim}\dfrac{loglogx}{log^{\epsilon}(x)}=0}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן הגבול שצריך להוכיח נובע לפי משפט היינה מאינפי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+מ.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\underset{x\rightarrow\infty}{lim}\dfrac{loglogx}{log^{\epsilon}(x)}\underbrace{=}_{lopital}\underset{x\rightarrow\infty}{lim}\dfrac{\dfrac{1}{logx}*\dfrac{1}{x}}{\epsilon log^{\epsilon-1}(x)*\dfrac{1}{x}}=\underset{x\rightarrow\infty}{lim}\dfrac{1}{\epsilon log^{\epsilon}(x)}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Subsection*
+סעיף ב
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=4T(\dfrac{n}{2})+n^{3}+nlog^{2}(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש
+\begin_inset Formula $T(n)=\Theta(n^{3})$
+\end_inset
+
+ לפי הסעיף השלישי של משפט המאסטר:
+\end_layout
+
+\begin_layout Standard
+בהצגה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=a(T(n/b)+f(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a=4,b=2,f(n)=n^{3}+nlog^{2}(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה שמתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f(n)=\Omega(n^{log_{b}a+\epsilon})$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\epsilon=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log_{b}a+\epsilon}=n^{2+1}=n^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ואכן מתקיים כי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{3}+nlog^{2}(n)=\Omega(n^{3})$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+)כי 
+\begin_inset Formula $n^{3}+nlog^{2}(n)\geq n^{3}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n>1$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+בנוסף, 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $af(n/b)=4(\dfrac{n}{2})^{3}+2nlog^{2}(n/2)=\dfrac{n^{3}}{2}+2n(log(n)-1)^{2}\leq\dfrac{n^{3}}{2}+2nlog^{2}(n)\underbrace{\leq}_{\text{for n>\ensuremath{n_{0}}*}}\dfrac{3n^{3}}{4}\leq\dfrac{3}{4}(n^{3}+nlog^{2}n)=\dfrac{3}{4}f(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+)
+\end_layout
+
+\begin_layout Standard
+נראה*:
+\end_layout
+
+\begin_layout Standard
+נראה שקיים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2nlog^{2}(n)\leq\dfrac{n^{3}}{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש 
+\begin_inset Formula $nlog^{2}(n)=o(n^{3})$
+\end_inset
+
+ ובאופן שקול 
+\begin_inset Formula $\underset{n\rightarrow\infty}{lim}\dfrac{nlog^{2}(n)}{n^{3}}=0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dfrac{nlog^{2}(n)}{n^{3}}=\dfrac{log^{2}(n)}{n^{2}}\underset{n\rightarrow\infty}{\rightarrow}0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן לכל 
+\begin_inset Formula $0<c$
+\end_inset
+
+ ובפרט עבור 
+\begin_inset Formula $c=\dfrac{1}{8}$
+\end_inset
+
+ קיים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $nlog^{2}(n)\leq cn^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(
+\end_layout
+
+\begin_layout Standard
+מצאנו שתנאי הסעיף השלישי של משפט המאסטר מתקיימים ולכן :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=\Theta(f(n))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+2
+\numeric off
+.)לא בטוח בזה(
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=log((n^{2})!)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $n^{2}=m$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=T(\sqrt{m})=log(m!)=\Theta(mlogm)=\Theta(n^{2}log(n^{2}))=\Theta(2n^{2}log(n))=\Theta(n^{2}logn)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=T(\sqrt{n})+n^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $n=2^{m}$
+\end_inset
+
+ או לחילופין 
+\begin_inset Formula $m=log(n)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+ונגדיר פונקציה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=T(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=T(n)=T(2^{m})=T(2^{m/2})+2^{2m}=S(m/2)+4^{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה 
+\begin_inset Formula $S(m)=\Theta(4^{m})$
+\end_inset
+
+ בעזרת הסעיף השלישי של משפט המאסטר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f(m)=4^{m},a=1,b=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש 
+\begin_inset Formula $f(m)=\Omega(m^{log_{b}a+\epsilon})$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\epsilon=1$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל :
+\begin_inset Formula $4^{m}=\Omega(m)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש 
+\begin_inset Formula $m=o(4^{m})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{\ensuremath{\underset{m\rightarrow\infty}{lim}\dfrac{m}{4^{m}}\underbrace{=}_{lopital}\underset{m\rightarrow\infty}{lim}\text{\ensuremath{\dfrac{1}{ln(4)4^{m}}=0}}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן לכל 
+\begin_inset Formula $c>0$
+\end_inset
+
+ ובפרט עבור 
+\begin_inset Formula $c=1$
+\end_inset
+
+ קיים 
+\begin_inset Formula $m_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $m>m_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m\leq4^{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומתקיימת הגדרת 
+\begin_inset Formula $4^{m}=\Omega(m)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה את התנאי הנוסף של המשפט:
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $\dfrac{1}{2}=c<1$
+\end_inset
+
+ ו 
+\begin_inset Formula $1=m_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $m>m_{0}$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a*f(m/b)=2^{m}\leq\dfrac{1}{2}*4^{m}=cf(m)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תנאי הסעיף השלישי של משפט המאסטר מתקיימים ולכן :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=\Theta(4^{m})\Rightarrow\boldsymbol{T(n)}=\Theta(4^{log(n)})=\Theta(2^{2logn})=\boldsymbol{\Theta(n^{2})}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+4
+\numeric off
+.
+ שטות גמורה..
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=log(n)$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $2^{m}=n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ו
+\begin_inset Formula $S(m)=T(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=T(n)=16n^{4}T(\sqrt{n})+2n^{8}log^{4}(n)=..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $..=16*16^{m}S(\dfrac{m}{2})+2*16^{2m}*m^{4}\Rightarrow..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\dfrac{S(m)}{16^{m}}=16*S(\dfrac{m}{2})+2*16^{m}*m^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\Theta(16^{m}*m^{4})$
+\end_inset
+
+ בעזרת משפט המאסטר סעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a=16,b=2,f(m)=2*16^{m}*m^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה שתנאיו מתקיימים:
+\end_layout
+
+\begin_layout Standard
+ראשית נראה ש
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f(m)=\Omega(m^{log_{b}a+\epsilon})$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\epsilon=1$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $m_{0}=(*)$
+\end_inset
+
+ ו 
+\begin_inset Formula $c$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $m>m_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m^{5}\underbrace{\leq}_{\text{(*)m=o(\ensuremath{16^{m}})}\text{so there exists an \ensuremath{m_{0}}s.t for every \ensuremath{m>m_{0}:} m\ensuremath{\leq16^{m}}}}16^{m}*m^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+נראה גם שקיים 
+\begin_inset Formula $8=c<1$
+\end_inset
+
+ ו 
+\begin_inset Formula $m_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $m>m_{0}$
+\end_inset
+
+ : 
+\begin_inset Formula $af(m/b)\leq cf(m)$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $af(m/b)=16^{m+1}m^{4}\underbrace{\leq}_{\text{\ensuremath{for}all m}}2*16^{m+1}m^{4}=cf(n)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+תנאי משפט המאסטר סעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתקיימים ולכן
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\Theta(16^{m}*m^{4})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\dfrac{S(m)}{16^{m}}=\Theta(16^{m}*m^{4})\Rightarrow S(m)=\Theta(16^{2m}*m^{4})\Rightarrow..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $..\Rightarrow\boldsymbol{T(n)}=\Theta(16^{2log(n)}log^{4}(n))=\boldsymbol{\Theta(n^{8}log^{4}(n))}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=log(n)$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $2^{m}=n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ו
+\begin_inset Formula $S(m)=T(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=T(n)=16n^{4}T(\sqrt{n})+2n^{8}log^{4}(n)=..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $..=16*16^{m}S(\dfrac{m}{2})+2*16^{2m}*m^{4}\Rightarrow..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)\underbrace{=}_{\text{define K(m)}}\dfrac{S(m)}{16^{2m}}=16*\dfrac{S(\dfrac{m}{2})}{16^{m}}+2*m^{4}=16*K(\dfrac{m}{2})+2*m^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציג את הביטוי כעץ )שרוך(:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2m^{4}\rightarrow16*2*(\dfrac{m}{2})^{4}\rightarrow16^{2}*2*(\dfrac{m}{4})^{4}\rightarrow...\rightarrow2*16^{i}*(\dfrac{m}{2^{i}})^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עומק העץ הוא :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $log(m)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+איבר כללי של צומת בשרוך בדרגה 
+\begin_inset Formula $i$
+\end_inset
+
+ הוא :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2*16^{i}*(\dfrac{m}{2^{i}})^{4}=2*m^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן כדי למצוא ביטוי מפורש לסכום יש לסכום:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\underset{i=0}{\overset{log(m)}{\sum}}2*m^{4}=2*m^{4}log(m)=\Theta(m^{4}log(m)\Rightarrow..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\dfrac{S(m)}{16^{2m}}=\Theta(m^{4}log(m))\Rightarrow T(n)=S(m)=\Theta(16^{2m}m^{4}log(m))=\Theta(n^{8}log^{4}(n)log(log(n))$
 \end_inset
 
 
