@@ -820,7 +820,7 @@ log(n)=2log(\sqrt{n})\leq2\sqrt{n}
 
 .
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1683,426 +1683,25 @@ T(n)=T\left(\frac{n}{10}\right)+T(a\cdot n)+n
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-\begin_inset Note Note
-status open
-
-\begin_layout Subsection*
-
-\series medium
-ניתן לראות כי סכום של כל שורה בעץ הוא מכפלה של 
-\begin_inset Formula $n$
-\end_inset
-
- בפולינום של 
-\begin_inset Formula $a$
-\end_inset
-
-.
-
-\series default
- 
-\series medium
-נראה באינדוקציה כי סכום השורה ה
-\begin_inset Formula $k$
-\end_inset
-
- עבור 
-\begin_inset Formula $k\geq1$
-\end_inset
-
- כאשר השורה הראשונה היא 
-\begin_inset Formula $k=0$
-\end_inset
-
- הוא מהצורה 
-\begin_inset Formula $n\cdot\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{i}$
-\end_inset
-
- כאשר לכל 
-\begin_inset Formula $1\leq i\leq k$
-\end_inset
-
-, 
-\begin_inset Formula $b_{i}\geq1$
-\end_inset
-
-: 
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-\bar under
-בסיס:
-\bar default
- עבור 
-\begin_inset Formula $k=1$
-\end_inset
-
- סכום השורה הוא 
-\begin_inset Formula $\frac{n}{10}+an=n\cdot\left(\frac{1}{10^{1}}+a^{1}\right)=\sum_{i=0}^{1}\frac{1}{10^{1-i}}\cdot a^{i}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-\bar under
-צעד:
-\bar default
- נניח כי סכום השורה ה
-\begin_inset Formula $k$
-\end_inset
-
- הוא 
-\series default
-
-\begin_inset Formula $n\cdot\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}$
-\end_inset
-
-
-\series medium
-.
  
 \end_layout
 
 \begin_layout Subsection*
 
 \series medium
-אז עבור השורה ה
-\begin_inset Formula $k+1$
-\end_inset
-
-, לכל חזקה 
-\begin_inset Formula $1\leq i\leq k$
-\end_inset
-
-, האיבר 
-\begin_inset Formula $a^{i}$
-\end_inset
-
- יתווסף לפולינום על ידי שני סוגי קריאות:
-\end_layout
-
-\begin_layout Enumerate
-
-\series medium
-\begin_inset Formula $n_{i}=T(a\cdot n')$
-\end_inset
-
- כאשר 
-\begin_inset Formula $n'$
-\end_inset
-
- הוא האיבר בעל החזקה ה
-\begin_inset Formula $i-1$
-\end_inset
-
- בשורה 
-\begin_inset Formula $k$
-\end_inset
-
-, כלומר 
-\begin_inset Formula $n'=\frac{1}{10^{k-i+1}}\cdot a^{i-1}\cdot n$
-\end_inset
-
- ולכן 
-\begin_inset Formula $n_{i}=a\cdot n'=\frac{1}{10^{k+1-i}}\cdot a^{i}\cdot n$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $n_{i}=T\left(\frac{n'}{10}\right)$
-\end_inset
-
- כאשר 
-\begin_inset Formula $n'$
-\end_inset
-
- הוא האיבר בעל החזקה ה
-\begin_inset Formula $i$
-\end_inset
-
- בשורה 
-\begin_inset Formula $k$
-\end_inset
-
-, כלומר 
-\begin_inset Formula $n'=\frac{1}{10^{k-i}}a^{i}\cdot n$
-\end_inset
-
- ולכן 
-\begin_inset Formula $n_{i}=\frac{n'}{10}=\frac{1}{10^{k+1-i}}\cdot a^{i1}\cdot n$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-מכאן שמקדם האיבר 
-\begin_inset Formula $a_{i}$
-\end_inset
-
- בשורה 
-\begin_inset Formula $k+1$
-\end_inset
-
- הוא 
-\begin_inset Formula $b_{k,i}+b_{k,i-1}$
-\end_inset
-
-.
- מהנחת האינדוקציה 
-\begin_inset Formula $b_{k,i},b_{k,i-1}\geq1$
-\end_inset
-
- ולכן גם 
-\begin_inset Formula $b_{k+1,i}=(b_{i}+b_{i-1})\geq1$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-הקריאות היחידות שעדיין לא כוסו הן:
-\end_layout
-
-\begin_layout Enumerate
-
-\series medium
-\begin_inset Formula $n_{i}=T(a\cdot n')$
-\end_inset
-
- כאשר 
-\begin_inset Formula $n'$
-\end_inset
-
- הוא האיבר היחיד בעל החזקה ה
-\begin_inset Formula $k$
-\end_inset
-
- בשורה 
-\begin_inset Formula $k$
-\end_inset
-
-, כלומר 
-\begin_inset Formula $n=a^{k}$
-\end_inset
-
- ולכן 
-\begin_inset Formula $n'=a^{k+1}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Enumerate
-\begin_inset Formula $n_{i}=T\left(\frac{n'}{10}\right)$
-\end_inset
-
- כאשר 
-\begin_inset Formula $n'$
-\end_inset
-
- הוא האיבר החופשי היחיד בשורה 
-\begin_inset Formula $k$
-\end_inset
-
-, כלומר 
-\begin_inset Formula $n=\frac{1}{10^{k}}$
-\end_inset
-
- ולכן 
-\begin_inset Formula $n'=\frac{1}{10^{k+1}}$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-במקרים אלה 
-\begin_inset Formula $b_{k+1,0}=b_{k+1,k+1}=1$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-סך הכל נקבל כי סכום השורה ה
-\begin_inset Formula $k+1$
-\end_inset
-
- הוא:
-\begin_inset Formula 
-\[
-n\cdot\left(a^{k+1}+\frac{1}{10^{k+1}}+\sum_{i=1}^{k}\frac{1}{10^{k+1-i}}\cdot a^{i}\cdot b_{k+1,i}\right)
-\]
-
-\end_inset
-
- 
-\begin_inset Formula $a^{k+1}=\frac{1}{10^{k+1-(k+1)}}\cdot a^{k+1}$
-\end_inset
-
- ו
-\begin_inset Formula $\frac{1}{10^{k+1}}=\frac{1}{10^{k+1-0}}\cdot a^{0}$
-\end_inset
-
- ולכן 
-\begin_inset Formula 
-\[
-n\cdot\left(a^{k+1}+\frac{1}{10^{k+1}}+\sum_{i=1}^{k}\frac{1}{10^{k+1-i}}\cdot a^{i}\cdot b_{k+1,i}\right)=n\cdot\sum_{i=0}^{k+1}\frac{1}{10^{k+1-i}}\cdot a^{i}\cdot b_{k+1,i}
-\]
-
-\end_inset
-
-כפי שרצינו להוכיח.
- 
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-בסך הכל, 
-\begin_inset Formula $T(n)$
-\end_inset
-
- שווה לסכום כל סכומי השורות.
- ניתן למצוא חסם מלעיל ומלרע ל
-\begin_inset Formula $T(n)$
-\end_inset
-
- שכן סכום כל שורה בנפרד הוא חיובי, ומספר השורות תלוי בגובה העץ.
- הקריאות הרקורסיביות הן מהצורה 
-\begin_inset Formula $T(a\cdot n)$
-\end_inset
-
- ו 
-\begin_inset Formula $T\left(\frac{n}{10}\right)$
-\end_inset
-
- ולכן עומק העץ תחום בין 
-\begin_inset Formula $m=\min\left\{ log_{10}(n),log_{\frac{1}{a}}(n)\right\} $
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-ו 
-\begin_inset Formula $M=\max\left\{ log_{10}(n),log_{\frac{1}{a}}(n)\right\} $
-\end_inset
-
-.
- מתקיים:
-\begin_inset Formula 
-\[
-n\cdot\sum_{k=0}^{m}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}\leq T(n)\leq n\cdot\sum_{k=0}^{M}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}
-\]
-
-\end_inset
-
- נבדוק עבור אילו ערכי 
-\begin_inset Formula $a$
-\end_inset
-
- מתקיים 
-\begin_inset Formula $T(n)=\omega(n)$
-\end_inset
-
-, כלומר 
-\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{n}{T(n)}=0$
-\end_inset
-
-.
-\begin_inset Formula 
-\[
-\frac{1}{\sum_{k=0}^{m}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}}\leq\frac{n}{T(n)}\leq\frac{1}{\sum_{k=0}^{M}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}}
-\]
-
-\end_inset
-
- נשים לב כי כיוון ש - 
-\begin_inset Formula $m$
-\end_inset
-
- ו -
-\begin_inset Formula $M$
-\end_inset
-
- הם לוגריתמים בבסיסים שונים של 
-\begin_inset Formula $n$
+כאשר 
+\begin_inset Formula $a=\frac{9}{10}$
 \end_inset
 
 , מתקיים 
-\begin_inset Formula 
-\[
-\lim_{n\rightarrow\infty}\sum_{k=0}^{m}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}=\sum_{k=0}^{M}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}=\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}
-\]
-
-\end_inset
-
- ולכן מכלל הסנדוויץ' מתקיים 
-\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{n}{T(n)}=\frac{1}{\sum_{k=0}^{M}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}}$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-לכן נרצה למצוא מתי מתקיים 
-\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{1}{\sum_{k=0}^{M}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}}=0$
-\end_inset
-
- כלומר מתי מתקיים 
-\begin_inset Formula $\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}=\infty$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-ראינו כי לכל 
-\begin_inset Formula $k,i$
-\end_inset
-
- מתקיים 
-\begin_inset Formula $b_{k},i\geq1$
+\begin_inset Formula $\sum_{k=0}^{log(n)}\left(a+\frac{1}{10}\right)^{k}=\sum_{k=0}^{log(n)}\left(1\right)^{k}=\frac{log(n)\left(log(n)+1\right)}{2}$
 \end_inset
 
 .
  לכן:
 \begin_inset Formula 
 \[
-\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}\geq\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}=\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot\frac{10^{i}}{10^{i}}\cdot a^{i}
+n\cdot\frac{\left\lfloor log_{\max\{10,\frac{1}{a}\}}(n)\right\rfloor \left(\left\lfloor log_{\max\{10,\frac{1}{a}\}}\right\rfloor (n)+1\right)}{2}\leq n\cdot\sum_{k=0}^{m}n\cdot\left(a+\frac{1}{10}\right)^{k}\leq T(n)
 \]
 
 \end_inset
@@ -2110,74 +1709,21 @@ n\cdot\sum_{k=0}^{m}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}\leq
 
 \begin_inset Formula 
 \[
-=\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k}}\cdot(10a)^{i}=\sum_{k=0}^{\infty}\frac{1}{10^{k}}\sum_{i=0}^{k}(10a)^{i}
+T(n)\leq n\cdot\sum_{k=0}^{M}\left(a+\frac{1}{10}\right)^{k}\leq n\cdot\frac{\lceil log_{\min\{10,\frac{1}{a}\}}(n)\rceil\left(\lceil log_{\min\{10,\frac{1}{a}\}}(n)\rceil(n)+1\right)}{2}
 \]
 
 \end_inset
 
- נבדוק את התכנסות הטור לפי מבחן המנה:
+
 \begin_inset Formula 
 \[
-\lim_{k\to\infty}\frac{c_{k+1}}{ck}=\lim_{k\to\infty}\frac{(k+2)\left(\frac{a}{10}\right)^{k+1}}{(k+1)\left(\frac{a}{10}\right)^{k}}=\lim_{k\to\infty}\left(\frac{a}{10}\right)^{k}
+n\cdot\frac{\left\lfloor log_{\max\{10,\frac{1}{a}\}}(n)\right\rfloor \left(\left\lfloor log_{\max\{10,\frac{1}{a}\}}\right\rfloor (n)+1\right)}{2}\leq T(n)\leq n\cdot\frac{\lceil log_{\min\{10,\frac{1}{a}\}}(n)\rceil\left(\lceil log_{\min\{10,\frac{1}{a}\}}(n)\rceil+1\right)}{2}
 \]
 
 \end_inset
 
-לכן:
-\begin_inset Formula 
-\[
-\lim_{k\rightarrow\infty}\frac{c_{k+1}}{ck}>1\iff\lim_{k\to\infty}\left(\frac{a}{10}\right)^{k}>1\iff\frac{a}{10}>1\iff a>10
-\]
-
-\end_inset
-
- עבור הערך 
-\begin_inset Formula $a=10$
-\end_inset
-
- נקבל את הטור 
-\begin_inset Formula $\sum_{k=0}^{\infty}(k+1)$
-\end_inset
-
- שאיברו הכללי אינו שואף לאפס ולכן מתבדר.
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-כלומר, כאשר 
-\begin_inset Formula $a\geq10$
-\end_inset
-
- מתקיים 
-\begin_inset Formula $\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k}}\cdot a^{k}=\infty$
-\end_inset
-
- וממבחן ההשוואה לטורים חיוביים נקבל שגם 
-\begin_inset Formula $\sum_{k=0}^{\infty}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}=\infty$
-\end_inset
-
- כלומר 
-\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{1}{\sum_{k=0}^{M}\sum_{i=0}^{k}\frac{1}{10^{k-i}}\cdot a^{i}\cdot b_{k,i}}=0$
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Subsection*
-
-\series medium
-ולכן 
-\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{n}{T(n)}=0$
-\end_inset
-
- כלומר 
-\begin_inset Formula $T(n)=\omega(n)$
-\end_inset
-
-.
-\end_layout
-
+ ולכן 
+\begin_inset Formula $T(n)=\Theta(n\cdot log^{2}(n))$
 \end_inset
 
 
@@ -2191,55 +1737,6 @@ filename "../../../../../../Program Files (x86)/LyX 2.3/Resources/templates/Macr
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection*
-)ב(
-\end_layout
-
-\begin_layout Subsection*
-)ג(
-\end_layout
-
-\begin_layout Section*
-שאלה
-\family roman
-\series bold
-\shape up
-\size larger
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-4
-\end_layout
-
-\begin_layout Subsection*
-)א(
-\end_layout
-
-\begin_layout Subsection*
-)ב(
-\end_layout
-
-\begin_layout Subsection*
-)ג(
 \end_layout
 
 \begin_layout Section*
@@ -2274,15 +1771,2373 @@ filename "../../../../../../Program Files (x86)/LyX 2.3/Resources/templates/Macr
 \end_layout
 
 \begin_layout Subsection*
-)א(
+
+\series medium
+על מנת שנוכל להדפיס את המדינות בסדר הצבעות יורד לפי הסקר בלי מעבר על איברים
+ מיותרים, נשמור את המדינות ברשימה של דירוגים, שלא תצטרך להיות מאותחלת באתחול
+ של המבנה ולכן לא תפגע בסיבוכיות הזמן הנדרש - 
 \end_layout
 
 \begin_layout Subsection*
-)ב(
+
+\series medium
+כל איבר בדירוג יווצר רק כאשר תתווסף הצבעה שמשנה את מאזן הדירוגים בין המדינות.
+ במקרה הגרוע ביותר לכל מדינה יהיה מספר הצבעות שונה, כלומר איבר משלה ברשימת
+ הדירוגים, ולכן סיבוכיות המקום של הרשימה היא עדיין 
+\begin_inset Formula $O(N)$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Subsection*
-)ג(
+
+\series medium
+בנוסף, על מנת להדפיס את כל המדינות שלא רוצים לטוס אליהן בלי לעבור על איברים
+ מיותרים, נשמור מערך נפרד של כל המדינות, וכאשר מדינה מקבלת הצבעה, נקשר בין
+ המדינות שסובבות אותה, כך שיהיה ניתן לדלג עליה במעבר על המדינות.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+מבנה הנתונים יכלול את השדות הבאים:
+\end_layout
+
+\begin_layout Itemize
+מערך מספרים שלמים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+departures
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ באורך 
+\begin_inset Formula $N$
+\end_inset
+
+.
+ התא 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+departures[i]
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שומר את מספר האנשים שהצביעו שהם רוצים לטוס מהמדינה ה
+\lang english
+i-
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Itemize
+רשימה דו כיוונית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+ranking
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כך שכל איבר ברשימה מחזיק רשימת מדינות בעלות אותו מספר הצבעות של אנשים שרוצים
+ לטוס אליהן.
+\end_layout
+
+\begin_layout Itemize
+פוינטר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+top
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שמצביע לדירוג הגבוה ביותר.
+\end_layout
+
+\begin_layout Itemize
+מערך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+arrivlas
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לפוינטרים של מדינות, כאשר התא ה
+\lang english
+i
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ במערך תמיד יכיל פוינטר למדינה ה
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Itemize
+מערך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+avoided
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+של פוינטרים למדינות שאף אחד לא רוצה לטוס אליהן.
+\end_layout
+
+\begin_layout Itemize
+מספר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+first_avoided
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ששומר את מספר המדינה הראשונה שתודפס על ידי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Avoided()
+\lang hebrew
+.
+ מאותחל להיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+\end_layout
+
+\begin_layout Itemize
+מספר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+last_avoided
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ששומר את מספר המדינה האחרונה שתודפס על ידי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Avoided()
+\lang hebrew
+.
+ מאותחל להיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+N-1
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+ואת הפעולות:
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\numeric on
+1
+\numeric off
+.
+ 
+\lang english
+:Init
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+מאתחלת את המערכים
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+departures,arrivals
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\lang english
+avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+ כפי שנלמד בהרצאה.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+בשימוש הראשון בכל פוינטר ב
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\lang english
+arrivals
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ ,
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ הוא יאותחל לטיפוס מדינה המכיל את מספר המדינה, את כמות האנשים שרוצים לטוס
+ אליה, ושני פוינטרים על מנת ליצור רשימה דו כיוונית של מדינות
+\series default
+ 
+\series medium
+בעלות אותו מספר אנשים שרוצים לטוס אליהן.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\numeric on
+2
+\numeric off
+.
+\lang english
+Fly(j,i)
+\lang hebrew
+: 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+ניגשת ראשית ל
+\lang english
+departures[j]
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ומגדילה את ערכו ב
+\numeric on
+1
+\numeric off
+.
+ לאחר מכן ניגשת למדינה ב
+\lang english
+arrivals[i]
+\lang hebrew
+.
+ אם זו גישה ראשונה למדינה זו, היא תאותחל כמדינה עם המספר
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i
+\lang hebrew
+.
+ מספר ההצבעות יוגדל ב-
+\numeric on
+1
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+כעת נטפל בדירוג המדינה.
+ נסתכל על הדירוג המיידי הגבוה יותר, אם קיים.
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+אם מספר ההצבעות של המדינות בדירוג הבא שווה למספר ההצבעות החדש של המדינה
+ לאחר שהועלה, נסיר את המדינה מרשימת המדינות בדירוגה הנוכחי.
+ זה יהיה אפשרי ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+ כיוון שנשתמש ברשימה דו כיוונית.
+ לאחר מכן נכניס אותה לראש הרשימה של הדירוג הבא, גם זה ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+ אם המדינה הייתה לבד בדירוג שלה נשחרר את הדירוג.
+\end_layout
+
+\begin_layout Itemize
+אם מספר ההצבעות של המדינות בדירוג הבא גדול יותר או שאין דירוג יותר גבוה:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+אם המדינה היא היחידה בדירוג שלה, לא נעשה כלום.
+ הדירוג כעת ייצג את מספר ההצבעות החדש של המדינה.
+\end_layout
+
+\begin_layout Itemize
+אם היו מדינות נוספות בדירוג, ניצור דירוג חדש שייצג את מספר ההצבעות החדש
+ של המדינה.
+ נחבר אותו לדירוג הישן של המדינה בתור הדירוג הבא בסידור.
+ אם הדירוג הישן היה הגבוה ביותר, נעביר את הפוינטר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+top
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+להצביע על הדירוג החדש.
+ אם היה דירוג גבוה יותר אבל לא היה ניתן להכניס את המדינה לתוכו, נחבר אותו
+ לדירוג שיצרנו בתור הדירוג הבא בתור.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection*
+
+\series medium
+\numeric on
+3
+\numeric off
+.
+\lang english
+Arrivals(i)
+\lang hebrew
+:
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+ניגשת לתא ה
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i
+\lang hebrew
+ במערך
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+arrivals
+\lang hebrew
+ ומחזירה את מספר ההצבעות של המדינה אליה הוא מצביע.
+ זו פשוט גישה למערך לפי אינדקס ולכן סיבוכיות הזמן היא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\numeric on
+4
+\series default
+\numeric off
+.
+\series medium
+\lang english
+Depatures(j)
+\series default
+\lang hebrew
+:
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+מחזירה את ערך התא ה
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+j
+\lang hebrew
+ במערך
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+depatures
+\lang hebrew
+.
+
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+זו פשוט גישה למערך לפי אינדקס ולכן סיבוכיות הזמן היא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\numeric on
+5
+\numeric off
+.
+\lang english
+Favored(k)
+\lang hebrew
+: 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+הפויינטר
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+top
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כאמור תמיד מצביע לדירוג הגבוה ביותר.
+ נעבור על רשימת המדינות בדירוג הזה, ונתחיל להדפיס אותן, עד שנדפיס
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+k
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ מדינות.
+ עבור כל דירוג שהדפסנו את כל המדינות בו לפני שסיימנו להדפיס 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+k
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מדינות, נעבור לדירוג הנמוך יותר אחריו ונמשיך.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+\numeric on
+6
+\numeric off
+.
+\lang english
+Avoided()
+\lang hebrew
+: 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+האיטרציה על המערך
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתבססת על העיקרון הבא: בכל פעם שמדינה מקבלת הצבעה ולא תהיה מודפסת על ידי
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Avoided()
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יותר, 
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+המדינה שלפניה והמדינה שאחריה בסדר הריצה על
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יאותחלו במערך
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אם הן לא היו מאותחלות עד עכשיו, ויחוברו ביניהן לרשימה דו כיוונית.
+ אם הן לא היו מאותחלות, אז הן ודאי באינדקס
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i-1
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i+1
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בהתאמה, ולכן ניתן לאתחל את מספר המדינה של כל אחת מהן.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+כאשר נרוץ על המערך
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נעזר במשתנה
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+counter
+\lang hebrew
+.
+ בכל איטרציה של הפונקציה, החל מהאיבר הראשון,
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+counter
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יודפס.
+ אם האיבר במיקום
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+counter
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ לא מאותחל, או שאינו מחובר לאף מדינה אחרת, 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+counter
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יקודם באחד ויודפס שוב.
+ 
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+אחרת, סימן שקיים רצף מדינות שקיבלו הצבעות החל מהאיבר הבא במערך, ולכן במקום
+ לעבור לאיבר הבא ב
+\lang english
+avoided
+\lang hebrew
+, נעבור לאיבר הבא ברשימה המחוברת לאיבר הנוכחי.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+הוא יהיה פוינטר למדינה הבאה שלא קיבלה הצבעות, ובהכרח יהיה מאותחל.
+ לכן נוכל לשנות את
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+counter
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לערך המדינה ששמור באיבר עצמו, להדפיס את
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+counter
+\lang hebrew
+, והתהליך חוזר חלילה, עד ש
+\lang english
+counter
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מגיע לערך
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+last_avoided
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+אם בפונקציה
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Fly(j,i)
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתווספת הצבעה למדינה שעד עכשיו הייתה הראשונה בסדר הקריאה של
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Avoided()
+\lang hebrew
+,
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+first_avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יעבור לשמור את מספר האיבר הבא אחריו בסדר ההדפסה-
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+כלומר, מספר המדינה אליה מצביע מלפנים הפויינטר שעד עכשיו היה האיבר הראשון
+ בסדר ההדפסה אם הייתה מחוברת אליו מדינה, ו
+\lang english
+first_avoided+1
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אם לא.
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+אם בפונקציה
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Fly(j,i)
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתווספת הצבעה למדינה שעד עכשיו הייתה האחרונה בסדר הקריאה של
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Avoided()
+\lang hebrew
+,
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+last_avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יעבור לשמור את מספר האיבר שלפניו בסדר ההדפסה-
+\end_layout
+
+\begin_layout Subsection*
+
+\series medium
+כלומר, מספר המדינה אליה מצביע מאחור הפויינטר שעד עכשיו היה האיבר האחרון
+ בסדר ההדפסה אם הייתה מחוברת אליו מדינה, ו
+\lang english
+last_avoided-1
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אם לא.
 \end_layout
 
 \end_body
