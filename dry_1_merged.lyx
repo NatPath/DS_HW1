@@ -1,0 +1,6493 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "David"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+)
+\numeric on
+1
+\numeric off
+(
+\end_layout
+
+\begin_layout Standard
+הפרכה : עבור 
+\begin_inset Formula $f_{1}(n)=\dfrac{1}{n}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+הכיוון 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $f_{1}(n)=O(1)\Rightarrow f_{1}(n)=\Theta(1)$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ לא מתקיים כיוון ש
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{1}(n)\neq\Omega(1)$
+\end_inset
+
+ , ולכן לפי הגדרת 
+\begin_inset Formula $\Theta$
+\end_inset
+
+, לא מתקיים 
+\begin_inset Formula $f_{1}(n)=\Theta(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה 
+\begin_inset Formula $f_{1}(n)\neq\Omega(1)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש 
+\begin_inset Formula $f_{1}(n)=\Omega(1)$
+\end_inset
+
+, לכן קיימים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ו
+\begin_inset Formula $c$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c\leq f_{1}(n)=\dfrac{1}{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בסתירה לכך ש 
+\begin_inset Formula $\dfrac{1}{n}$
+\end_inset
+
+ שואף ל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+)
+\numeric on
+2
+\numeric off
+(
+\begin_inset Formula 
+\[
+\sqrt{f_{1}(n)}=\Omega(f_{1}(n))\iff f_{1}(n)=O(1)
+\]
+
+\end_inset
+
+ 
+\series medium
+הטענה נכונה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $:\Leftarrow$
+\end_inset
+
+ 
+\series medium
+נניח כי 
+\begin_inset Formula $f_{1}(n)=O(1)$
+\end_inset
+
+.
+ אז קיימים קבועים 
+\begin_inset Formula $c_{1},n_{0}>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+f_{1}(n)\leq c_{1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\sqrt{f_{1}(n)}\leq\sqrt{c_{1}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\frac{f_{1}(n)}{\sqrt{f_{1}(n)}}\leq\frac{c_{1}}{\sqrt{c_{1}}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\sqrt{f_{1}(n)}\cdot c_{1}\geq\sqrt{c_{1}}\cdot f_{1}(n)
+\]
+
+\end_inset
+
+
+\series default
+
+\begin_inset Formula 
+\[
+\sqrt{f_{1}(n)}\geq\frac{\sqrt{c_{1}}}{c_{1}}\cdot f_{1}(n)\Rightarrow\sqrt{f_{1}(n)}\geq\frac{1}{\sqrt{c_{1}}}\cdot f_{1}(n)
+\]
+
+\end_inset
+
+
+\series medium
+נגדיר 
+\begin_inset Formula $c_{2}=\frac{1}{\sqrt{c_{1}}}$
+\end_inset
+
+.
+ אז עבור הקבועים 
+\begin_inset Formula $n_{0},c_{2}>0$
+\end_inset
+
+ , לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\sqrt{f_{1}(n)}\geq c_{2}\cdot f_{1}(n)$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $\sqrt{f_{1}(n)}=\Omega(f_{1}(n))$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+: נניח כי 
+\begin_inset Formula $\sqrt{f_{1}(n)}=\Omega(f_{1}(n))$
+\end_inset
+
+.
+ אז קיימים קבועים 
+\begin_inset Formula $c_{1},n_{0}>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+,
+\begin_inset Formula 
+\[
+\sqrt{f_{1}(n)}\geq c_{1}\cdot f_{1}(n)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\sqrt{f_{1}(n)}\geq c_{1}\cdot\sqrt{f_{1}(n)}\sqrt{f_{1}(n)}
+\]
+
+\end_inset
+
+ מהגדרת תמונת 
+\begin_inset Formula $f_{1}$
+\end_inset
+
+ נובע 
+\begin_inset Formula $\sqrt{f_{1}(n)}>0$
+\end_inset
+
+ ולכן:
+\begin_inset Formula 
+\[
+\Rightarrow1\geq c_{1}\cdot\sqrt{f_{1}(n)}\Rightarrow\sqrt{f_{1}(n)}\leq\frac{1}{c_{1}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow f_{1}(n)\leq\frac{1}{c_{1}^{2}}
+\]
+
+\end_inset
+
+נגדיר 
+\begin_inset Formula $c_{2}=\frac{1}{c_{1}^{2}}$
+\end_inset
+
+ ולכן עבור הקבועים 
+\begin_inset Formula $n_{0},c_{2}>0$
+\end_inset
+
+ , לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $f_{1}(n)\leq c_{2}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $f_{1}(n)=O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+)
+\numeric on
+3
+\numeric off
+(
+\end_layout
+
+\begin_layout Standard
+הפרכה:
+\end_layout
+
+\begin_layout Standard
+עבור :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{1}(n)=n$
+\end_inset
+
+ , 
+\begin_inset Formula $f_{2}(n)=n$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{1}(n)=n$
+\end_inset
+
+ , 
+\begin_inset Formula $g_{2}(n)=n^{2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+מתקיים 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{1}(n)=O(g_{1}(n))$
+\end_inset
+
+ )כל פונקציה היא 
+\begin_inset Formula $O$
+\end_inset
+
+ של עצמה ,עבור 
+\begin_inset Formula $c=1$
+\end_inset
+
+ וכל 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+ו-
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{1}(n)=O(g_{1}(n))$
+\end_inset
+
+ ) 
+\begin_inset Formula $n=O(n^{2})$
+\end_inset
+
+ , הוכח בתרגול (.
+\end_layout
+
+\begin_layout Standard
+אבל,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dfrac{f_{1}(n)}{f_{2}(n)}=1$
+\end_inset
+
+ ו 
+\begin_inset Formula $\dfrac{g_{1}(n)}{g_{2}(n)}=\dfrac{1}{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש 
+\begin_inset Formula $1\neq O(\dfrac{1}{n})$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה שקיים 
+\begin_inset Formula $c$
+\end_inset
+
+ ו
+\begin_inset Formula $n_{0}$
+\end_inset
+
+כל שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $1\leq\dfrac{c}{n}\Rightarrow n\leq c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בסתירה לכך שאין חסם עליון לטבעיים.
+\end_layout
+
+\begin_layout Standard
+)
+\numeric on
+4
+\numeric off
+( 
+\begin_inset Formula 
+\[
+\left|log\left(\frac{f_{1}}{g_{1}}\right)\right|=O(log(g_{1}))\Rightarrow f_{1}(n)=O(g_{1}(n))
+\]
+
+\end_inset
+
+ 
+\series medium
+הטענה אינה נכונה.
+ נתבונן לדוגמה בפונקציות 
+\begin_inset Formula $f_{1}(n)=n^{2},g_{1}(n)=n$
+\end_inset
+
+.
+ מתקיים:
+\begin_inset Formula 
+\[
+\left|log\left(\frac{n^{2}}{n}\right)\right|=\left|log\left(n\right)\right|\underset{n\geq1}{\underbrace{=}}log(n)
+\]
+
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $log(n)=O(log(n))$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $\left|log\left(\frac{n^{2}}{n}\right)\right|=O(log(n))$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $\left|log\left(\frac{f_{1}}{g_{1}}\right)\right|=O(log(g_{1}))$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+נניח בשלילה כי 
+\begin_inset Formula $n^{2}=O(n)$
+\end_inset
+
+.
+ אז קיימים 
+\begin_inset Formula $c,n_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $n^{2}\leq c\cdot n$
+\end_inset
+
+.
+ לכל 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula $n^{2}\geq n$
+\end_inset
+
+ ולכן בהכרח 
+\begin_inset Formula $c\geq1$
+\end_inset
+
+.
+ כלומר 
+\begin_inset Formula $cn_{0}\geq n_{0}$
+\end_inset
+
+ ולכן עבור 
+\begin_inset Formula $n'=c\cdot\max\{n_{0},2\}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+c^{2}\cdot n'^{2}\leq c^{2}n'\Rightarrow n'^{2}\leq n'
+\]
+
+\end_inset
+
+ בסתירה לכך ש
+\begin_inset Formula $n'\geq2>1$
+\end_inset
+
+.
+ לכן 
+\begin_inset Formula $n^{2}\neq O(n)$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $f_{1}\neq O(g_{1})$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+)
+\numeric on
+5
+\numeric off
+(
+\end_layout
+
+\begin_layout Standard
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+נניח כי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{1}(n)=\Theta(g_{1}(n))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{2}(n)=\Theta(g_{2}(n))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן 
+\end_layout
+
+\begin_layout Standard
+קיימים 
+\begin_inset Formula $c_{1}$
+\end_inset
+
+,
+\begin_inset Formula $c_{2}$
+\end_inset
+
+ ו
+\begin_inset Formula $n_{1}$
+\end_inset
+
+כך שלכל 
+\begin_inset Formula $n>n_{1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{1}g_{1}(n)\leq f_{1}(n)\leq c_{2}g_{1}(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וגם
+\end_layout
+
+\begin_layout Standard
+קיימים 
+\begin_inset Formula $c_{3}$
+\end_inset
+
+,
+\begin_inset Formula $c_{4}$
+\end_inset
+
+ ו
+\begin_inset Formula $n_{2}$
+\end_inset
+
+כך שלכל 
+\begin_inset Formula $n>n_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{3}g_{2}(n)\leq f_{2}(n)\leq c_{4}g_{2}(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $n$
+\end_inset
+
+ שגדול מ 
+\begin_inset Formula $n_{3}=max\{n_{1},n_{2})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dfrac{c_{1}}{c_{4}}\dfrac{g_{1}(n)}{g_{2}(n)}\leq\dfrac{f_{1}(n)}{f_{2}(n)}\leq\dfrac{c_{2}}{c_{3}}\dfrac{g_{1}(n)}{g_{2}(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עבור קבועים 
+\begin_inset Formula $c_{5}=\dfrac{c_{2}}{c_{3}}$
+\end_inset
+
+ ו 
+\begin_inset Formula $c_{6}=\dfrac{c_{1}}{c_{4}}$
+\end_inset
+
+ מתקיימת הגדרת 
+\begin_inset Formula $\dfrac{f_{1}(n)}{f_{2}(n)}=\Theta(\dfrac{g_{1}(n)}{g_{2}(n)})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+)
+\numeric on
+6
+\numeric off
+(
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+אם 
+\begin_inset Formula $\left|log\left(\frac{f_{1}(n)}{g_{1}(n)}\right)\right|=O(f_{2}(n))$
+\end_inset
+
+ וגם 
+\begin_inset Formula $\left|log\left(\frac{g_{1}(n)}{g_{2}(n)}\right)\right|=O(f_{2}(n))$
+\end_inset
+
+ אז 
+\begin_inset Formula $\left|log\left(\frac{f_{1}(n)}{g_{2}(n)}\right)\right|=O(f_{2}(n))$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+הטענה נכונה.
+ נתון כי קיימים 
+\begin_inset Formula $n_{1},c_{1}>0$
+\end_inset
+
+ כך ש: 
+\begin_inset Formula 
+\[
+\left|log\left(\frac{f_{1}(n)}{g_{1}(n)}\right)\right|\leq c_{1}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ מתכונות לוגריתמים נקבל:
+\begin_inset Formula 
+\[
+\Rightarrow\left|log\left(f_{1}(n)\right)-log\left(g_{1}(n)\right)\right|\leq c_{1}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ נתון גם כי קיימים 
+\begin_inset Formula $n_{2},c_{2}>0$
+\end_inset
+
+ כך ש:
+\begin_inset Formula 
+\[
+\left|log\left(\frac{g_{1}(n)}{g_{2}(n)}\right)\right|\leq c_{2}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\left|log\left(g_{1}(n)\right)-log\left(g_{2}(n)\right)\right|\leq c_{2}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ נגדיר 
+\begin_inset Formula $n_{3}=\max\{n_{1},n_{2}\}$
+\end_inset
+
+.
+ לכל 
+\begin_inset Formula $n\geq n_{3}$
+\end_inset
+
+ כל אי השוויונות מתקיימים במקביל ולכן נוכל לחבר אותם:
+\begin_inset Formula 
+\[
+\left|log\left(f_{1}(n)\right)-log\left(g_{1}(n)\right)\right|+\left|log\left(g_{1}(n)\right)-log\left(g_{2}(n)\right)\right|\leq c_{1}\cdot f_{2}(n)+c_{2}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ מאי שוויון המשולש נקבל:
+\begin_inset Formula 
+\[
+\Rightarrow\left|log\left(f_{1}(n)\right)-log\left(g_{1}(n)\right)+log\left(g_{1}(n)\right)-log\left(g_{2}(n)\right)\right|\leq(c_{1}+c_{2})\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ נגדיר 
+\begin_inset Formula $c_{3}=c_{1}+c_{2}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $c_{2},c_{1}>0$
+\end_inset
+
+ ולכן גם 
+\begin_inset Formula $c_{3}>0$
+\end_inset
+
+.
+ 
+\begin_inset Formula 
+\[
+\Rightarrow\left|log\left(f_{1}(n)\right)-log\left(g_{2}(n)\right)\right|\leq c_{3}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ מתכונות לוגריתמים נקבל:
+\begin_inset Formula 
+\[
+\Rightarrow\left|log\left(\frac{f_{1}(n)}{g_{2}(n)}\right)\right|\leq c_{3}\cdot f_{2}(n)
+\]
+
+\end_inset
+
+ כלומר עבור הקבועים 
+\begin_inset Formula $c_{3},n_{3}>0$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $\left|log\left(\frac{f_{1}(n)}{g_{2}(n)}\right)\right|=O(f_{2}(n))$
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Subsection*
+טבלה:
+\end_layout
+
+\begin_layout Standard
+)א(
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $nlog^{2}(n)$
+\end_inset
+
+
+\series medium
+: 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\begin_inset Formula $n$
+\end_inset
+
+: עבור 
+\begin_inset Formula $n_{0}=2$
+\end_inset
+
+ ו
+\begin_inset Formula $c=1$
+\end_inset
+
+ מתקיים לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+log(n)\geq1\Rightarrow log^{2}(n)\geq1\Rightarrow nlog^{2}(n)\geq1\cdot n
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $nlog^{2}(n)=\Omega(n)$
+\end_inset
+
+.
+ נניח כי 
+\begin_inset Formula $nlog^{2}(n)=\Theta(n)$
+\end_inset
+
+.
+ אז 
+\begin_inset Formula $nlog^{2}(n)=O(n)$
+\end_inset
+
+ ולכן קיימים 
+\begin_inset Formula $n_{0},c>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+nlog^{2}(n)\leq c\cdot n\Rightarrow log^{2}(n)\leq c\Rightarrow log(n)\leq\sqrt{c}
+\]
+
+\end_inset
+
+ לכן גם עבור 
+\begin_inset Formula $n'=\max\{2^{\sqrt{c}}+1,n_{0}+1\}$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula 
+\[
+log(n')\leq\sqrt{c}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow2^{\sqrt{c}}+1\leq n'\leq2^{\sqrt{c}}
+\]
+
+\end_inset
+
+ בסתירה, ולכן 
+\begin_inset Formula $nlog^{2}(n)=\Omega(n)$
+\end_inset
+
+ הוא היחס החזק ביותר בין הפונקציות.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\begin_inset Formula $nlog(n)$
+\end_inset
+
+: עבור 
+\begin_inset Formula $n_{0}=2$
+\end_inset
+
+ ו
+\begin_inset Formula $c=1$
+\end_inset
+
+ מתקיים לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+log(n)\geq1\Rightarrow nlog(n)\cdot log(n)\geq1\cdot nlog(n)\Rightarrow nlog^{2}(n)\geq1\cdot nlog(n)
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $nlog^{2}(n)=\Omega(nlog(n))$
+\end_inset
+
+.
+ נניח כי 
+\begin_inset Formula $nlog^{2}(n)=\Theta(nlog(n))$
+\end_inset
+
+.
+ אז 
+\begin_inset Formula $nlog^{2}(n)=O(nlog(n))$
+\end_inset
+
+ ולכן קיימים 
+\begin_inset Formula $n_{0},c>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+nlog^{2}(n)\leq c\cdot nlog(n)\Rightarrow log(n)\leq c
+\]
+
+\end_inset
+
+ לכן גם עבור 
+\begin_inset Formula $n'=\max\{2^{c}+1,n_{0}+1\}$
+\end_inset
+
+ מתקיים
+\begin_inset Formula 
+\[
+log(n')\leq c\Rightarrow2^{c}+1\leq n'\leq2^{c}
+\]
+
+\end_inset
+
+ בסתירה, ולכן 
+\begin_inset Formula $nlog^{2}(n)=\Omega(nlog(n))$
+\end_inset
+
+ הוא היחס החזק ביותר בין הפונקציות.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\begin_inset Formula $n^{2}$
+\end_inset
+
+: עבור 
+\begin_inset Formula $n_{0}=1$
+\end_inset
+
+ ו
+\begin_inset Formula $c=4$
+\end_inset
+
+, מתקיים לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+log(n)\leq n\Rightarrow log(\sqrt{n})\leq\sqrt{n}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+log(n)=2log(\sqrt{n})\leq2\sqrt{n}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow log^{2}(n)\leq4n
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow nlog^{2}(n)\leq4n^{2}
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $nlog^{2}(n)=O(n^{2})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $:2^{log^{2}(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציין כי 
+\begin_inset Formula $2^{log^{2}(n)}=n^{log(n)}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2^{log^{2}(n)}=(2^{log(n)})^{log(n)}=n^{log(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $:n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $2^{log^{2}(n)}=n^{log(n)}=\Omega(n)$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $n_{0}=2$
+\end_inset
+
+ ו
+\begin_inset Formula $c=1$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c*n=n\leq n^{log(n)}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+)כי 
+\begin_inset Formula $1<log(n)$
+\end_inset
+
+ עבור 
+\begin_inset Formula $n>2$
+\end_inset
+
+ (
+\end_layout
+
+\begin_layout Standard
+ולכן מתקיימת הגדרת 
+\begin_inset Formula $n^{log(n)}=\Omega(n)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+\end_layout
+
+\begin_layout Standard
+נראה 
+\begin_inset Formula $n^{log(n)}\neq O(n)$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש 
+\begin_inset Formula $n^{log(n)}=O(n)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ ו 
+\begin_inset Formula $c$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}\leq cn\Rightarrow n^{log(n)-1}\leq c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אבל עבור 
+\begin_inset Formula $n>max\{c,4,n_{0}\}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $log(n)-1>1$
+\end_inset
+
+ ו 
+\begin_inset Formula $n>c$
+\end_inset
+
+ ולכן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c<n\leq n^{log(n)-1}\leq c$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+וזו סתירה.
+\end_layout
+
+\begin_layout Standard
+מכאן שהיחס החזק ביותר המתקיים הוא :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2^{log^{2}(n)}=\Omega(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $n^{log(n)}=\Omega(n^{2})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $n_{0}=8$
+\end_inset
+
+ ו 
+\begin_inset Formula $c=1$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cn^{2}=n^{2}\leq n^{3}\underbrace{\leq}_{3<log(n)}\leq n^{log(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן מתקיימת הגדרת 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}=\Omega(n^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בנוסף,
+\end_layout
+
+\begin_layout Standard
+נראה 
+\begin_inset Formula $n^{log(n)}\neq O(n^{2})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש 
+\begin_inset Formula $n^{log(n)}=O(n^{2})$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ ו 
+\begin_inset Formula $c$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}\leq cn^{2}\Rightarrow n^{log(n)-2}\leq c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אבל עבור 
+\begin_inset Formula $n>max\{8,c,n_{0}\}$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $log(n)-2>1$
+\end_inset
+
+, 
+\begin_inset Formula $n>c$
+\end_inset
+
+ ולכן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c<n\leq n^{log(n)-2}\leq c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וזו סתירה.
+\end_layout
+
+\begin_layout Standard
+לכן ההיחס החזק ביותר המתקיים הוא 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}=\Omega(n^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $nlog(n)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $n^{log(n)}=\Omega(nlog(n))$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+הראנו ש 
+\begin_inset Formula $n^{log(n)}=\Omega(n^{2})$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $c_{1}$
+\end_inset
+
+ו
+\begin_inset Formula $n_{1}$
+\end_inset
+
+כך ש לכל 
+\begin_inset Formula $n>n_{1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{1}n^{2}\leq n^{log(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וראינו בהרצאה ש 
+\begin_inset Formula $n^{2}=\Omega(nlogn)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $c_{2}$
+\end_inset
+
+ו
+\begin_inset Formula $n_{2}$
+\end_inset
+
+כך ש לכל 
+\begin_inset Formula $n>n_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{2}n\leq n^{2}\Rightarrow c_{2}c_{1}nlog(n)\leq c_{1}n^{2}\leq n^{log(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן עבור 
+\begin_inset Formula $c=c_{1}*c_{2}$
+\end_inset
+
+ ו 
+\begin_inset Formula $n_{0}=max\{n_{1},n_{2}\}$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cnlog(n)\leq n^{log(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומתקיימת הגדרת 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}=\Omega(nlog(n))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה בנוסף ש 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}\neq O(nlog(n))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הראנו כבר ש 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(n)}\neq O(n^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן לכל 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ ולכל 
+\begin_inset Formula $c>0$
+\end_inset
+
+ קיים 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+ כך ש:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cnlog(n)<cn^{2}<n^{log(n)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן נשללת הגדרת 
+\begin_inset Formula $n^{log(n)}=O(nlog(n))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\begin_inset Formula $\underline{log(n!)}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\begin_inset Formula $n$
+\end_inset
+
+: נבחר 
+\begin_inset Formula $n_{0}=4$
+\end_inset
+
+ ו
+\begin_inset Formula $c=1$
+\end_inset
+
+.
+ נראה ראשית כי לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula $n!\geq2^{n}$
+\end_inset
+
+.
+ עבור 
+\begin_inset Formula $n_{0}=4$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula 
+\[
+n_{0}!=1\cdot2\cdot3\cdot4=24>16=2^{n_{0}}
+\]
+
+\end_inset
+
+נניח כי עבור 
+\begin_inset Formula $n'$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula $n'!\geq2^{n'}$
+\end_inset
+
+.
+ אז עבור 
+\begin_inset Formula $n=n'+1$
+\end_inset
+
+ נקבל:
+\begin_inset Formula 
+\[
+n!=n'!\cdot n\geq2^{n'}\cdot n\underset{n\geq4}{\underbrace{\geq}}2^{n'}\cdot2=2^{n'+1}=2^{n}
+\]
+
+\end_inset
+
+ ולכן מאינדוקציה לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+ מתקיים
+\begin_inset Formula 
+\[
+n!\geq1\cdot2^{n}\Rightarrow log(n!)\geq1\cdot log(2^{n})\Rightarrow log(n!)\geq1\cdot n
+\]
+
+\end_inset
+
+כלומר 
+\begin_inset Formula $log(n!)=\Omega(n)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\begin_inset Formula $nlog(n)$
+\end_inset
+
+: עבור 
+\begin_inset Formula $n_{0}=1,c=1$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+ מתקיים:
+\begin_inset Formula 
+\[
+log(n!)=log(1\cdot2\cdot\ldots\cdot n)=log(1)+log(2)+\ldots+log(n)
+\]
+
+\end_inset
+
+ 
+\begin_inset Formula $log(n)$
+\end_inset
+
+ היא פונקציה עולה ולכן לכל 
+\begin_inset Formula $1\leq k\leq n$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $log(k)\leq log(n)$
+\end_inset
+
+.
+ כלומר:
+\begin_inset Formula 
+\[
+log(1)+\ldots+log(n)\leq log(n)+\ldots+log(n)=nlog(n)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow log(n!)\leq1\cdot nlog(n)
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $log(n!)=O(nlog(n))$
+\end_inset
+
+.
+ עבור 
+\begin_inset Formula $c=\frac{1}{4}$
+\end_inset
+
+ ו
+\begin_inset Formula $n_{0}\geq4$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+ מתקיים:
+\begin_inset Formula 
+\[
+log(n!)=log(1)+\ldots+log\left(\frac{n}{2}\right)+\ldots+logn(n)\geq log\left(\frac{n}{2}\right)+\ldots+log(n)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\geq log\left(\frac{n}{2}\right)+\ldots+log\left(\frac{n}{2}\right)=\frac{n}{2}log\left(\frac{n}{2}\right)=\frac{n}{2}\left(log(n)-log(2)\right)=\frac{n}{2}\left(log(n)-1\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{n}{2}log(n)-\frac{n}{2}=\frac{n}{4}log(n)+\frac{n}{4}log(n)-\frac{n}{4}\cdot2=\frac{n}{4}log(n)+\frac{n}{4}\left(log(n)-2\right)\underset{n\geq4}{\underbrace{\geq}}\frac{1}{4}nlog(n)
+\]
+
+\end_inset
+
+ כפי שנראה בתרגול.
+ ולכן מתקיים גם 
+\begin_inset Formula $log(n!)=\Omega(nlog(n))$
+\end_inset
+
+ ובסך הכל 
+\begin_inset Formula $log(n!)=\Theta(nlog(n))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\begin_inset Formula $n^{2}$
+\end_inset
+
+: עבור 
+\begin_inset Formula $n_{0}=0$
+\end_inset
+
+ ו
+\begin_inset Formula $c=1$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+ מתקיים:
+\begin_inset Formula 
+\[
+log(n!)=log(1\cdot\ldots\cdot n)=\sum_{k=1}^{n}log(k)\leq\sum_{k=1}^{n}k=\frac{n(n+1)}{2}=\frac{n^{2}}{2}+\frac{n}{2}
+\]
+
+\end_inset
+
+ לכל 
+\begin_inset Formula $n$
+\end_inset
+
+ טבעי מתקיים 
+\begin_inset Formula $n\leq n^{2}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $\frac{n}{2}\leq\frac{n^{2}}{2}$
+\end_inset
+
+ כלומר:
+\begin_inset Formula 
+\[
+log(n!)\leq\frac{n^{2}}{2}+\frac{n}{2}\leq\frac{n^{2}}{2}+\frac{n^{2}}{2}=n^{2}
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $log(n!)=O(n^{2})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $n^{log(3)}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $n^{log(3)}=\Omega(n)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $n_{0}=1$
+\end_inset
+
+ ועבור 
+\begin_inset Formula $c=1$
+\end_inset
+
+ מתקיים כי לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cn=n\leq n^{log(3)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומתקיימת הגדרת
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(3)}=\Omega(n)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה כי 
+\begin_inset Formula $n^{log(3)}\neq O(n)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש 
+\begin_inset Formula $n^{log(3)}=O(n)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ ו 
+\begin_inset Formula $c$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(3)}\leq cn\Rightarrow n^{log(3)-1}\leq c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אבל 
+\begin_inset Formula $n^{log(3)-1}$
+\end_inset
+
+ שואף ל
+\begin_inset Formula $\infty$
+\end_inset
+
+ כש
+\begin_inset Formula $n$
+\end_inset
+
+ שואף ל
+\begin_inset Formula $\infty$
+\end_inset
+
+ וזו סתירה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $nlogn$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $n^{log(3)}=\Omega(nlogn)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+ראינו בתרגול שלכל 
+\begin_inset Formula $\epsilon>0$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $logn=o(n^{\epsilon})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן לכל 
+\begin_inset Formula $c>0$
+\end_inset
+
+ קיים 
+\begin_inset Formula $n_{0}>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $logn\leq cn^{\epsilon}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן עבור 
+\begin_inset Formula $c=1$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $nlogn\leq n*n^{log(3)-1}=n^{log(3)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומתקיימת הגדרת
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(3)}=\Omega(nlogn)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה כי 
+\begin_inset Formula $n^{log(3)}\neq O(nlogn)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה ש 
+\begin_inset Formula $n^{log(3)}=O(nlogn)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ ו 
+\begin_inset Formula $c$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(3)}\leq cnlogn\Rightarrow n^{log(3)-1}\leq clogn$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אבל 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $logn=o(n^{\epsilon})$
+\end_inset
+
+ ולכן
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $c>0$
+\end_inset
+
+ קיים 
+\begin_inset Formula $n_{0}>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $logn\leq cn^{\epsilon}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומכך נובע ש
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c\cdot logn<n^{log(3)-1}\leq c\cdot logn$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+וזו סתירה.
+\end_layout
+
+\begin_layout Standard
+היחס החזק ביותר הוא 
+\begin_inset Formula $n^{log(3)}=\Omega(nlogn)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Subsubsection*
+נראה 
+\begin_inset Formula $n^{log(3)}=O(n^{2})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+עבור 
+\begin_inset Formula $n_{0}=1$
+\end_inset
+
+ ועבור 
+\begin_inset Formula $c=1$
+\end_inset
+
+ מתקיים כי לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(3)}\leq n^{2}$
+\end_inset
+
+ )כי 
+\begin_inset Formula $log3<2$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+נראה בנוסף ש 
+\begin_inset Formula $n^{log(3)}\neq\Omega(n^{2})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה כי 
+\begin_inset Formula $n^{log(3)}=\Omega(n^{2})$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+לכן קיימים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ ו
+\begin_inset Formula $c$
+\end_inset
+
+ כך ש לכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cn^{2}\leq n^{log3}\Rightarrow c\leq n^{log3-2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אבל 
+\begin_inset Formula $0>log3-2$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $n^{log3-2}$
+\end_inset
+
+ שואף ל
+\numeric on
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וזו סתירה לכך שקיים קבוע חיובי שחוסם את הסדרה מלרע.
+\end_layout
+
+\begin_layout Standard
+לכן היחס החזק ביותר המתאים הוא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log(3)}=O(n^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Standard
+נראה הגדרה שקולה:
+\end_layout
+
+\begin_layout Standard
+נראה שלכל 
+\begin_inset Formula $\epsilon>0$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{\ensuremath{\underset{n\rightarrow\infty}{lim}\dfrac{loglogn}{log^{\epsilon}(n)}=0}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{\ensuremath{\underset{x\rightarrow\infty}{lim}\dfrac{loglogx}{log^{\epsilon}(x)}=0}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן הגבול שצריך להוכיח נובע לפי משפט היינה מאינפי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+מ.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\underset{x\rightarrow\infty}{lim}\dfrac{loglogx}{log^{\epsilon}(x)}\underbrace{=}_{lopital}\underset{x\rightarrow\infty}{lim}\dfrac{\dfrac{1}{logx}*\dfrac{1}{x}}{\epsilon log^{\epsilon-1}(x)*\dfrac{1}{x}}=\underset{x\rightarrow\infty}{lim}\dfrac{1}{\epsilon log^{\epsilon}(x)}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ג(
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+יהי 
+\begin_inset Formula $c>0$
+\end_inset
+
+.
+ נפצל למקרים.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\numeric on
+1
+\numeric off
+.
+ אם 
+\begin_inset Formula $c\geq1$
+\end_inset
+
+: נתון 
+\begin_inset Formula $f(n)=\omega(log(n))$
+\end_inset
+
+ ולכן קיים עבורו 
+\begin_inset Formula $n_{0}>0$
+\end_inset
+
+ כך ש
+\begin_inset Formula $f(n)\geq c\cdot log(n)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\begin_inset Formula 
+\[
+f(n)\geq c\cdot log(n)\Rightarrow2^{f(n)}\geq\left(2^{log(n)}\right)^{c}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow2^{f(n)}\geq n^{c}\Rightarrow c\cdot2^{f(n)}\geq c\cdot n^{c}\geq n
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow n\leq c\cdot2^{f(n)}
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $n=o\left(2^{f(n)}\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\numeric on
+2
+\numeric off
+.
+ אם 
+\begin_inset Formula $0<c<1$
+\end_inset
+
+: נסמן 
+\begin_inset Formula $c_{1}=log\left(\frac{1}{c}\right)+1$
+\end_inset
+
+.
+ 
+\begin_inset Formula $c<1$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $\frac{1}{c}>1$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $log\left(\frac{1}{c}\right)>0$
+\end_inset
+
+ ו 
+\begin_inset Formula $c_{1}>1$
+\end_inset
+
+.
+ נתון 
+\begin_inset Formula $f(n)=\omega(log(n))$
+\end_inset
+
+.
+ לכן קיים 
+\begin_inset Formula $n_{0}>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n\geq n_{0}$
+\end_inset
+
+ מתקיים
+\begin_inset Formula 
+\[
+f(n)\geq\left(log\left(\frac{1}{c}\right)+1\right)log(n)
+\]
+
+\end_inset
+
+ נסמן 
+\begin_inset Formula $n_{2}=\max\{n_{0},2\}$
+\end_inset
+
+ ואז לכל 
+\begin_inset Formula $n\geq n_{2}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\Rightarrow2^{f(n)}\geq2^{\left(log\left(\frac{1}{c}\right)+1\right)log(n)}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow2^{f(n)}\geq\left(2^{log(n)}\right)^{log\left(\frac{1}{c}\right)+1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow2^{f(n)}\geq n^{log\left(\frac{1}{c}\right)+1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow c\cdot2^{f(n)}\geq c\cdot n^{log\left(\frac{1}{c}\right)+1}=c\cdot n^{log\left(\frac{1}{c}\right)}\cdot n\underset{n\geq2}{\underbrace{\geq}}c\cdot2^{log\left(\frac{1}{c}\right)}\cdot n=c\cdot\frac{1}{c}\cdot n=n
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow n\leq c\cdot2^{f(n)}
+\]
+
+\end_inset
+
+ ולכן גם במקרה זה 
+\begin_inset Formula $n=o\left(2^{f(n)}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+נתונה המשוואה הרקורסיבית:
+\begin_inset Formula 
+\[
+T(n)=T\left(\frac{n}{10}\right)+T(a\cdot n)+n
+\]
+
+\end_inset
+
+ נתחיל לפתח לעץ רקורסיה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename recTree.jpg
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+נראה באינדוקציה כי סכום הרמה ה
+\begin_inset Formula $k$
+\end_inset
+
+ הוא 
+\begin_inset Formula $n\cdot\left(a+\frac{1}{10}\right)^{k}$
+\end_inset
+
+, כאשר הרמה הראשונה היא 
+\begin_inset Formula $k=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\bar under
+בסיס:
+\bar default
+ האיבר היחיד ברמה 
+\begin_inset Formula $k=0$
+\end_inset
+
+ הוא 
+\begin_inset Formula $n$
+\end_inset
+
+ ולכן סכומה הוא 
+\begin_inset Formula $n=n\cdot\left(a+\frac{1}{10}\right)^{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\bar under
+צעד:
+\bar default
+ נניח כי סכום הרמה ה
+\begin_inset Formula $k$
+\end_inset
+
+ הוא 
+\begin_inset Formula $n\cdot\left(a+\frac{1}{10}\right)^{k}$
+\end_inset
+
+.
+ נסמן כל צומת ברמה ה
+\begin_inset Formula $k$
+\end_inset
+
+ כ
+\begin_inset Formula $n'_{i}$
+\end_inset
+
+ עבור 
+\begin_inset Formula $1\leq i\leq2^{k}$
+\end_inset
+
+.
+ עבור 
+\series default
+כל 
+\series medium
+צומת 
+\begin_inset Formula $n'_{i}$
+\end_inset
+
+, יש 
+\series default
+בדיוק
+\series medium
+ שני צמתים ברמה ה
+\begin_inset Formula $k+1$
+\end_inset
+
+: 
+\begin_inset Formula $a\cdot n_{i}',\frac{1}{10}\cdot n_{i}'$
+\end_inset
+
+.
+ לכן סכום השורה ה
+\begin_inset Formula $k+1$
+\end_inset
+
+ הוא:
+\begin_inset Formula 
+\[
+\sum_{i=1}^{2^{k}}a\cdot n'_{i}+\frac{1}{10}n'_{i}=\sum_{i=1}^{2^{k}}n'_{i}\left(a+\frac{1}{10}\right)=\left(a+\frac{1}{10}\right)\sum_{i=1}^{2^{k}}n'_{i}
+\]
+
+\end_inset
+
+ אבל 
+\begin_inset Formula $\sum_{i=1}^{2^{k}}n'_{i}$
+\end_inset
+
+ הוא פשוט סכום הצמתים ברמה ה
+\begin_inset Formula $k$
+\end_inset
+
+, שלפי הנחת האינדוקציה מקיים 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\begin_inset Formula $\sum_{i=1}^{2^{k}}n'_{i}=n\cdot\left(a+\frac{1}{10}\right)^{k}$
+\end_inset
+
+ ולכן סכום השורה ה
+\begin_inset Formula $k+1$
+\end_inset
+
+ הוא:
+\begin_inset Formula 
+\[
+\sum_{i=1}^{2^{k}}a\cdot n'_{i}+\frac{1}{10}n'_{i}=\left(a+\frac{1}{10}\right)\sum_{i=1}^{2^{k}}n'_{i}=\left(a+\frac{1}{10}\right)\cdot n\cdot\left(a+\frac{1}{10}\right)^{k}=n\cdot\left(a+\frac{1}{10}\right)^{k+1}
+\]
+
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+בסך הכל, 
+\begin_inset Formula $T(n)$
+\end_inset
+
+ שווה לסכום כל הרמות.
+ ניתן למצוא חסם מלעיל ומלרע ל
+\begin_inset Formula $T(n)$
+\end_inset
+
+ שכן סכום כל רמה בנפרד הוא חיובי, ומספר הרמות תלוי בגובה העץ.
+ הקריאות הרקורסיביות הן מהצורה 
+\begin_inset Formula $T(a\cdot n)$
+\end_inset
+
+ ו 
+\begin_inset Formula $T\left(\frac{n}{10}\right)$
+\end_inset
+
+ ולכן גובה העץ תחום בין 
+\begin_inset Formula $m=\min\left\{ log_{10}(n),log_{\frac{1}{a}}(n)\right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+ו 
+\begin_inset Formula $M=\max\left\{ log_{10}(n),log_{\frac{1}{a}}(n)\right\} $
+\end_inset
+
+.
+ לכן:
+\begin_inset Formula 
+\[
+\sum_{k=0}^{m}n\cdot\left(a+\frac{1}{10}\right)^{k}\leq T(n)\leq\sum_{k=0}^{M}n\cdot\left(a+\frac{1}{10}\right)^{k}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow n\cdot\sum_{k=0}^{m}\left(a+\frac{1}{10}\right)^{k}\leq T(n)\leq n\cdot\sum_{k=0}^{M}\left(a+\frac{1}{10}\right)^{k}
+\]
+
+\end_inset
+
+ נבדוק עבור אילו ערכי 
+\begin_inset Formula $a$
+\end_inset
+
+ מתקיים 
+\begin_inset Formula $T(n)=\omega(n)$
+\end_inset
+
+, כלומר 
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{n}{T(n)}=0$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+\frac{1}{\sum_{k=0}^{m}\left(a+\frac{1}{10}\right)^{k}}\leq\frac{n}{T(n)}\leq\frac{1}{\sum_{k=0}^{M}\left(a+\frac{1}{10}\right)^{k}}
+\]
+
+\end_inset
+
+ נשים לב כי כיוון ש - 
+\begin_inset Formula $m$
+\end_inset
+
+ ו -
+\begin_inset Formula $M$
+\end_inset
+
+ הם לוגריתמים בבסיסים שונים של 
+\begin_inset Formula $n$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula 
+\[
+\lim_{n\rightarrow\infty}\sum_{k=0}^{m}\left(a+\frac{1}{10}\right)^{k}=\lim_{n\rightarrow\infty}\sum_{k=0}^{M}\left(a+\frac{1}{10}\right)^{k}=\sum_{k=0}^{\infty}\left(a+\frac{1}{10}\right)^{k}
+\]
+
+\end_inset
+
+ ולכן מכלל הסנדוויץ' מתקיים 
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{n}{T(n)}=\lim_{n\rightarrow\infty}\frac{1}{\sum_{k=0}^{m}\left(a+\frac{1}{10}\right)^{k}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+לכן נרצה למצוא מתי מתקיים 
+\begin_inset Formula $\frac{1}{\sum_{k=0}^{\infty}\left(a+\frac{1}{10}\right)^{k}}=0$
+\end_inset
+
+ כלומר מתי מתקיים 
+\begin_inset Formula $\sum_{k=0}^{\infty}\left(a+\frac{1}{10}\right)^{k}=\infty$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+הטור 
+\begin_inset Formula $\sum_{k=0}^{\infty}\left(a+\frac{1}{10}\right)^{k}$
+\end_inset
+
+ הוא טור גיאומטרי ולכן 
+\begin_inset Formula 
+\[
+\sum_{k=0}^{\infty}\left(a+\frac{1}{10}\right)^{k}=\infty\iff a+\frac{1}{10}\geq1\iff a\geq\frac{9}{10}
+\]
+
+\end_inset
+
+לכן 
+\begin_inset Formula $a=\frac{9}{10}$
+\end_inset
+
+ הוא הערך המינימלי של 
+\begin_inset Formula $a$
+\end_inset
+
+ עבורו מתקיים 
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{1}{\sum_{k=0}^{m}\left(a+\frac{1}{10}\right)^{k}}=0$
+\end_inset
+
+ כלומר
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\begin_inset Formula $\lim_{n\rightarrow\infty}\frac{n}{T(n)}=0$
+\end_inset
+
+ כלומר 
+\begin_inset Formula $T(n)=\omega(n)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+כאשר 
+\begin_inset Formula $a=\frac{9}{10}$
+\end_inset
+
+, מתקיים 
+\begin_inset Formula $\sum_{k=0}^{log(n)}\left(a+\frac{1}{10}\right)^{k}=\sum_{k=0}^{log(n)}\left(1\right)^{k}=\frac{log(n)\left(log(n)+1\right)}{2}$
+\end_inset
+
+.
+ לכן:
+\begin_inset Formula 
+\[
+n\cdot\frac{\left\lfloor log_{\max\{10,\frac{1}{a}\}}(n)\right\rfloor \left(\left\lfloor log_{\max\{10,\frac{1}{a}\}}\right\rfloor (n)+1\right)}{2}\leq n\cdot\sum_{k=0}^{m}n\cdot\left(a+\frac{1}{10}\right)^{k}\leq T(n)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+T(n)\leq n\cdot\sum_{k=0}^{M}\left(a+\frac{1}{10}\right)^{k}\leq n\cdot\frac{\lceil log_{\min\{10,\frac{1}{a}\}}(n)\rceil\left(\lceil log_{\min\{10,\frac{1}{a}\}}(n)\rceil(n)+1\right)}{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+n\cdot\frac{\left\lfloor log_{\max\{10,\frac{1}{a}\}}(n)\right\rfloor \left(\left\lfloor log_{\max\{10,\frac{1}{a}\}}\right\rfloor (n)+1\right)}{2}\leq T(n)\leq n\cdot\frac{\lceil log_{\min\{10,\frac{1}{a}\}}(n)\rceil\left(\lceil log_{\min\{10,\frac{1}{a}\}}(n)\rceil+1\right)}{2}
+\]
+
+\end_inset
+
+ ולכן 
+\begin_inset Formula $T(n)=\Theta(n\cdot log^{2}(n))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=4T(\dfrac{n}{2})+n^{3}+nlog^{2}(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש
+\begin_inset Formula $T(n)=\Theta(n^{3})$
+\end_inset
+
+ לפי הסעיף השלישי של משפט המאסטר:
+\end_layout
+
+\begin_layout Standard
+בהצגה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=a(T(n/b)+f(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a=4,b=2,f(n)=n^{3}+nlog^{2}(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה שמתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f(n)=\Omega(n^{log_{b}a+\epsilon})$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\epsilon=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{log_{b}a+\epsilon}=n^{2+1}=n^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ואכן מתקיים כי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n^{3}+nlog^{2}(n)=\Omega(n^{3})$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+)כי 
+\begin_inset Formula $n^{3}+nlog^{2}(n)\geq n^{3}$
+\end_inset
+
+ לכל 
+\begin_inset Formula $n>1$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+בנוסף, 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $af(n/b)=4(\dfrac{n}{2})^{3}+2nlog^{2}(n/2)=\dfrac{n^{3}}{2}+2n(log(n)-1)^{2}\leq.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $.\leq\dfrac{n^{3}}{2}+2nlog^{2}(n)\underbrace{\leq}_{\text{for n>\ensuremath{n_{0}}*}}\dfrac{3n^{3}}{4}\leq\dfrac{3}{4}(n^{3}+nlog^{2}n)=\dfrac{3}{4}f(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+)
+\end_layout
+
+\begin_layout Standard
+נראה*:
+\end_layout
+
+\begin_layout Standard
+נראה שקיים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2nlog^{2}(n)\leq\dfrac{n^{3}}{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש 
+\begin_inset Formula $nlog^{2}(n)=o(n^{3})$
+\end_inset
+
+ ובאופן שקול 
+\begin_inset Formula $\underset{n\rightarrow\infty}{lim}\dfrac{nlog^{2}(n)}{n^{3}}=0$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\dfrac{nlog^{2}(n)}{n^{3}}=\dfrac{log^{2}(n)}{n^{2}}\underset{n\rightarrow\infty}{\rightarrow}0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן לכל 
+\begin_inset Formula $0<c$
+\end_inset
+
+ ובפרט עבור 
+\begin_inset Formula $c=\dfrac{1}{8}$
+\end_inset
+
+ קיים 
+\begin_inset Formula $n_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $nlog^{2}(n)\leq cn^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(
+\end_layout
+
+\begin_layout Standard
+מצאנו שתנאי הסעיף השלישי של משפט המאסטר מתקיימים ולכן :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=\Theta(f(n))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=log((n^{2})!)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $n^{2}=m$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=T(\sqrt{m})=log(m!)=\Theta(mlogm)=\Theta(n^{2}log(n^{2}))=.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $.=\Theta(2n^{2}log(n))=\Theta(n^{2}logn)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=T(\sqrt{n})+n^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\begin_inset Formula $n=2^{m}$
+\end_inset
+
+ או לחילופין 
+\begin_inset Formula $m=log(n)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+ונגדיר פונקציה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=T(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=T(n)=T(2^{m})=T(2^{m/2})+2^{2m}=S(m/2)+4^{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה 
+\begin_inset Formula $S(m)=\Theta(4^{m})$
+\end_inset
+
+ בעזרת הסעיף השלישי של משפט המאסטר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f(m)=4^{m},a=1,b=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש 
+\begin_inset Formula $f(m)=\Omega(m^{log_{b}a+\epsilon})$
+\end_inset
+
+ עבור 
+\begin_inset Formula $\epsilon=1$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+צ
+\begin_inset Quotes erd
+\end_inset
+
+ל :
+\begin_inset Formula $4^{m}=\Omega(m)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נראה ש 
+\begin_inset Formula $m=o(4^{m})$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{\ensuremath{\underset{m\rightarrow\infty}{lim}\dfrac{m}{4^{m}}\underbrace{=}_{lopital}\underset{m\rightarrow\infty}{lim}\text{\ensuremath{\dfrac{1}{ln(4)4^{m}}=0}}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכן לכל 
+\begin_inset Formula $c>0$
+\end_inset
+
+ ובפרט עבור 
+\begin_inset Formula $c=1$
+\end_inset
+
+ קיים 
+\begin_inset Formula $m_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $m>m_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m\leq4^{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ומתקיימת הגדרת 
+\begin_inset Formula $4^{m}=\Omega(m)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה את התנאי הנוסף של המשפט:
+\end_layout
+
+\begin_layout Standard
+קיים 
+\begin_inset Formula $\dfrac{1}{2}=c<1$
+\end_inset
+
+ ו 
+\begin_inset Formula $1=m_{0}$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $m>m_{0}$
+\end_inset
+
+ מתקיים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a*f(m/b)=2^{m}\leq\dfrac{1}{2}*4^{m}=cf(m)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תנאי הסעיף השלישי של משפט המאסטר מתקיימים ולכן :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=\Theta(4^{m})\Rightarrow\boldsymbol{T(n)}=\Theta(4^{log(n)})=\Theta(2^{2logn})=\boldsymbol{\Theta(n^{2})}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\numeric on
+4
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+נסמן 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=log(n)$
+\end_inset
+
+ כך ש 
+\begin_inset Formula $2^{m}=n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ו
+\begin_inset Formula $S(m)=T(n)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(m)=T(n)=16n^{4}T(\sqrt{n})+2n^{8}log^{4}(n)=..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $..=16*16^{m}S(\dfrac{m}{2})+2*16^{2m}*m^{4}\Rightarrow..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)\underbrace{=}_{\text{define K(m)}}\dfrac{S(m)}{16^{2m}}=16*\dfrac{S(\dfrac{m}{2})}{16^{m}}+2*m^{4}=16*K(\dfrac{m}{2})+2*m^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נציג את הביטוי כעץ )שרוך(:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2m^{4}\rightarrow16*2*(\dfrac{m}{2})^{4}\rightarrow16^{2}*2*(\dfrac{m}{4})^{4}\rightarrow...\rightarrow2*16^{i}*(\dfrac{m}{2^{i}})^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עומק העץ הוא :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $log(m)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+איבר כללי של צומת בשרוך בדרגה 
+\begin_inset Formula $i$
+\end_inset
+
+ הוא :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $2*16^{i}*(\dfrac{m}{2^{i}})^{4}=2*m^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ולכן כדי למצוא ביטוי מפורש לסכום יש לסכום:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\underset{i=0}{\overset{log(m)}{\sum}}2*m^{4}=2*m^{4}log(m)=\Theta(m^{4}log(m)\Rightarrow..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K(m)=\dfrac{S(m)}{16^{2m}}=\Theta(m^{4}log(m))\Rightarrow..$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(n)=S(m)=\Theta(16^{2m}m^{4}log(m))=\boldsymbol{\Theta(n^{8}log^{4}(n)log(log(n)))}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Standard
+מבני נתונים בהם נשתמש עבור פתירת הבעיה:
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+( 
+\begin_inset Formula $Days$
+\end_inset
+
+ -מערך בגודל 
+\begin_inset Formula $D+1$
+\end_inset
+
+ )כאשר 
+\begin_inset Formula $D=max\{D_{i}\}$
+\end_inset
+
+( של פוינטרים לרשימות מקושרות דו כיווניות, שיעקוב אחרי איזה מדינות צריכות
+ להיות בסגר בכל יום.
+\end_layout
+
+\begin_layout Standard
+כל איבר ברשימה המקושרת, יציין אינדקס של מדינה שצריכה להכנס לסגר ביום הזה
+ .
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+( 
+\begin_inset Formula $today$
+\end_inset
+
+ - משתנה ,מספר טבעי,יציין אינדקס של איבר במערך 
+\begin_inset Formula $Days$
+\end_inset
+
+ המציין איזה יום היום.
+\end_layout
+
+\begin_layout Standard
+כל יום בסוף הפונקציה 
+\begin_inset Formula $\text{lock\_down\_now }$
+\end_inset
+
+ יקודם באופן הבא : 
+\begin_inset Formula $\text{\ensuremath{today=(today+1)\%(D+1)}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+( 
+\begin_inset Formula $countries$
+\end_inset
+
+- מערך המדינות.
+\end_layout
+
+\begin_layout Standard
+מערך בגודל 
+\begin_inset Formula $N$
+\end_inset
+
+ ולכל איבר בו שלוש שדות: 
+\end_layout
+
+\begin_layout Standard
+)
+\begin_inset Formula $(freq$
+\end_inset
+
+ איבר במקום ה
+\begin_inset Formula $i$
+\end_inset
+
+ במערך יציג 
+\begin_inset Formula $D_{i+1}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+)
+\begin_inset Formula $(pointer$
+\end_inset
+
+ פוינטר לאיבר ברשימות המקושרות הנמצאות ב
+\begin_inset Formula $Days$
+\end_inset
+
+ המציינות את המדינה ה 
+\begin_inset Formula $i+1$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+)
+\begin_inset Formula $(nextLock$
+\end_inset
+
+ אנדקס המציין את היום ב
+\begin_inset Formula $Days$
+\end_inset
+
+ בו כרגע מתוכנן להיות הסגר הבא.
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+נציג תיאור של מימוש הפונקציות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Init(N,D)$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+נאתחל מערך פוינטרים 
+\begin_inset Formula $Days$
+\end_inset
+
+ שגודלו 
+\begin_inset Formula $D+1$
+\end_inset
+
+.
+ )בגישה לאיבר במערך שעוד לא אותחל יוחזר 
+\begin_inset Formula $null$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+נאתחל מערך 
+\begin_inset Formula $countries$
+\end_inset
+
+ שגודלו 
+\begin_inset Formula $N$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+לאחר האתחול המערך 
+\begin_inset Formula $countries$
+\end_inset
+
+ יהיה ריק.
+\end_layout
+
+\begin_layout Standard
+נאתחל את המשתנה 
+\begin_inset Formula $today$
+\end_inset
+
+ להיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+אתחול המערכים והמשתנה נעשה ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+ כפי שנלמד בהרצאה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Insert(i,D_{i},days)$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+נבדוק קלט- עבור קלט לא תקין )
+\begin_inset Formula $i\leq0$
+\end_inset
+
+ או 
+\begin_inset Formula $i>N$
+\end_inset
+
+, 
+\begin_inset Formula $D_{i}>D$
+\end_inset
+
+ ,
+\begin_inset Formula $(\text{\ensuremath{\text{i already assigned}}},days>D$
+\end_inset
+
+ , נחזיר שגיאה.
+\end_layout
+
+\begin_layout Standard
+נאתחל את האיבר ה
+\begin_inset Formula $i-1$
+\end_inset
+
+ במערך 
+\begin_inset Formula $countries$
+\end_inset
+
+ כך שיחיל את 
+\begin_inset Formula $D_{i}$
+\end_inset
+
+ בשדה הראשון.
+\end_layout
+
+\begin_layout Standard
+נחשב 
+\begin_inset Formula $(today+days)\%(D+1)=x$
+\end_inset
+
+ , ניגש ל 
+\begin_inset Formula $Days[x]$
+\end_inset
+
+ - ונכניס לראש הרשימה המקושרת אותה הוא מחזיק את הערך 
+\begin_inset Formula $i$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נקח את הפוינטר לאיבר שהכנסנו לרשימה ונכניס אותו לשדה השני של 
+\begin_inset Formula $countries[i-1]$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{Precede\_lockdown(i,days) }$
+\end_inset
+
+-
+\end_layout
+
+\begin_layout Standard
+נחשב 
+\begin_inset Formula $x=(countries.nextLock-days)\%(D+1)$
+\end_inset
+
+ , 
+\end_layout
+
+\begin_layout Standard
+ניגש ל 
+\begin_inset Formula $countries.pointer$
+\end_inset
+
+ ונסיר את האיבר המצוין במצביע מהרשימה המקשורת.
+ )הסרה מרשימה מקושרת - 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ (
+\end_layout
+
+\begin_layout Standard
+נכניס לראש הרשימה המקושרת ב
+\begin_inset Formula $Days[x]$
+\end_inset
+
+ איבר 
+\begin_inset Formula $n$
+\end_inset
+
+ בעל האנדקס 
+\begin_inset Formula $i$
+\end_inset
+
+.) 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ (
+\end_layout
+
+\begin_layout Standard
+לבסוף נעדכן 
+\begin_inset Formula $countries.nextLock=x,countries.pointer=*n$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כך שבסוף הפונקציה, הסרנו את התכנון הקודם לסגר והוספנו את התכנון החדש המוקדם
+ במספר הימים הרצוי.
+\end_layout
+
+\begin_layout Standard
+שדות 
+\begin_inset Formula $countries$
+\end_inset
+
+ עודכנו לערכים חדשים הציינים את הסגר הבא .
+\end_layout
+
+\begin_layout Standard
+כל הפעולות המבוצעות הן ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{lock\_down\_now() }$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+ניגש ל
+\begin_inset Formula $Days[today]$
+\end_inset
+
+ , ועבור כל איבר ברשימה המקושרת שעליו מצביע נבצע הפעולות הבאות:
+\end_layout
+
+\begin_layout Standard
+* נדפיס את האנדקס המופיע באיבר- נסמנו 
+\begin_inset Formula $i$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+* נסיר את האיבר מהרשימה המקושרת 
+\end_layout
+
+\begin_layout Standard
+* נקדם את הסגר הבא להיות בעוד 
+\begin_inset Formula $D_{i}$
+\end_inset
+
+ ימים, על ידי הוספת איבר 
+\begin_inset Formula $x$
+\end_inset
+
+ בעל הערך 
+\begin_inset Formula $i$
+\end_inset
+
+ לרשימה המקושרת ב 
+\begin_inset Formula $Days[(today+D_{i})\%(D+1)]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+*נעדכן את שדות 
+\begin_inset Formula $countries[i-1]$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $countries[i-1].pointer=*x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $countries[i-1].nextLock=(today+D_{i})\%(D+1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+סה
+\begin_inset Quotes erd
+\end_inset
+
+כ אנו עוברים על ורק על המדינות שהיו בסגר באותו יום.
+\end_layout
+
+\begin_layout Standard
+לבסוף, לאחר אטרציה על כל האברים ברשימה ,
+\end_layout
+
+\begin_layout Standard
+נקדם 
+\begin_inset Formula $today=(today+1)\%(D+1)$
+\end_inset
+
+ ובכך נעבור ליום הבא.
+\end_layout
+
+\begin_layout Standard
+האטרטציה על המדינות שצריכות להיות מודפסות היא 
+\begin_inset Formula $O(k)$
+\end_inset
+
+ כאשר שאר הפעולות הן 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Paragraph*
+
+\series bold
+סה
+\begin_inset Quotes erd
+\end_inset
+
+כ סיבוכיות מקום למבנה 
+\end_layout
+
+\begin_layout Standard
+בכל רגע נתון ברשימות המקושרות ש
+\begin_inset Formula $D$
+\end_inset
+
+ מחזיקה יש עד 
+\begin_inset Formula $N$
+\end_inset
+
+ איברים סה
+\begin_inset Quotes erd
+\end_inset
+
+כ -
+\begin_inset Formula $O(N)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+המערך 
+\begin_inset Formula $Days$
+\end_inset
+
+ שגודלו 
+\begin_inset Formula $D+1$
+\end_inset
+
+ -
+\begin_inset Formula $O(D)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+המערך 
+\begin_inset Formula $coutnries$
+\end_inset
+
+ שגודלו 
+\begin_inset Formula $N$
+\end_inset
+
+ - 
+\begin_inset Formula $O(N)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+סה
+\begin_inset Quotes erd
+\end_inset
+
+כ 
+\begin_inset Formula $O(D+N)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "../../../../../../Program Files (x86)/LyX 2.3/Resources/templates/MacrosHeb.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+על מנת שנוכל להדפיס את המדינות בסדר הצבעות יורד לפי הסקר בלי מעבר על איברים
+ מיותרים, נשמור את המדינות ברשימה של דירוגים, שלא תצטרך להיות מאותחלת באתחול
+ של המבנה ולכן לא תפגע בסיבוכיות הזמן הנדרש - 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+כל איבר בדירוג יווצר רק כאשר תתווסף הצבעה שמשנה את מאזן הדירוגים בין המדינות.
+ במקרה הגרוע ביותר לכל מדינה יהיה מספר הצבעות שונה, כלומר איבר משלה ברשימת
+ הדירוגים, ולכן סיבוכיות המקום של הרשימה היא עדיין 
+\begin_inset Formula $O(N)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+בנוסף, על מנת להדפיס את כל המדינות שלא רוצים לטוס אליהן בלי לעבור על איברים
+ מיותרים, נשמור מערך נפרד של כל המדינות, וכאשר מדינה מקבלת הצבעה, נקשר בין
+ המדינות שסובבות אותה, כך שיהיה ניתן לדלג עליה במעבר על המדינות.
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+מבנה הנתונים יכלול את השדות הבאים:
+\end_layout
+
+\begin_layout Standard
+מערך מספרים שלמים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+departures
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ באורך 
+\begin_inset Formula $N$
+\end_inset
+
+.
+ התא 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+departures[i]
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שומר את מספר האנשים שהצביעו שהם רוצים לטוס מהמדינה ה
+\lang english
+i-
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Standard
+רשימה דו כיוונית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+ranking
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כך שכל איבר ברשימה מחזיק רשימת מדינות בעלות אותו מספר הצבעות של אנשים שרוצים
+ לטוס אליהן.
+\end_layout
+
+\begin_layout Standard
+פוינטר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+top
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שמצביע לדירוג הגבוה ביותר.
+\end_layout
+
+\begin_layout Standard
+מערך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+arrivlas
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לפוינטרים של מדינות, כאשר התא ה
+\lang english
+i
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ במערך תמיד יכיל פוינטר למדינה ה
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Standard
+מערך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+avoided
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+של פוינטרים למדינות שאף אחד לא רוצה לטוס אליהן.
+\end_layout
+
+\begin_layout Standard
+מספר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+first_avoided
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ששומר את מספר המדינה הראשונה שתודפס על ידי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Avoided()
+\lang hebrew
+.
+ מאותחל להיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+מספר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+last_avoided
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ששומר את מספר המדינה האחרונה שתודפס על ידי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Avoided()
+\lang hebrew
+.
+ מאותחל להיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+N-1
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+ואת הפעולות:
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\numeric on
+1
+\numeric off
+.
+ 
+\lang english
+:Init
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+מאתחלת את המערכים
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+departures,arrivals
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\lang english
+avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+ כפי שנלמד בהרצאה.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+בשימוש הראשון בכל פוינטר ב
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\lang english
+arrivals
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ ,
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ הוא יאותחל לטיפוס מדינה המכיל את מספר המדינה, את כמות האנשים שרוצים לטוס
+ אליה, ושני פוינטרים על מנת ליצור רשימה דו כיוונית של מדינות
+\series default
+ 
+\series medium
+בעלות אותו מספר אנשים שרוצים לטוס אליהן.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\numeric on
+2
+\numeric off
+.
+\lang english
+Fly(j,i)
+\lang hebrew
+: 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+ניגשת ראשית ל
+\lang english
+departures[j]
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ומגדילה את ערכו ב
+\numeric on
+1
+\numeric off
+.
+ לאחר מכן ניגשת למדינה ב
+\lang english
+arrivals[i]
+\lang hebrew
+.
+ אם זו גישה ראשונה למדינה זו, היא תאותחל כמדינה עם המספר
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i
+\lang hebrew
+.
+ מספר ההצבעות יוגדל ב-
+\numeric on
+1
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+כעת נטפל בדירוג המדינה.
+ נסתכל על הדירוג המיידי הגבוה יותר, אם קיים.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+אם מספר ההצבעות של המדינות בדירוג הבא שווה למספר ההצבעות החדש של המדינה
+ לאחר שהועלה, נסיר את המדינה מרשימת המדינות בדירוגה הנוכחי.
+ זה יהיה אפשרי ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+ כיוון שנשתמש ברשימה דו כיוונית.
+ לאחר מכן נכניס אותה לראש הרשימה של הדירוג הבא, גם זה ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+ אם המדינה הייתה לבד בדירוג שלה נשחרר את הדירוג.
+\end_layout
+
+\begin_layout Standard
+אם מספר ההצבעות של המדינות בדירוג הבא גדול יותר או שאין דירוג יותר גבוה:
+\end_layout
+
+\begin_layout Standard
+אם המדינה היא היחידה בדירוג שלה, לא נעשה כלום.
+ הדירוג כעת ייצג את מספר ההצבעות החדש של המדינה.
+\end_layout
+
+\begin_layout Standard
+אם היו מדינות נוספות בדירוג, ניצור דירוג חדש שייצג את מספר ההצבעות החדש
+ של המדינה.
+ נחבר אותו לדירוג הישן של המדינה בתור הדירוג הבא בסידור.
+ אם הדירוג הישן היה הגבוה ביותר, נעביר את הפוינטר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+top
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+להצביע על הדירוג החדש.
+ אם היה דירוג גבוה יותר אבל לא היה ניתן להכניס את המדינה לתוכו, נחבר אותו
+ לדירוג שיצרנו בתור הדירוג הבא בתור.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\numeric on
+3
+\numeric off
+.
+\lang english
+Arrivals(i)
+\lang hebrew
+:
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+ניגשת לתא ה
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i
+\lang hebrew
+ במערך
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+arrivals
+\lang hebrew
+ ומחזירה את מספר ההצבעות של המדינה אליה הוא מצביע.
+ זו פשוט גישה למערך לפי אינדקס ולכן סיבוכיות הזמן היא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\numeric on
+4
+\series default
+\numeric off
+.
+\series medium
+\lang english
+Depatures(j)
+\series default
+\lang hebrew
+:
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+מחזירה את ערך התא ה
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+j
+\lang hebrew
+ במערך
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+depatures
+\lang hebrew
+.
+
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+זו פשוט גישה למערך לפי אינדקס ולכן סיבוכיות הזמן היא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\numeric on
+5
+\numeric off
+.
+\lang english
+Favored(k)
+\lang hebrew
+: 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+הפויינטר
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+top
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כאמור תמיד מצביע לדירוג הגבוה ביותר.
+ נעבור על רשימת המדינות בדירוג הזה, ונתחיל להדפיס אותן, עד שנדפיס
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+k
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ מדינות.
+ עבור כל דירוג שהדפסנו את כל המדינות בו לפני שסיימנו להדפיס 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+k
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מדינות, נעבור לדירוג הנמוך יותר אחריו ונמשיך.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+\numeric on
+6
+\numeric off
+.
+\lang english
+Avoided()
+\lang hebrew
+: 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+האיטרציה על המערך
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתבססת על העיקרון הבא: בכל פעם שמדינה מקבלת הצבעה ולא תהיה מודפסת על ידי
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Avoided()
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יותר, 
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+המדינה שלפניה והמדינה שאחריה בסדר הריצה על 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יאותחלו במערך
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אם הן לא היו מאותחלות עד עכשיו, ויחוברו ביניהן לרשימה דו כיוונית.
+ אם הן לא היו מאותחלות, אז הן ודאי באינדקס
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i-1
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+או
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+i+1
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בהתאמה, ולכן ניתן לאתחל את מספר המדינה של כל אחת מהן.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+כאשר נרוץ על המערך
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נעזר במשתנה
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+counter
+\lang hebrew
+.
+ בכל איטרציה של הפונקציה, החל מהאיבר הראשון,
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+counter
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יודפס.
+ אם האיבר במיקום
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+counter
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ לא מאותחל, או שאינו מחובר לאף מדינה אחרת, 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+counter
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יקודם באחד ויודפס שוב.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+אחרת, סימן שקיים רצף מדינות שקיבלו הצבעות החל מהאיבר הבא במערך, ולכן במקום
+ לעבור לאיבר הבא ב
+\lang english
+avoided
+\lang hebrew
+, נעבור לאיבר הבא ברשימה המחוברת לאיבר הנוכחי.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+הוא יהיה פוינטר למדינה הבאה שלא קיבלה הצבעות, ובהכרח יהיה מאותחל.
+ לכן נוכל לשנות את
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+counter
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לערך המדינה ששמור באיבר עצמו, להדפיס את
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+counter
+\lang hebrew
+, והתהליך חוזר חלילה, עד ש
+\lang english
+counter
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מגיע לערך
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+last_avoided
+\lang hebrew
+.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+אם בפונקציה
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Fly(j,i)
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתווספת הצבעה למדינה שעד עכשיו הייתה הראשונה בסדר הקריאה של
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Avoided()
+\lang hebrew
+,
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+first_avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יעבור לשמור את מספר האיבר הבא אחריו בסדר ההדפסה-
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+כלומר, מספר המדינה אליה מצביע מלפנים הפויינטר שעד עכשיו היה האיבר הראשון
+ בסדר ההדפסה אם הייתה מחוברת אליו מדינה, ו
+\lang english
+first_avoided+1
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אם לא.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+אם בפונקציה
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Fly(j,i)
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתווספת הצבעה למדינה שעד עכשיו הייתה האחרונה בסדר הקריאה של
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Avoided()
+\lang hebrew
+,
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+last_avoided
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+יעבור לשמור את מספר האיבר שלפניו בסדר ההדפסה-
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+כלומר, מספר המדינה אליה מצביע מאחור הפויינטר שעד עכשיו היה האיבר האחרון
+ בסדר ההדפסה אם הייתה מחוברת אליו מדינה, ו
+\lang english
+last_avoided-1
+\family roman
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אם לא.
+\end_layout
+
+\end_body
+\end_document
