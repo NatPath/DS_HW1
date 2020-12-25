@@ -1,0 +1,12 @@
+q1:
+nativ - odd
+ben - even
+q2:
+nativ - odd
+ben - even
+q3:
+hanging
+q4:
+nativ
+q5:
+ben

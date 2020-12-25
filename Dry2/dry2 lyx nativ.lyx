@@ -1,0 +1,1281 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+מבני נתונים - תרגיל יבש
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Subsection*
+סעיף א
+\end_layout
+
+\begin_layout Standard
+הפרכה:
+\end_layout
+
+\begin_layout Standard
+דוגמא נגדית:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q1 a fig.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הרשימה במצב ההתחלתי אפשרית, כאשר גם בהכנסת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו גם בהכנסת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נקבעה הוספה של רמה חדשה אחת.
+\end_layout
+
+\begin_layout Standard
+הסרה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמחק אותו מכל הרמות.
+\end_layout
+
+\begin_layout Standard
+הכנסה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בפעם השניה תוסיף אותו ברמה התחתונה, אך יתכן שבהגרלה האם יתווסף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+גם ברמה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+השניה , יוכרע לא להוסיף.
+\end_layout
+
+\begin_layout Subsection*
+סעיף ב
+\end_layout
+
+\begin_layout Standard
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+תהא רשימת דילוגים 
+\begin_inset Formula $S$
+\end_inset
+
+, ויהי 
+\begin_inset Formula $x\notin S$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+נבצע את הפעולה 
+\begin_inset Formula $insert(x)$
+\end_inset
+
+ ,כיוון ש
+\begin_inset Formula $x$
+\end_inset
+
+ לא היה ברשימה התחלתית, יתווסף לרמה תחתונה , לאחר מכן יוגרל האם להוסיף אותו
+ לרמות מעליו כפי שתואר בהרצאה.
+\end_layout
+
+\begin_layout Standard
+לכל מצב 
+\begin_inset Formula $S'$
+\end_inset
+
+ ) מצב הרשימה לאחר הכנסת 
+\begin_inset Formula $x$
+\end_inset
+
+ (, אם נבצע 
+\begin_inset Formula $delete(x)$
+\end_inset
+
+ , נמחק את 
+\begin_inset Formula $x$
+\end_inset
+
+ מכל הרמות בהן הוא מופיע ורק אותן.
+\end_layout
+
+\begin_layout Standard
+וכך נחזור למצב ההתחלתי של 
+\begin_inset Formula $S$
+\end_inset
+
+, בו לא מופיע 
+\begin_inset Formula $x$
+\end_inset
+
+ כלל, כאשר שאר האיברים מופיעים באותן רמות בהן הופיע כי לא התבצע לגביהן כל
+ שינוי.
+\end_layout
+
+\begin_layout Subsection*
+סעיף ג
+\end_layout
+
+\begin_layout Standard
+הפרכה :
+\end_layout
+
+\begin_layout Standard
+נגדיר סדרת עצי 
+\begin_inset Formula $AVL$
+\end_inset
+
+ באופן הבא:
+\end_layout
+
+\begin_layout Standard
+העץ 
+\begin_inset Formula $T_{i}$
+\end_inset
+
+ הוא עץ שמשמאלו עץ פיבונאצי ה 
+\begin_inset Formula $i-1$
+\end_inset
+
+ ומימינו עץ שלם בגובה 
+\begin_inset Formula $i-1$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+תת העץ השמאלי הוא עץ פיבונאצי,הוא עץ 
+\begin_inset Formula $AVL$
+\end_inset
+
+ וגובהו 
+\begin_inset Formula $i-1$
+\end_inset
+
+ כפי שראינו בהרצאה.
+\end_layout
+
+\begin_layout Standard
+תת העץ הימני הוא עץ שלם בגובה 
+\begin_inset Formula $i-1$
+\end_inset
+
+ , ולכן כל העלים נמצאים באותו עומק , מכאן ברור ש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+מדובר גם כן בעץ 
+\begin_inset Formula $AVL$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מכאן ש 
+\begin_inset Formula $BF$
+\end_inset
+
+ של השורש של 
+\begin_inset Formula $T_{i}$
+\end_inset
+
+ הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, והתתי עץ הימני והשמאלי שלו הם עצי 
+\begin_inset Formula $AVL$
+\end_inset
+
+ ולכן גם הוא עץ 
+\begin_inset Formula $AVL$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{L}$
+\end_inset
+
+ מקיים 
+\begin_inset Formula $|T_{L}|\underbrace{=}_{\text{4.6 in the auxiliary matirial}}n_{i+2}-1\underbrace{=}_{4.7}\Theta(\phi^{i-1})=\Theta(\phi^{i})$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $\phi$
+\end_inset
+
+ הוא יחס הזהב שהוא קטן ממש מ
+\numeric on
+1.7
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+\end_layout
+
+\begin_layout Standard
+ובפרט 
+\begin_inset Formula $|T_{L}|=O(\phi^{i})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{R}$
+\end_inset
+
+ מקיים 
+\begin_inset Formula $|T_{R}|=2^{i}-1$
+\end_inset
+
+ )ראינו בהרצאה, מתקבל על ידי סכימה של טור הנדסי כי בכל קומה פי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+צמתים מהקומה הקודמת (.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $\Theta(|T_{R}|)=\Theta(2^{i})$
+\end_inset
+
+ ,
+\end_layout
+
+\begin_layout Standard
+אבל 
+\begin_inset Formula $|T_{L}|=O(\phi^{i})$
+\end_inset
+
+ ולכן לא יתכן ש 
+\begin_inset Formula $|T_{L}|=\Omega(2^{i})$
+\end_inset
+
+ כפי שנדרש כדי שיתקיים 
+\begin_inset Formula $|T_{L}|=\Theta(2^{i})$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Subsection*
+סעיף ה
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Subsection*
+סעיף א
+\end_layout
+
+\begin_layout Standard
+נתאר את האלגוריתם עבור המקרה בו 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ הוא הגבוה מבין השניים ) המקרים בהם 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ גבוה או שגבהי העצים שווים עם רעיון דומה(.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+(נמצא את גובה 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ ונסמנו ב 
+\begin_inset Formula $h_{2}$
+\end_inset
+
+ .
+ )עלות 
+\begin_inset Formula $O(log(n_{2})$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+(נמצא את גובה 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ ונסמנו ב 
+\begin_inset Formula $h_{1}$
+\end_inset
+
+.
+ )עלות 
+\begin_inset Formula $O(log(n_{1})$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+( נמצא את העלה הגדול ביותר ב
+\begin_inset Formula $T_{1}$
+\end_inset
+
+, נסמן ערכו ב 
+\begin_inset Formula $t_{1,max}$
+\end_inset
+
+.
+ )עלות 
+\begin_inset Formula $O(log(n_{1})$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+4
+\numeric off
+( נעלה מ
+\begin_inset Formula $t_{1,max}$
+\end_inset
+
+ ,
+\begin_inset Formula $h_{2}$
+\end_inset
+
+ פעמים ונסמן את תת העץ של הצומת שהגענו אליה ב 
+\begin_inset Formula $K$
+\end_inset
+
+ .)עלות 
+\begin_inset Formula $O(log(n_{2})$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+5
+\numeric off
+(נעביר את הבן השמאלי של 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ ל 
+\begin_inset Formula $K$
+\end_inset
+
+ , תוך הוספה של 
+\begin_inset Formula $t_{1,max}$
+\end_inset
+
+ לערכי 
+\begin_inset Formula $K$
+\end_inset
+
+ כערך הימני ביותר )השמורה של סדר תתי העצים בעץ 
+\begin_inset Formula $2-3$
+\end_inset
+
+ נשמרת כי 
+\begin_inset Formula $t_{1,max}$
+\end_inset
+
+ גדול או שווה מכל הערכים בתת העץ הימני הקודם שהיה ב 
+\begin_inset Formula $K$
+\end_inset
+
+ כיוון שהוא הגדול בכל העץ באופן כללי(.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+6
+\numeric off
+( נבצע פיצול אם נדרש ונתקן את 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ כמו באלגוריתם הוספה רגיל.
+ בסוף התיקון יתכן שגובה העץ 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ גדל ב
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ .
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+8
+\numeric off
+( נחזור על שלבים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+-
+\numeric on
+7
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ עד שנעביר את כל הבנים של 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ ל 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ )לכל היותר 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פעמים(.
+\end_layout
+
+\begin_layout Standard
+במהלך התהליך שמרנו שב 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ כל העלים יהיו באותו גובה, כמו כן ששמורת ערכי הצמתים וסדר תתי העצים של עץ
+ 
+\begin_inset Formula $2-3$
+\end_inset
+
+ תשמר ולכן 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ בסוף האלגוריתם נשאר עץ 
+\begin_inset Formula $2-3$
+\end_inset
+
+ .
+ כל העלים של 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ עברו ל
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ הוא עץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2-3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ המכיל את כל הערכים של העצים 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ ו 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ביצענו מספר קבוע של פעולות שסיבוכיות כל פעולה היא 
+\begin_inset Formula $O(max\{log(n_{1}),log(n_{2})\})$
+\end_inset
+
+ ולכן סיבוכים האלגוריתם היא 
+\begin_inset Formula $O(max\{log(n_{1}),log(n_{2})\})$
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Subsection*
+סעיף ג
+\end_layout
+
+\end_body
+\end_document
