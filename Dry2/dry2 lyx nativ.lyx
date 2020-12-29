@@ -2628,6 +2628,7 @@
 \end_inset
 
 .
+ יחס הסדר יאפשר תיקון מידע כאשר יבוצעו גלגולים.
 \end_layout
 
 \begin_layout Standard
@@ -2661,8 +2662,12 @@
 \end_inset
 
  בצמתים שבמסלול החיפוש )אם התבצע גלגול בהכנסה ניתן לתקן את המידע הנוסף בהתאם
- כפי שנלמד בהרצאה כיוון שהמידע בכל צומת ניתן לשחזור את המידע הנוסף בעזרת
- הצמתים מימינו ומשמאלו והערך שלו עצמו (.
+ כפי שנלמד בהרצאה כיוון שהמידע בכל צומת ניתן לשחזור בעזרת המידע הנוסף בעזרת
+ הצמתים מימינו ומשמאלו )שבביצוע גלגול יחיד לא נפגמים ( וערך ה 
+\begin_inset Formula $sick$
+\end_inset
+
+ שלו עצמו.
 \end_layout
 
 \begin_layout Standard
@@ -2824,7 +2829,7 @@
 \begin_inset Formula $x.day$
 \end_inset
 
- ) כיוון שבצמתים מימינו שללנו שקיים יום שקטן 
+ ) כיוון שבצמתים מימינו שללנו קיום של יום שקטן מ 
 \begin_inset Formula $d$
 \end_inset
 
@@ -2845,11 +2850,16 @@
 \begin_inset Formula $x$
 \end_inset
 
- ולכן בעל יום קטן יותר, המשך המחסנית עבור מקרה זה מיותר(: החזר 
+ ולכן בעל יום קטן יותר, מעתה המשך המחסנית מיותר ולא נעבור עליה(: החזר 
 \begin_inset Formula $SearchLastDayBiggerThen(\text{x.left,v.sick\_today)}$
 \end_inset
 
-)פונקציית עזר שתוגדר בהמשך*(.
+)פונקציית עזר שתוגדר בהמשך*, פונקציה שבהכרח תחזיר תשובה כי היום שאותו אנחנו
+ מחפשים נמצא בתת העץ של 
+\begin_inset Formula $x.left$
+\end_inset
+
+(.
 \end_layout
 
 \begin_layout Standard
@@ -2994,7 +3004,34 @@
 \end_layout
 
 \begin_layout Standard
-נתמש
+נשתמש במבנה שהוגדר בסעיף א' , עצם היותו עץ דרגות יאפשר לנו לדעת אם הוכנסו
+ כל הימים בין שתי ימים בעזרת הפונקציה 
+\begin_inset Formula $rank$
+\end_inset
+
+ שנלמדה בהרצאות.
+ נעזר בפונקציה 
+\begin_inset Formula $WorseBefore$
+\end_inset
+
+ מסעיף קודם כדי לבדוק אם 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ הוא 
+\begin_inset Formula $WorseBefore$
+\end_inset
+
+ של 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ , ובהנתן המידע מ
+\begin_inset Formula $rank$
+\end_inset
+
+ של כמה ימים הוכנסו ביניהם נוכל לדעת איזה ערך להחזיר לפי דרישות הפונקציה.
+ 
 \end_layout
 
 \begin_layout Standard
