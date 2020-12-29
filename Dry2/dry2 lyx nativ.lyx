@@ -1191,10 +1191,10 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $QED$
+\begin_inset Formula $\blacksquare$
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Section*
@@ -2594,7 +2594,11 @@
 \begin_inset Formula $n$
 \end_inset
 
- - מספר העצים בתת העץ
+ - מספר הצמתים בתת העץ שהצומת היא שורשו )בשביל לאפשר פעולות בסיסיות של 
+\begin_inset Formula $\text{rank\_tree}$
+\end_inset
+
+ בהמשך.
 \end_layout
 
 \begin_layout Standard
@@ -2606,7 +2610,15 @@
 \begin_inset Formula $sick,day$
 \end_inset
 
- (.
+ ( כאשר 
+\begin_inset Formula $sick$
+\end_inset
+
+ הוא מספר החולים הגדול ביותר ו
+\begin_inset Formula $day$
+\end_inset
+
+ הוא היום בו זה קרה.
  נגדיר יחס סדר בין זוגות כאלה , קודם כל לפי האנדקס 
 \begin_inset Formula $sick$
 \end_inset
@@ -2737,7 +2749,7 @@
 
 \begin_layout Standard
 אם 
-\begin_inset Formula $\text{v.left->worst\_under.w>v.sick\_today}$
+\begin_inset Formula $\text{v.left->worst\_under.sick>v.sick\_today}$
 \end_inset
 
  )יש יום עם מספר חולים גדול יותר בתת העץ השמאלי של 
@@ -2826,7 +2838,7 @@
 
 \begin_layout Standard
 אחרת, אם 
-\begin_inset Formula $\text{x.left->worst\_under.w>v.sick\_today}$
+\begin_inset Formula $\text{x.left->worst\_under.sick>v.sick\_today}$
 \end_inset
 
  )יש יום עם מספר חולים גדול יותר בתת העץ השמאלי של 
@@ -2941,7 +2953,7 @@
 
 \begin_layout Standard
 פנה ימינה כל עוד 
-\begin_inset Formula $x.right->worst\_under.w>\text{sick\_num}$
+\begin_inset Formula $x.right->worst\_under.sick>\text{sick\_num}$
 \end_inset
 
  )יש בתת העץ הימני ימים עם מספר חולים גדול משל 
@@ -2976,6 +2988,22 @@
 \end_layout
 
 \begin_layout Standard
+
+\bar under
+הסבר בקצרה:
+\end_layout
+
+\begin_layout Standard
+נתמש
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+תשובה:
+\end_layout
+
+\begin_layout Standard
 נשתמש באותו מבנה מסעיף א ונוסיף את הפעולה 
 \begin_inset Formula $IsWorstSince(d_{1},d_{2})$
 \end_inset
@@ -2994,7 +3022,11 @@
 \begin_inset Formula $\text{res\_d=WorseBefore(d2)}$
 \end_inset
 
+ )נעשה ב
+\begin_inset Formula $O(logn)$
+\end_inset
 
+ (
 \end_layout
 
 \begin_layout Standard
@@ -3026,7 +3058,7 @@
 \begin_inset Formula $d_{1}$
 \end_inset
 
- הוא בכלל לא יום שמספר החולים בו גדול מב
+ הוא בכלל לא יום שמספר החולים בו גדול ממספר החולים ב
 \begin_inset Formula $d_{2}$
 \end_inset
 
@@ -3055,7 +3087,7 @@
 \begin_inset Formula $rank(d)$
 \end_inset
 
- , שתחזיר במקרה שלנו את מספר הימים עד 
+ כפי שנלמד בהרצאה ובתרגול , שתחזיר במקרה שלנו את מספר הימים עד 
 \begin_inset Formula $d$
 \end_inset
 
@@ -3088,6 +3120,32 @@
 \end_inset
 
  )כי יש ימים בין שני הימים שלא הוכנסו עדיין למערכת(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סיבוכיות:
+\end_layout
+
+\begin_layout Standard
+הפעולות הכבדות שמתבצעות ה 
+\begin_inset Formula $\text{WorseBefore}$
+\end_inset
+
+, ו 
+\begin_inset Formula $rank$
+\end_inset
+
+ , שתיהן נעשות ב 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ ולכן הסיבוכיות היא 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ .
 \end_layout
 
 \begin_layout Section*
@@ -3464,6 +3522,28 @@
 \end_layout
 
 \begin_layout Standard
+הסבר בקצרה:
+\end_layout
+
+\begin_layout Standard
+נשתמש במערך דינאמי שייצג את הקומות בהן יש עצירות, מההנחה של הקומה הגבוה
+ ביותר שהמעלית עתידה לעצור נובע )נוכיח זאת( ששההפרש בין שתי תחנות עוקבות
+ 
+\begin_inset Quotes eld
+\end_inset
+
+לא רחוק
+\begin_inset Quotes erd
+\end_inset
+
+ בדר
+\begin_inset Quotes erd
+\end_inset
+
+כ ובגלל תכונה זו נעמוד בסיבוכיות המשוערכת.
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 הגדרת המבנה
@@ -3501,7 +3581,7 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\text{stop\_level\_arr }$
+\begin_inset Formula $\text{stop\_level\_arr}$
 \end_inset
 
 
@@ -3517,7 +3597,7 @@
 \uwave off
 \noun off
 \color none
- - 
+ - מערך
 \family default
 \series default
 \shape default
@@ -3530,11 +3610,7 @@
 \uwave default
 \noun default
 \color inherit
-מערך דינמי של בוליאנים בגודל 
-\begin_inset Formula $2*\text{num\_of\_stops}$
-\end_inset
-
-, במקומות בהן יש עצירה יסומן
+ דינמי של בוליאנים , במקומות בהן יש תחנת עצירה יסומן
 \family roman
 \series medium
 \shape up
@@ -3592,7 +3668,7 @@
 0
 \numeric off
 .
- באופן דיפולטיבי ערכי המערך יהיו
+ באופן דיפולטיבי הערכים יהיו
 \family roman
 \series medium
 \shape up
@@ -3622,6 +3698,18 @@
 0
 \numeric off
 .
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{arr\_size}$
+\end_inset
+
+ - גודל המערך 
+\begin_inset Formula $\text{stop\_level\_arr}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -3639,7 +3727,7 @@
 
 \begin_layout Standard
 אתחול המערך 
-\begin_inset Formula $\text{stop\_level\_arr }$
+\begin_inset Formula $\text{stop\_level\_arr}$
 \end_inset
 
  למערך בגודל
@@ -3669,7 +3757,7 @@
 \uwave default
 \noun default
 \color inherit
-1
+2
 \family roman
 \series medium
 \shape up
@@ -3715,12 +3803,48 @@
 \end_layout
 
 \begin_layout Standard
-הגדלת המערך 
+\begin_inset Formula $\text{num\_of\_stops++}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\text{2*num\_of\_stops>=arr\_size}$
+\end_inset
+
+ : הגדל את המערך 
 \begin_inset Formula $\text{stop\_level\_arr}$
 \end_inset
 
- ב
+פי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
 \numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
 2
 \family roman
 \series medium
@@ -3748,8 +3872,8 @@
 \uwave default
 \noun default
 \color inherit
-מהסוף והשמה במקומות הנוספים את הערך 
-\begin_inset Formula $0$
+.)נשמור על גודל המערך תמיד גדול או שווה ל
+\begin_inset Formula $2*num\_of\_stops$
 \end_inset
 
  .
@@ -3769,13 +3893,6 @@
 
 \begin_layout Standard
 \begin_inset Formula $\text{stop\_level\_arr[k]=1}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\text{num\_of\_stops++}$
 \end_inset
 
 
@@ -3805,7 +3922,7 @@
 \begin_inset Formula $\text{stop\_level\_arr}$
 \end_inset
 
- המאיבר ה 
+ מהאיבר ה 
 \begin_inset Formula $\text{level}$
 \end_inset
 
@@ -3879,6 +3996,18 @@
 \end_layout
 
 \begin_layout Standard
+)סיבוכיות הפעולה היא 
+\begin_inset Formula $O(n_{i})$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $n_{i}$
+\end_inset
+
+ הוא ההפרש בין הקומה הקודמת לבאה( 
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 ניתוח סיבוכיות זמן משוערכת :
@@ -3914,27 +4043,85 @@
 \begin_inset Formula $\frac{T}{m}=O(1)$
 \end_inset
 
+ולכן הסיבוכיות המשוערכת לפעולה תהיה 
+\begin_inset Formula $O(1)$
+\end_inset
+
 .
 \end_layout
 
 \begin_layout Standard
-נקבע מחיר משוערך ל 
-\begin_inset Formula $\text{AddStop(k)}$
+נסמן מספר פעולות 
+\begin_inset Formula $AddStop$
 \end_inset
 
- להיות 
-\begin_inset Formula $2$
+ ב 
+\begin_inset Formula $a$
 \end_inset
 
- .)בעוד שהמחיר האמיתי שלה הוא 
-\begin_inset Formula $1$
+ ו מספר פעולות 
+\begin_inset Formula $NextStop$
 \end_inset
 
-, הפעולה מתבצעת בזמן קבוע(.
+ ב 
+\begin_inset Formula $n$
+\end_inset
+
+ כך ש :
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $T=\sum_{i=1}$
+\begin_inset Formula $m=n+a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+העלות הכוללת של פעולות 
+\begin_inset Formula $n$
+\end_inset
+
+ היא 
+\begin_inset Formula $\sum_{i=1}^{n}n_{i}\leq2a=O(a)$
+\end_inset
+
+ , כיוון שסכום ההפרשים בין שתי קומות הוא לכל היותר 
+\begin_inset Formula $2a$
+\end_inset
+
+ )מהנתון שהקומה הבאה שנקראת תמיד קטנה ממספר הפעמים שהוכנסו קומות חדשות(
+ ו
+\begin_inset Formula $n_{i}$
+\end_inset
+
+ הוא ההפרש בין שתי קומות עוקבות .
+\end_layout
+
+\begin_layout Standard
+העלות המשוערכת של פעולות 
+\begin_inset Formula $a$
+\end_inset
+
+ היא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ כפי שנלמד בהרצאה )הכנסה למערך דינמי, ההגדלה של המערך מחושבת במחיר ( ולכן
+ עלות סך פעולות מסוג 
+\begin_inset Formula $a$
+\end_inset
+
+הוא 
+\begin_inset Formula $\sum_{i=1}^{a}a_{i}=O(a)$
+\end_inset
+
+ גם כן.
+\end_layout
+
+\begin_layout Standard
+מכאן ש 
+\begin_inset Formula $T=\sum_{i=1}^{n}n_{i}+\sum_{i=1}^{a}a_{i}=O(a)+O(a)\underbrace{=}_{a\leq m}O(m)$
 \end_inset
 
 
