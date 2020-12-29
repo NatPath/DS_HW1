@@ -1,0 +1,6198 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "David"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+מבני נתונים - תרגיל יבש
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Subsection*
+סעיף א
+\end_layout
+
+\begin_layout Standard
+הפרכה:
+\end_layout
+
+\begin_layout Standard
+דוגמא נגדית:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q1 a fig.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הרשימה במצב ההתחלתי אפשרית, כאשר גם בהכנסת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו גם בהכנסת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נקבעה הוספה של רמה חדשה אחת.
+\end_layout
+
+\begin_layout Standard
+הסרה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תמחק אותו מכל הרמות.
+\end_layout
+
+\begin_layout Standard
+הכנסה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בפעם השניה תוסיף אותו ברמה התחתונה, אך יתכן שבהגרלה האם יתווסף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+גם ברמה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+השניה , יוכרע לא להוסיף.
+\end_layout
+
+\begin_layout Subsection*
+סעיף ב
+\end_layout
+
+\begin_layout Standard
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+תהי 
+\begin_inset Formula $S$
+\end_inset
+
+ רשימת דילוגים אקראית כך שעבור 
+\begin_inset Formula $x$
+\end_inset
+
+ מסוים, מתקיים 
+\begin_inset Formula $x\notin S$
+\end_inset
+
+.
+ ברגע מסוים ל
+\begin_inset Formula $S$
+\end_inset
+
+ יש 
+\begin_inset Formula $n$
+\end_inset
+
+ רמות, כך שבאף רמה לא מופיע האיבר 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ לאחר הפעולה 
+\begin_inset Formula $insert(x)$
+\end_inset
+
+, האיבר 
+\begin_inset Formula $x$
+\end_inset
+
+ מתווסף לרמה התחתונה ולמספר אקראי של רמות מעליה.
+\end_layout
+
+\begin_layout Standard
+לאחר הפעולה 
+\begin_inset Formula $delete(x)$
+\end_inset
+
+, האיבר 
+\begin_inset Formula $x$
+\end_inset
+
+ מוסר 
+\series bold
+מכל
+\series default
+ הרמות בהן הוא מופיע, ללא תלות באילו רמות נבחרו אקראית.
+ הסרה של איבר מרשימה מתבצעת על ידי חיבור של האיברים מלפניו ומאחוריו - איברים
+ אילו היו קיימים לפני הוספת 
+\begin_inset Formula $x$
+\end_inset
+
+ והוא הוסף ביניהם.
+\end_layout
+
+\begin_layout Standard
+לכן, הסרת 
+\begin_inset Formula $x$
+\end_inset
+
+ מחברת מחדש ביניהם ומחזירה אותם למצב ההתחלתי בלי להשפיע על איברים אחרים
+ ב
+\begin_inset Formula $S$
+\end_inset
+
+.
+ בנוסף, האיבר 
+\begin_inset Formula $x$
+\end_inset
+
+ שלא היה קיים ב
+\begin_inset Formula $S$
+\end_inset
+
+ לפני הוספתו מוסר ממנה לחלוטין, ולכן 
+\begin_inset Formula $S$
+\end_inset
+
+ חוזרת למצבה ההתחלתי עם ההנחה כי רמה עליונה שאולי נוצרה על ידי הוספת 
+\begin_inset Formula $x$
+\end_inset
+
+ תימחק בהסרתו.
+\end_layout
+
+\begin_layout Standard
+כלומר 
+\begin_inset Formula $S$
+\end_inset
+
+ לא משתנה על ידי רצף הפעולות 
+\begin_inset Formula $insert(x)$
+\end_inset
+
+ ואז 
+\begin_inset Formula $delete(x)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+סעיף ג
+\end_layout
+
+\begin_layout Standard
+הפרכה :
+\end_layout
+
+\begin_layout Standard
+נראה דוגמא נגדית בעזרת מקרה הקצה של עץ פיבונאצ'י משמאל ועץ שלם מימין.
+\end_layout
+
+\begin_layout Standard
+נגדיר סדרת עצי 
+\begin_inset Formula $AVL$
+\end_inset
+
+ באופן הבא:
+\end_layout
+
+\begin_layout Standard
+העץ 
+\begin_inset Formula $T_{i}$
+\end_inset
+
+ הוא עץ שמשמאלו עץ פיבונאצי ה 
+\begin_inset Formula $i-1$
+\end_inset
+
+ ומימינו עץ שלם בגובה 
+\begin_inset Formula $i-1$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+תת העץ השמאלי הוא עץ פיבונאצי,הוא עץ 
+\begin_inset Formula $AVL$
+\end_inset
+
+ וגובהו 
+\begin_inset Formula $i-1$
+\end_inset
+
+ כפי שראינו בהרצאה.
+\end_layout
+
+\begin_layout Standard
+תת העץ הימני הוא עץ שלם בגובה 
+\begin_inset Formula $i-1$
+\end_inset
+
+ , ולכן כל העלים נמצאים באותו עומק , מכאן ברור ש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+מדובר גם כן בעץ 
+\begin_inset Formula $AVL$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מכאן ש 
+\begin_inset Formula $BF$
+\end_inset
+
+ של השורש של 
+\begin_inset Formula $T_{i}$
+\end_inset
+
+ הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, והתתי עץ הימני והשמאלי שלו הם עצי 
+\begin_inset Formula $AVL$
+\end_inset
+
+ ולכן גם הוא עץ 
+\begin_inset Formula $AVL$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{L}$
+\end_inset
+
+ מקיים 
+\begin_inset Formula $|T_{L}|\underbrace{=}_{\text{4.6 in the auxiliary matirial}}n_{i+2}-1\underbrace{=}_{4.7}\Theta(\phi^{i-1})=\Theta(\phi^{i})$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $\phi$
+\end_inset
+
+ הוא יחס הזהב שהוא קטן ממש מ
+\numeric on
+1.7
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.
+\end_layout
+
+\begin_layout Standard
+ובפרט 
+\begin_inset Formula $|T_{L}|=O(\phi^{i})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{R}$
+\end_inset
+
+ מקיים 
+\begin_inset Formula $|T_{R}|=2^{i}-1$
+\end_inset
+
+ )ראינו בהרצאה, מתקבל על ידי סכימה של טור הנדסי כי בכל קומה פי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+צמתים מהקומה הקודמת (.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $\Theta(|T_{R}|)=\Theta(2^{i})$
+\end_inset
+
+ ,
+\end_layout
+
+\begin_layout Standard
+אבל 
+\begin_inset Formula $|T_{L}|=O(\phi^{i})$
+\end_inset
+
+ ולכן לא יתכן ש 
+\begin_inset Formula $|T_{L}|=\Omega(2^{i})$
+\end_inset
+
+ כפי שנדרש כדי שיתקיים 
+\begin_inset Formula $|T_{L}|=\Theta(2^{i})$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Subsection*
+סעיף ד 
+\end_layout
+
+\begin_layout Standard
+הפרכה:
+\end_layout
+
+\begin_layout Standard
+נראה דוגמה נגדית.
+ יהיו 
+\begin_inset Formula $A,B$
+\end_inset
+
+ שני עצי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2-3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ בני 
+\begin_inset Formula $n$
+\end_inset
+
+ צמתים כל אחד, כך שעבור העץ 
+\begin_inset Formula $A$
+\end_inset
+
+, לכל צומת שאינו עלה יש בדיוק 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בנים, ועבור העץ 
+\begin_inset Formula $B$
+\end_inset
+
+ לכל צומת שאינו עלה יש בדיוק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בנים.
+\end_layout
+
+\begin_layout Standard
+שני עצים אלו הם עצי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2-3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+חוקיים העלולים להיווצר.
+\end_layout
+
+\begin_layout Standard
+עבור העץ 
+\begin_inset Formula $A$
+\end_inset
+
+, בכל רמה יש מספר כפול של צמתים מאשר ברמה הקודמת, ולכן גובה העץ הוא בדיוק
+ 
+\begin_inset Formula $\lceil log_{2}(n)\rceil$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+באופן דומה, עבור העץ 
+\begin_inset Formula $B$
+\end_inset
+
+ בכל רמה יש פי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+צמתים מאשר ברמה הקודמת ולכן גובה העץ הוא בדיוק 
+\begin_inset Formula $\lceil log_{3}(n)\rceil$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן אם נסתכל על הפרש הגבהים של השורש של כל עץ, נראה כי הוא שווה ל 
+\begin_inset Formula $\lceil log_{2}(n)\rceil-\lceil log_{3}(n)\rceil$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $D(n)$
+\end_inset
+
+, הפרש הגבהים המקסימלי בין העצים, מקיים 
+\begin_inset Formula $D(n)\geq\lceil log_{2}(n)\rceil-\lceil log_{3}(n)\rceil$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה כי 
+\begin_inset Formula $D(n)=O(1)$
+\end_inset
+
+.
+ אז קיימים 
+\begin_inset Formula $n_{0},c>0$
+\end_inset
+
+ כך שלכל 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\lceil log_{2}(n)\rceil-\lceil log_{3}(n)\rceil\leq D(n)\leq c
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+כלומר, גם עבור 
+\begin_inset Formula $n'=\max\{n_{0}+1,2^{10^{c}}+1\}>n_{0}$
+\end_inset
+
+ מתקיים:
+\begin_inset Formula 
+\[
+log_{2}(2^{10^{c}})-log_{3}(2^{10^{c}})\leq log_{2}(n')-log_{3}(n')\leq\lceil log_{2}(n')\rceil-\lceil log_{3}(n')\rceil\leq D(n')\leq c
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אבל 
+\begin_inset Formula $log_{3}(2^{10^{c}})=\frac{log_{2}(2^{10^{c}})}{log_{2}(3)}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $log_{2}(3)>1.5$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $log_{3}(2^{10^{c}})<\frac{log_{2}(2^{10^{c}})}{1.5}$
+\end_inset
+
+ כלומר: 
+\begin_inset Formula 
+\[
+log_{2}(2^{10^{c}})-log_{3}(2^{10^{c}})>log_{2}(2^{10^{c}})-\frac{2}{3}log_{2}(2^{10^{c}})=10log_{2}(2^{c})-\frac{20}{3}log_{2}(2^{c})=10c-\frac{20}{3}c=\frac{10}{3}c
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+סה
+\begin_inset Quotes erd
+\end_inset
+
+כ נקבל:
+\begin_inset Formula 
+\[
+c<\frac{10}{3}c<log_{2}(2^{10^{c}})-log_{3}(2^{10^{c}})\leq D(n')\leq c
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כלומר 
+\begin_inset Formula $c<c$
+\end_inset
+
+ בסתירה, ולכן 
+\begin_inset Formula $D(n)\neq O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+סעיף ה
+\end_layout
+
+\begin_layout Standard
+תקציר הוכחה:
+\end_layout
+
+\begin_layout Standard
+נראה שחסם עליון לזמן שלוקח ל
+\begin_inset Formula $m$
+\end_inset
+
+ פעולות עוקב הוא 
+\begin_inset Formula $O(m)$
+\end_inset
+
+ ולכן הזמן המשוערך לפעולה אחת הוא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה שמספר הצמתים בהם אנו עוברים במהלך 
+\begin_inset Formula $m$
+\end_inset
+
+ פעולות העוקב הוא 
+\begin_inset Formula $O(m)$
+\end_inset
+
+ ובכל צומת שאנו עוברים בה עושים 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ פעולות בזמן קבוע ומכאן שהזמן לסך הפעולות הוא 
+\begin_inset Formula $O(m)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+תהא הצומת הכי נמוכה שמתחתיה נמצאים 
+\begin_inset Formula $m$
+\end_inset
+
+ הצמתים הכי קטנים בעץ )הכוונה היא לשורש של העץ , ושהוא גם חלק מה
+\begin_inset Formula $m$
+\end_inset
+
+ הצמתים(, נסמן את תת העץ שהשורש שלו היא הצומת הזאת ב
+\begin_inset Formula $T'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נראה שגובה העץ 
+\begin_inset Formula $T'$
+\end_inset
+
+ הוא 
+\begin_inset Formula $O(logm)$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+כיוון ש בתת העץ השמאלי של 
+\begin_inset Formula $T'$
+\end_inset
+
+ יש לכל היותר 
+\begin_inset Formula $m$
+\end_inset
+
+ צמתים, גובה תת העץ השמאלי הוא 
+\begin_inset Formula $O(logm)$
+\end_inset
+
+ וכיוון שהעץ 
+\begin_inset Formula $T'$
+\end_inset
+
+ הוא עץ 
+\begin_inset Formula $AVL$
+\end_inset
+
+ מתקיים שתת העץ הימני הוא בגובה של לכל היותר 
+\begin_inset Formula $O(logm)=O(logm)+1$
+\end_inset
+
+ ומכאן שגובה תת העץ 
+\begin_inset Formula $T'$
+\end_inset
+
+ הוא 
+\begin_inset Formula $O(logm)+1=O(logm)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+במהלך הסיור נעבור על 
+\begin_inset Formula $M$
+\end_inset
+
+ צמתים כאשר 
+\begin_inset Formula $M=m+d$
+\end_inset
+
+ ,כאשר 
+\begin_inset Formula $d$
+\end_inset
+
+ הוא מספר הצמתים שאנו עוברים דרכם אך הן לא חלק מ
+\begin_inset Formula $m$
+\end_inset
+
+ הצמתים הקטנים ביותר.
+\end_layout
+
+\begin_layout Standard
+נגדיר 
+\begin_inset Quotes eld
+\end_inset
+
+צומת מיותרת
+\begin_inset Quotes erd
+\end_inset
+
+ כצומת שאנו עוברים במהלך הסיור אבל היא לא מ
+\begin_inset Formula $m$
+\end_inset
+
+ הצמתים הקטנים ביותר.
+\end_layout
+
+\begin_layout Standard
+בכל צומת בה אנו עוברים נעשות לכל היותר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פעולות )מעבר לצומת שמאלית, ביצוע הפעולה על הצומת, מעבר לצומת ימנית(, לכן
+ הזמן שלוקח לביצוע 
+\begin_inset Formula $m$
+\end_inset
+
+ הפעולות הוא 
+\begin_inset Formula $t=O(m)+O(d)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+נראה ש 
+\begin_inset Formula $d$
+\end_inset
+
+ הוא 
+\begin_inset Formula $\text{O(h)}=O(logm)$
+\end_inset
+
+, כאשר 
+\begin_inset Formula $h$
+\end_inset
+
+ הוא גובה העץ 
+\begin_inset Formula $T'$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+בכל צומת מיותרת אנו עושים רק פעולה אחת שהיא פניה שמאלה כדי לעבור על צמתים
+ עם מפתחות קטנים ממנה הנמצאים משמאלה.
+ הצמתים מימינה לא יהיו חלק מהסיור כי היא בעצמה צומת שגדולה מ 
+\begin_inset Formula $m$
+\end_inset
+
+ ולכן אין בתת העץ הימני שלה צמתים קטנים או שווים מ
+\begin_inset Formula $m$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+נראה שבכל רמה בעץ 
+\begin_inset Formula $T'$
+\end_inset
+
+ יש לכל היותר צומת מיותרת אחת:
+\end_layout
+
+\begin_layout Standard
+נניח בשלילה שיש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+צמתים מיותרות באותה רמה שעוברים עליהן בלי להדפיס אותם, שתי הצמתים באותו
+ עץ ולכן יש להן אב קדמון מינימלי המשותף לשתיהן כאשר אחת הצמתים נמצאת בתת
+ העץ הימני שלו ואחת בתת העץ השמאלי שלו.
+ 
+\end_layout
+
+\begin_layout Standard
+אם צומת האב המשותפת היא לא מיותרת, אז הצומת בתת העץ השמאלי היא גם לא מיותרת
+ כי )היא מ 
+\begin_inset Formula $m$
+\end_inset
+
+ הצמתים הקטנים ביותר( וזאת סתירה לכך שהצומת השמאלית מיותרת.
+\end_layout
+
+\begin_layout Standard
+אם צומת האב המשותפת מיותרת, אין סיבה שנסייר בצומת הנמצאת מימינה ולכן גם
+ זו סתירה.
+\end_layout
+
+\begin_layout Standard
+מכאן ש 
+\begin_inset Formula $d\leq h=O(h)=O(logm)$
+\end_inset
+
+ ולכן 
+\end_layout
+
+\begin_layout Standard
+סיבוכיות הזמן של 
+\begin_inset Formula $m$
+\end_inset
+
+ הפעולות היא
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t=O(m)+O(d)=O(m)+O(logm)=O(m)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+ולפי הגדרת סיבוכיות משוערכת , פעולה אחת מ
+\begin_inset Formula $m$
+\end_inset
+
+ הפעולות היא 
+\begin_inset Formula $O(\frac{m}{m})=O(1)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\blacksquare$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Subsection*
+סעיף א
+\end_layout
+
+\begin_layout Standard
+הסבר בקצרה:
+\end_layout
+
+\begin_layout Standard
+נעביר את תתי העצים של העץ הקטן לעץ הגדול דרך העברת העצים אחד אחד)סה
+\begin_inset Quotes erd
+\end_inset
+
+כ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לכל היותר( ל
+\begin_inset Quotes erd
+\end_inset
+
+צומת קיצונית
+\begin_inset Quotes erd
+\end_inset
+
+ מתאימה באותו גובה בעץ הגדול.
+\end_layout
+
+\begin_layout Standard
+תשובה:
+\end_layout
+
+\begin_layout Standard
+נתאר את האלגוריתם עבור המקרה בו 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ הוא הגבוה מבין השניים ) המקרים בהם 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ גבוה או שגבהי העצים שווים עם רעיון דומה(.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+(נמצא את גובה 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ ונסמנו ב 
+\begin_inset Formula $h_{2}$
+\end_inset
+
+ .
+ )עלות 
+\begin_inset Formula $O(log(n_{2})$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+(נמצא את גובה 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ ונסמנו ב 
+\begin_inset Formula $h_{1}$
+\end_inset
+
+.
+ )עלות 
+\begin_inset Formula $O(log(n_{1})$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+3
+\numeric off
+( נמצא את העלה הגדול ביותר ב
+\begin_inset Formula $T_{1}$
+\end_inset
+
+, נסמן ערכו ב 
+\begin_inset Formula $t_{1,max}$
+\end_inset
+
+.
+ )עלות 
+\begin_inset Formula $O(log(n_{1})$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+4
+\numeric off
+( נעלה מ
+\begin_inset Formula $t_{1,max}$
+\end_inset
+
+ ,
+\begin_inset Formula $h_{2}$
+\end_inset
+
+ פעמים ונסמן את תת העץ של הצומת שהגענו אליה ב 
+\begin_inset Formula $K$
+\end_inset
+
+ .)עלות 
+\begin_inset Formula $O(log(n_{2})$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+5
+\numeric off
+(נעביר את הבן השמאלי של 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ ל 
+\begin_inset Formula $K$
+\end_inset
+
+ , תוך הוספה של 
+\begin_inset Formula $t_{1,max}$
+\end_inset
+
+ לערכי 
+\begin_inset Formula $K$
+\end_inset
+
+ כערך הימני ביותר )השמורה של סדר תתי העצים בעץ 
+\begin_inset Formula $2-3$
+\end_inset
+
+ נשמרת כי 
+\begin_inset Formula $t_{1,max}$
+\end_inset
+
+ גדול או שווה מכל הערכים בתת העץ הימני הקודם שהיה ב 
+\begin_inset Formula $K$
+\end_inset
+
+ כיוון שהוא הגדול בכל העץ באופן כללי(.
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+6
+\numeric off
+( נבצע פיצול אם נדרש ונתקן את 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ כמו באלגוריתם הוספה רגיל.
+ בסוף התיקון יתכן שגובה העץ 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ גדל ב
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ .
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+8
+\numeric off
+( נחזור על שלבים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+-
+\numeric on
+7
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ עד שנעביר את כל הבנים של 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ ל 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ )לכל היותר 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פעמים, כמספר התתי עצים האפשריים לשורש של 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ מעצם היותו עץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2-3
+\numeric off
+(.
+\end_layout
+
+\begin_layout Standard
+במהלך התהליך שמרנו שב 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ כל העלים יהיו באותו גובה, כמו כן ששמורת ערכי הצמתים וסדר תתי העצים של עץ
+ 
+\begin_inset Formula $2-3$
+\end_inset
+
+ תשמר ולכן 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ בסוף האלגוריתם נשאר עץ 
+\begin_inset Formula $2-3$
+\end_inset
+
+ .
+ כל העלים של 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ עברו ל
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ ולכן 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ הוא עץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2-3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ המכיל את כל הערכים של העצים 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ ו 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נציין כי גובה העץ המאוחד הוא לכל היותר גבוה ב
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מגובהו המקסימלי מבין שני העצים, זאת ככיוון שפיצול של השורש של העץ הנוצר
+ יכול להתבצע בשלב שקורה רק
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פעמים, ואם התבצע איחוד בשלב כלשהו בשניים הבאים אחריו לא יקרה עוד פיצול)כי
+ אחרי הפיצול ידרשו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הוספות לפחות כדי להגדיל את מספר הערכים בשורש מ
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ל
+\numeric on
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+,ומצב זה לא דורש פיצול אלה רק אם מספר הערכים בשורש מגיע ל
+\numeric on
+3
+\numeric off
+( .
+\end_layout
+
+\begin_layout Standard
+ביצענו מספר קבוע של פעולות שסיבוכיות כל פעולה היא 
+\begin_inset Formula $O(max\{log(n_{1}),log(n_{2})\})$
+\end_inset
+
+ ולכן סיבוכים האלגוריתם היא 
+\begin_inset Formula $O(max\{log(n_{1}),log(n_{2})\})$
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Subsection*
+סעיף ב
+\end_layout
+
+\begin_layout Standard
+נניח בה
+\begin_inset Quotes erd
+\end_inset
+
+כ כי 
+\begin_inset Formula $h_{2}>h_{1}$
+\end_inset
+
+.
+ נרצה למזג את 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ לתוך 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ על ידי הוספת השורש של 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ במיקום מתאים ב 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+.
+ נרצה שכל העלים של העץ החדש יהיו באותה רמה, ולכן נרצה שהשורש של 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ יוצב בעומק 
+\begin_inset Formula $h_{2}-h_{1}$
+\end_inset
+
+ בעץ.
+ 
+\end_layout
+
+\begin_layout Standard
+כל הצמתים ב
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ קטנים מכל הצמתים ב
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ ולכן נלך שמאלה מתי שאפשר כדי להגיע לצומת המינימלי בעץ 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ בעומק 
+\begin_inset Formula $h_{2}-h_{1}$
+\end_inset
+
+.
+ מספר הפעולות על מנת להגיע לצומת זה הוא 
+\begin_inset Formula $O(h_{2}-h_{1})$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+על מנת להציב את השורש של 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+בעומק זה, נוסיף אותו כבן של ההורה של הצומת שמצאנו.
+ בהורה נצטרך להוסיף אינקדס חדש שיהיה אינדקס השמאלי.
+ נתון 
+\begin_inset Formula $M$
+\end_inset
+
+ הצומת המקסימלי ב 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ו 
+\begin_inset Formula $m$
+\end_inset
+
+ הצומת המינימלי ב
+\begin_inset Formula $T_{2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+ניקח 
+\begin_inset Formula $m<k\leq M$
+\end_inset
+
+ כלשהו שישמש כאינקדס - הוא גדול ממש מכל צומת בתת העץ השמאלי החדש שאנחנו
+ מוסיפים כיוון שזה 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ וקטן או שווה לצמתים בשאר הבנים כיוון שהם היו במקור ב
+\begin_inset Formula $T_{2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+כמו בהוספה רגילה לעץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2-3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, אם השורש התווסף כאח ל
+\numeric on
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בנים, יופר אחד מהתנאים לקיום עץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2-3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ולכן נידרש לפצל צמתים במסלול מהצומת החדש שהוספנו למעלה אל השורש של 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+, כלומר לכל היותר 
+\begin_inset Formula $h_{2}-h_{1}$
+\end_inset
+
+ פיצולים שכל אחד מהם מתבצע ב 
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+נשים לב כי אם 
+\begin_inset Formula $h_{2}=h_{1}$
+\end_inset
+
+ אין צומת מעל המיקום בו נרצה להציב את השורש של 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ ולכן ניצור שורש חדש לעץ הממוזג, שיכלול רק את האינדקס 
+\begin_inset Formula $k$
+\end_inset
+
+.
+ בנו השמאלי יהיה השורש של 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ ובנו הימני יהיה השורש המקורי של 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן גם כאשר 
+\begin_inset Formula $h_{2}-h_{1}$
+\end_inset
+
+ מתבצעות פעולות ולכן סיבוכיות המיזוג היא 
+\begin_inset Formula $O(h_{2}-h_{1}+1)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+הפעולה תפעל באופן זהה גם אם 
+\begin_inset Formula $h_{1}>h_{2}$
+\end_inset
+
+, למעט ש
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ יתמזג ל
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ מצידו הימני, ו
+\begin_inset Formula $k$
+\end_inset
+
+ יצטרף כאינקדס ימני בצומת אליו הוא מתווסף.
+\end_layout
+
+\begin_layout Standard
+מהתייחסות לשני המקרים נובע כי סיבוכיות המיזוג תהיה 
+\begin_inset Formula $O(|h_{2}-h_{1}|+1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+סעיף ג
+\end_layout
+
+\begin_layout Standard
+רעיון ההוכחה:
+\end_layout
+
+\begin_layout Standard
+נאחד זוגות עצים באופן הבא: 
+\end_layout
+
+\begin_layout Standard
+נאחד)בעזרת הפעולה 
+\begin_inset Formula $Join$
+\end_inset
+
+ מסעיף ב' שהנחותיה מתקיימיות( את 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ עם 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ ונסמן את העץ המאוחד ב 
+\begin_inset Formula $T_{1}'$
+\end_inset
+
+ , נאחד את 
+\begin_inset Formula $T_{3}$
+\end_inset
+
+ עם 
+\begin_inset Formula $T_{1}'$
+\end_inset
+
+ ונסמן את העץ המאוחד ב
+\begin_inset Formula $T_{2}'$
+\end_inset
+
+ , נאחד את 
+\begin_inset Formula $T_{4}$
+\end_inset
+
+ עם 
+\begin_inset Formula $T_{2}'$
+\end_inset
+
+ ונסמן את העץ המאוחד ב 
+\begin_inset Formula $T_{3}'$
+\end_inset
+
+ ,..., נמשיך כך עד שנאחד את העץ ה
+\begin_inset Formula $T_{k}$
+\end_inset
+
+ עם העץ 
+\begin_inset Formula $T_{k-2}'$
+\end_inset
+
+ ונסמן ב 
+\begin_inset Formula $T$
+\end_inset
+
+ את העץ המאוחד הכולל, עץ 
+\begin_inset Formula $2-3$
+\end_inset
+
+ המכיל את כל המפתחות של כל העצים.
+ תנאי הסיבוכיות יתקיים בגלל שיווצר טור טלסקופי של הפרשי הגבהים שיתכנס ל
+\begin_inset Formula $h_{k}-h_{1}$
+\end_inset
+
+,הסיבוכיות תהיה 
+\begin_inset Formula $h_{k}-h_{1}+k$
+\end_inset
+
+ כי בוצעו 
+\begin_inset Formula $k-1$
+\end_inset
+
+ פעולות כאלה .
+\end_layout
+
+\begin_layout Standard
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+1
+\numeric off
+(
+\end_layout
+
+\begin_layout Standard
+נאחד את 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ו 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ בעזרת הפעולה 
+\begin_inset Formula $Join$
+\end_inset
+
+ שהנחותיה מתקיימות כי 
+\begin_inset Formula $h_{1}\leq h_{2}$
+\end_inset
+
+ ובנוסף ערכי המינימום והמקסימום של העצים ידועים.
+\end_layout
+
+\begin_layout Standard
+הסיבוכיות של הפעולה היא 
+\begin_inset Formula $O(h_{2}-h_{1}+1)$
+\end_inset
+
+ כי אם 
+\begin_inset Formula $h_{2}-h_{1}\geq1$
+\end_inset
+
+ הסיבוכיות היא 
+\begin_inset Formula $O(h_{2}-h_{1})$
+\end_inset
+
+ אחרת 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+נסמן העץ הנוצר מהאיחוד ב 
+\begin_inset Formula $T_{1}'$
+\end_inset
+
+ הוא בגובה 
+\begin_inset Formula $h_{2}+1$
+\end_inset
+
+ לכל היותר )כפי שהוכח בסעיף א( ו
+\begin_inset Formula $h_{2}$
+\end_inset
+
+ לכל הפחות.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+2
+\numeric off
+(
+\end_layout
+
+\begin_layout Standard
+נאחד את 
+\begin_inset Formula $T_{3}$
+\end_inset
+
+ עם 
+\begin_inset Formula $T_{1}'$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+אם גובה העץ 
+\begin_inset Formula $T_{3}$
+\end_inset
+
+ גדול משל 
+\begin_inset Formula $T_{1}'$
+\end_inset
+
+ סיבוכיות האיחוד לפי 
+\begin_inset Formula $Join$
+\end_inset
+
+ מסעיף ב' היא 
+\begin_inset Formula $O(h_{3}-h_{2}+1)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+אם גובה העץ 
+\begin_inset Formula $T_{3}$
+\end_inset
+
+ הוא קטן או שווה לגובה של 
+\begin_inset Formula $T_{1}'$
+\end_inset
+
+, הפרש הגבהים יכול להיות לכל היותר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ואז סיבוכיות האיחוד היא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בשני המקרים גובה העץ הוא לכל הפחות 
+\begin_inset Formula $h_{3}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+נסמן העץ הנוצר ב 
+\begin_inset Formula $T_{2}'$
+\end_inset
+
+ , זהו עץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2-3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+המכיל את כל המפתחות של 
+\begin_inset Formula $T_{1},T_{2},T_{3}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $i$
+\end_inset
+
+( נמשיך כך כשבאופן כללי בצד ה
+\begin_inset Formula $i$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+נאחד את 
+\begin_inset Formula $T_{i+1}$
+\end_inset
+
+ עם 
+\begin_inset Formula $T_{i-1}'$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+אם גובה העץ 
+\begin_inset Formula $T_{i+1}$
+\end_inset
+
+ גדול מ
+\begin_inset Formula $T_{i-1}'$
+\end_inset
+
+ סיבוכיות האיחוד היא לפי 
+\begin_inset Formula $Join$
+\end_inset
+
+ מסעיף ב' היא 
+\begin_inset Formula $O(h_{i+1}-h_{i}+1)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+אחרת הפרש הגבהים הוא לכל היותר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ולכן סיבוכיות האיחוד היא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+העץ הנוצר 
+\begin_inset Formula $T_{i}'$
+\end_inset
+
+ הוא עץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2-3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+המכיל את כל המפתחות של 
+\begin_inset Formula $i+1$
+\end_inset
+
+ העצים הקטנים וגובהו לכל הפחות 
+\begin_inset Formula $h_{i+1}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $k-1$
+\end_inset
+
+ (נמשיך כך עד שנגיע לצעד ה
+\begin_inset Formula $k-1$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+נאחד את 
+\begin_inset Formula $T_{k}$
+\end_inset
+
+ עם 
+\begin_inset Formula $T_{k-2}'$
+\end_inset
+
+ בסיבוכיות 
+\begin_inset Formula $O(h_{k}-h_{k-1}+1)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+נסכום את הסיבוכיות בשלבים 
+\begin_inset Formula $1$
+\end_inset
+
+ עד 
+\begin_inset Formula $k-1$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T=O(h_{2}-h_{1}+1)+O(h_{3}-h_{2}+1)+...O(h_{k}-h_{k-1}+1)\underbrace{=}_{\text{telescopic sum}}O(h_{k}-h_{1}+k)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+סעיף ד
+\end_layout
+
+\begin_layout Standard
+ניצור שתי רשימות ריקות של מצביעים לצמתים בעץ, כאשר מאחת מהן יווצר העץ הקטן
+ יותר ומהשנייה יווצר העץ הגדול יותר.
+ נחפש את המפתח 
+\begin_inset Formula $x$
+\end_inset
+
+ בעץ.
+\end_layout
+
+\begin_layout Standard
+עבור כל צומת במסלול החיפוש: 
+\end_layout
+
+\begin_layout Itemize
+אם עברנו לבן השמאלי, נוסיף את שני הבנים שמימינו לרשימה של העץ הגדול יותר,
+ כיוון שתתי העצים שהם השורשים שלהם כוללים רק צמתים גדולים יותר מ
+\begin_inset Formula $x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+אם עברנו לבן הימני, נוסיף את שני הבנים שמשמאלו לרשימה של העץ הקטן יותר,
+ כיוון שתתי העצים שהם השורשים שלהם כוללים רק צמתים קטנים יותר מ
+\begin_inset Formula $x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+אם עברנו לבן אמצעי, נוסיף את הבן שמימינו לרשימה של העץ הגדול יותר, ואת הבן
+ שמשמאלו לרשימה של העץ הקטן יותר, מאותם נימוקים.
+\end_layout
+
+\begin_layout Standard
+הסריקה תפסיק כאשר נגיע לרמת העלים.
+\end_layout
+
+\begin_layout Standard
+כעת באחת מהרשימות יש את כל חלקי העץ שגדולים מ
+\begin_inset Formula $x$
+\end_inset
+
+, ובשנייה את כל חלקי העץ שקטנים או שווים ל
+\begin_inset Formula $x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נשים לב כי מתקיימים כל התנאים של הפונקציה מסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+:
+\end_layout
+
+\begin_layout Itemize
+ידועים הגבהים של כל אחד מהעצים ברשימה: אם לא ידוע הגובה של העץ המקורי ניתן
+ לעבור עליו פעם אחת ולספור אותו.
+ מעבר על גובה העץ הוא ב 
+\begin_inset Formula $O(log(n))$
+\end_inset
+
+ בעץ מאוזן ולכן ניתן לעשות זאת בסיבוכיות הנדרשת.
+ לאחר מכן, עבור כל עץ שנכנס לאחת מהרשימות, גובהו הוא הגובה של כל העץ פחות
+ מספר העומק של הצומת שמתווסף לרשימה, אותו ניתן לספור.
+\end_layout
+
+\begin_layout Itemize
+ניתן לסדר את את העצים בכל רשימה כך שלכל עץ, כל הצמתים בו קטנים יותר משל
+ העצים שאחריו וקטנים יותר משל העצים שלפניו או להפך.
+ זאת כיוון שכל הוספה מתבצעת לאחר צעד שעשינו במסלול חיפוש בעץ, כלומר כל תת
+ עץ שמתווסף לרשימה הוא מעומק גבוה יותר מקודמיו.
+ לכן כל עץ שמתווסף לאחת הרשימות הוא 
+\begin_inset Quotes eld
+\end_inset
+
+קיצוני
+\begin_inset Quotes erd
+\end_inset
+
+ יותר - לרשימת העצים הגדולים יותר מ
+\begin_inset Formula $x$
+\end_inset
+
+ נוסיף עצים בעלי צמתים גדולים יותר ויותר ולרשימת העצים הקטנים שווים 
+\begin_inset Formula $x$
+\end_inset
+
+ נוסיף עצים קטנים יותר ויותר.
+\end_layout
+
+\begin_layout Itemize
+ידועים הערכים המקסימלים והמינימלים בכל עץ: מהמימוש לסעיפים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+, למעשה נדרש לדעת רק חסם תחתון עבור ערכי העצים בעלי הצמתים הגדולים יותר,
+ וחסם עליון עבור ערכי העצים בעלי הצמתים הקטנים יותר.
+ כיוון שכל עץ שמתווסף לאחת הרשימות הוא 
+\begin_inset Quotes eld
+\end_inset
+
+קיצוני
+\begin_inset Quotes erd
+\end_inset
+
+ יותר, בין כל שני עצים צמודים ברשימה ניתן לדעת ערך משותף הגדול יותר מכל
+ ערכי העץ הקטן יותר והקטן יותר מכל ערכי העץ הגדול יותר.
+ זהו האינדקס של צומת האב אותו עזבנו כשהוספנו כל עץ לרשימה.
+ במקרה שלאב יש שני אינקדסים, ניתן לקחת את הימני אם עברנו שמאלה, ואת השמאלי
+ אם עברנו ימינה.
+\end_layout
+
+\begin_layout Itemize
+ניתן לסדר את גבהי העצים, ואין שלושה עצים עם אותו גובה: כפי שהוזכר קודם,
+ כל עץ נלקח מעומק גדול יותר כיוון שהוא מתווסף לרשימה לאחר צעד נוסף במורד
+ העץ.
+ לכל היותר, אם עזבנו צומת בעל שלושה בנים ולא עברנו לבן האמצעי, יתווספו לאותה
+ רשימה שני האחים הנותרים שהם בעלי אותו גובה.
+ לכן לא יהיו באף אחת מהרשימות יותר משני עצים בעלי אותו גובה.
+\end_layout
+
+\begin_layout Standard
+כיוון שמתקיימים התנאים הללו ניתן להשתמש בפונקציה מסעיף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ עבור כל אחת מהרשימות 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, שתאחד אותן לעץ - בעץ אחד יהיו כל המפתחות הגדולים מ
+\begin_inset Formula $x$
+\end_inset
+
+ ובשני את כל המפתחות הקטנים שווים ל
+\begin_inset Formula $x$
+\end_inset
+
+, כנדרש.
+\end_layout
+
+\begin_layout Standard
+הפונקציה פועלת ב
+\begin_inset Formula $O(h_{k}-h_{1}+k)$
+\end_inset
+
+.
+ לכל עץ ברשימה, מתקיים כי הוא תת עץ של עץ בגובה 
+\begin_inset Formula $O(log(n))$
+\end_inset
+
+ ולכן גם גובהו הוא 
+\begin_inset Formula $O(log(n))$
+\end_inset
+
+.
+ 
+\begin_inset Formula $k$
+\end_inset
+
+ הוא מספר העצים בכל רשימה.
+ כיוון שמתווסף מספר קבוע של עצים לכל אחת מהרשימות בכל צעד, ומספר הצעדים
+ לאורך עץ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2-3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הוא 
+\begin_inset Formula $O(log(n))$
+\end_inset
+
+, 
+\begin_inset Formula $k$
+\end_inset
+
+ הוא 
+\begin_inset Formula $O(log(n))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בנוסף להפעלת הפונקציה מתקיים גם הסיור עצמו על העץ, אבל כאמור גם הוא 
+\begin_inset Formula $O(log(n))$
+\end_inset
+
+ ולכן בסך הכל נקבל כי סיבוכיות הזמן של הפעולה היא 
+\begin_inset Formula $O(log(n))$
+\end_inset
+
+ כנדרש.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Subsection*
+סעיף א
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הסבר כללי:
+\end_layout
+
+\begin_layout Standard
+נשתמש בעץ דרגות של הימים, ממוין לפי מספר היום כשכל צומת תכיל :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $day$
+\end_inset
+
+)מפתח( - מספר היום
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{sick\_today}$
+\end_inset
+
+)ערך( - מספר החולים ביום
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n$
+\end_inset
+
+ - מספר הצמתים בתת העץ שהצומת היא שורשו )בשביל לאפשר פעולות בסיסיות של 
+\begin_inset Formula $\text{rank\_tree}$
+\end_inset
+
+ בהמשך.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{worst\_under}$
+\end_inset
+
+- מספר החולים הגבוה ביותר בתת העץ והיום בו זה קרה כזוג סדור פוינטר לצומת
+ בעץ בה )
+\begin_inset Formula $sick,day$
+\end_inset
+
+ ( כאשר 
+\begin_inset Formula $sick$
+\end_inset
+
+ הוא מספר החולים הגדול ביותר ו
+\begin_inset Formula $day$
+\end_inset
+
+ הוא היום בו זה קרה.
+ נגדיר יחס סדר בין זוגות כאלה , קודם כל לפי האנדקס 
+\begin_inset Formula $sick$
+\end_inset
+
+ ו אז לפי 
+\begin_inset Formula $day$
+\end_inset
+
+.
+ יחס הסדר יאפשר תיקון מידע כאשר יבוצעו גלגולים.
+\end_layout
+
+\begin_layout Standard
+ומצביעים לצומת מימינה ומשמאלה, 
+\begin_inset Formula $left$
+\end_inset
+
+, 
+\begin_inset Formula $right$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+פעולות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $SetPositiveInDay(d,x)$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+הכנס את היום לעץ עם הערך המתאים ועדכן את הדרגה ו
+\begin_inset Formula $\text{worst\_under}$
+\end_inset
+
+ בצמתים שבמסלול החיפוש )אם התבצע גלגול בהכנסה ניתן לתקן את המידע הנוסף בהתאם
+ כפי שנלמד בהרצאה כיוון שהמידע בכל צומת ניתן לשחזור בעזרת המידע הנוסף בעזרת
+ הצמתים מימינו ומשמאלו )שבביצוע גלגול יחיד לא נפגמים ( וערך ה 
+\begin_inset Formula $sick$
+\end_inset
+
+ שלו עצמו.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $WorseBefore(d)$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+אתחל מחסנית ריקה 
+\begin_inset Formula $s$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+חפש את היום בעץ כשבכל פניה ימינה במסלול החיפוש הכנס את הצומת בה נעשתה הפניה
+ למחסנית.
+\end_layout
+
+\begin_layout Standard
+)המחסנית שומרת צמתים שהם ותת העץ הימני שלהם מכילים ימים קטנים מ
+\begin_inset Formula $d$
+\end_inset
+
+ , ורק בתתי העצים שלהם נעשה את החיפוש מאוחר יותר.
+ סדר הכנסת האיברים למחסנית מבטיח שהיא ממוינת לפי ימים( 
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $d$
+\end_inset
+
+ לא נמצא , החזר 
+\numeric on
+-1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וסיים.
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $d$
+\end_inset
+
+ נמצא, סמן צומת זו ב 
+\begin_inset Formula $v$
+\end_inset
+
+, והכנס למחסנית את 
+\begin_inset Formula $v.left$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\text{v.left->worst\_under.sick>v.sick\_today}$
+\end_inset
+
+ )יש יום עם מספר חולים גדול יותר בתת העץ השמאלי של 
+\begin_inset Formula $v$
+\end_inset
+
+ ולכן בעל יום קטן יותר, המחסנית עבור מקרה זה מיותרת(:
+\end_layout
+
+\begin_layout Standard
+החזר 
+\begin_inset Formula $SearchLastDayBiggerThen(\text{v.left,v.sick\_today)}$
+\end_inset
+
+)פונקציית עזר שתוגדר בהמשך*(.
+\end_layout
+
+\begin_layout Standard
+אחרת, נעבור לחיפוש היום דרך המחסנית 
+\begin_inset Formula $s$
+\end_inset
+
+ באופן הבא:
+\end_layout
+
+\begin_layout Standard
+נבצע את הלולאה הבאה)גודל המחסנית הוא לכל היותר 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+, כעומק העץ ובכל איטרציה אנו מרוקנים ממנו איבר לכן הלולאה תתבצע לכל היותר
+ 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ פעמים(:
+\end_layout
+
+\begin_layout Standard
+{
+\end_layout
+
+\begin_layout Standard
+אם המחסנית ריקה : החזר 
+\begin_inset Formula $-1$
+\end_inset
+
+ וסיים) לא קיים יום לפני 
+\begin_inset Formula $v.day$
+\end_inset
+
+ עם מספר חולים גדול מ
+\begin_inset Formula $\text{v.sick\_today}$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x=\text{s.pop()}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\text{x.sick\_today>v.sick\_today}$
+\end_inset
+
+ , החזר את 
+\begin_inset Formula $x.day$
+\end_inset
+
+ ) כיוון שבצמתים מימינו שללנו קיום של יום שקטן מ 
+\begin_inset Formula $d$
+\end_inset
+
+ עם מספר חולים גדול יותר , הוא בהכרח היום האחרון שבו מספר החולים היה גדול
+ מהיום 
+\begin_inset Formula $d$
+\end_inset
+
+ (.
+\end_layout
+
+\begin_layout Standard
+אחרת, אם 
+\begin_inset Formula $\text{x.left->worst\_under.sick>v.sick\_today}$
+\end_inset
+
+ )יש יום עם מספר חולים גדול יותר בתת העץ השמאלי של 
+\begin_inset Formula $x$
+\end_inset
+
+ ולכן בעל יום קטן יותר, מעתה המשך המחסנית מיותר ולא נעבור עליה(: החזר 
+\begin_inset Formula $SearchLastDayBiggerThen(\text{x.left,v.sick\_today)}$
+\end_inset
+
+)פונקציית עזר שתוגדר בהמשך*, פונקציה שבהכרח תחזיר תשובה כי היום שאותו אנחנו
+ מחפשים נמצא בתת העץ של 
+\begin_inset Formula $x.left$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+)אם לא, המשך הלאה לאיבר הבא במחסנית (
+\end_layout
+
+\begin_layout Standard
+}
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+הסבר סיבוכיות ל
+\begin_inset Formula $WorseBefore(d)$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+חיפוש הצומת עם המפתח 
+\begin_inset Formula $d$
+\end_inset
+
+ נעשה ב 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ כחיפוש בעץ חיפוש מאוזן.
+\end_layout
+
+\begin_layout Standard
+כדי למצוא את הצומת שמתחתיה יש את היום המבוקש אנו עוברים על מחסנית שגודלה
+ לכל היותר גובה העץ ולכן 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+, ברגע שנמצאה אנו קוראים לפונקציה 
+\begin_inset Formula $SearchLastDayBiggerThen$
+\end_inset
+
+ שסיבוכיותה היא 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ ובקבלת ערך חזרה ממנה נסיים את התוכנית.
+ )וזה אומר שהיא נקראת רק פעם אחת( .
+\end_layout
+
+\begin_layout Standard
+מכאן ש סיבוכיות 
+\begin_inset Formula $WorseBefore(d)$
+\end_inset
+
+ היא 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+פונקצית עזר לחיפוש יום גדול ביותר שערכו גדול מערך מסוים בעץ שידוע שיש בו
+ יום כזה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $SearchLastDayBiggerThen(T,\text{sick\_num)}$
+\end_inset
+
+: )מקבלת עץ שמובטח שיש בו צומת שערכה גדול מ 
+\begin_inset Formula $\text{sick\_num}$
+\end_inset
+
+ ומחזירה את ( )סיבוכיות כעומק העץ 
+\begin_inset Formula $T$
+\end_inset
+
+, בכל רמה אנו עוברים פעם אחת לכל היותר(
+\end_layout
+
+\begin_layout Standard
+נבצע סיור ב
+\begin_inset Formula $T$
+\end_inset
+
+ מהשורש באופן הבא:
+\end_layout
+
+\begin_layout Standard
+נסמן את הצומת שבה אנו נמצאים כרגע ב
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+פנה ימינה כל עוד 
+\begin_inset Formula $x.right->worst\_under.sick>\text{sick\_num}$
+\end_inset
+
+ )יש בתת העץ הימני ימים עם מספר חולים גדול משל 
+\begin_inset Formula $v$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+אחרת , אם 
+\begin_inset Formula $\text{x.sick\_today>sick\_num}$
+\end_inset
+
+
+\series bold
+ החזר את 
+\begin_inset Formula $x.day$
+\end_inset
+
+)בהכרח תנאי זה יתקיים עבור צומת כלשהי במהלך הסיור
+\series default
+ (.
+\end_layout
+
+\begin_layout Standard
+אחרת, פנה שמאלה.
+\end_layout
+
+\begin_layout Subsection*
+סעיף ב
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הסבר בקצרה:
+\end_layout
+
+\begin_layout Standard
+נשתמש במבנה שהוגדר בסעיף א' , עצם היותו עץ דרגות יאפשר לנו לדעת אם הוכנסו
+ כל הימים בין שתי ימים בעזרת הפונקציה 
+\begin_inset Formula $rank$
+\end_inset
+
+ שנלמדה בהרצאות.
+ נעזר בפונקציה 
+\begin_inset Formula $WorseBefore$
+\end_inset
+
+ מסעיף קודם כדי לבדוק אם 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ הוא 
+\begin_inset Formula $WorseBefore$
+\end_inset
+
+ של 
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ , ובהנתן המידע מ
+\begin_inset Formula $rank$
+\end_inset
+
+ של כמה ימים הוכנסו ביניהם נוכל לדעת איזה ערך להחזיר לפי דרישות הפונקציה.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+תשובה:
+\end_layout
+
+\begin_layout Standard
+נשתמש באותו מבנה מסעיף א ונוסיף את הפעולה 
+\begin_inset Formula $IsWorstSince(d_{1},d_{2})$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $IsWorstSince(d_{1},d_{2})$
+\end_inset
+
+-
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{res\_d=WorseBefore(d2)}$
+\end_inset
+
+ )נעשה ב
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ (
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\text{res\_d!=d1}$
+\end_inset
+
+: החזר 
+\begin_inset Formula $False$
+\end_inset
+
+ )
+\begin_inset Formula $\text{res\_d}$
+\end_inset
+
+ הוא יום גדול מ
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ שבו החולים מאשר ב
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ ומספרו קטן מ
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ || ש 
+\begin_inset Formula $d_{1}$
+\end_inset
+
+ הוא בכלל לא יום שמספר החולים בו גדול ממספר החולים ב
+\begin_inset Formula $d_{2}$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+אחרת,) 
+\begin_inset Formula $\text{res\_d}==d1$
+\end_inset
+
+ ולכן הוא היום האחרון לפני 
+\begin_inset Formula $d$
+\end_inset
+
+ שבו מספר החולים גדול מ
+\begin_inset Formula $d_{2}$
+\end_inset
+
+ מבין הימים שהוזנו(
+\end_layout
+
+\begin_layout Standard
+**נבדוק האם יש ימים שעוד לא הוזמנו ביניהם: העץ שמחזיק את המידע הוא עץ דרגות
+ ולכן ניתן לממש עבורו פונקצית 
+\begin_inset Formula $rank(d)$
+\end_inset
+
+ כפי שנלמד בהרצאה ובתרגול , שתחזיר במקרה שלנו את מספר הימים עד 
+\begin_inset Formula $d$
+\end_inset
+
+ כולל שהוכנסו.**
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $rank(d_{2})-rank(d_{1})==d_{2}-d_{1}$
+\end_inset
+
+ ) זה אומר שהוכנסו כל הימים בין שני הימים(:
+\end_layout
+
+\begin_layout Standard
+החזר 
+\begin_inset Formula $True$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+אחרת:
+\end_layout
+
+\begin_layout Standard
+החזר 
+\begin_inset Formula $Unknown$
+\end_inset
+
+ )כי יש ימים בין שני הימים שלא הוכנסו עדיין למערכת(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סיבוכיות:
+\end_layout
+
+\begin_layout Standard
+הפעולות הכבדות שמתבצעות ה 
+\begin_inset Formula $\text{WorseBefore}$
+\end_inset
+
+, ו 
+\begin_inset Formula $rank$
+\end_inset
+
+ , שתיהן נעשות ב 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ ולכן הסיבוכיות היא 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Subsection*
+חלק
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+הסבר בקצרה:
+\end_layout
+
+\begin_layout Standard
+נשתמש בעץ 
+\begin_inset Formula $AVL$
+\end_inset
+
+ כדי לאפשר הכנסה למבנה ב
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ וברשימה מקושרת כדי להגיע לאיבר הבא ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+ תוך שמירה על שמורותיהם בכל שלב.
+\end_layout
+
+\begin_layout Standard
+תשובה:
+\end_layout
+
+\begin_layout Standard
+שדות המבנה יהיו:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $list$
+\end_inset
+
+ -רשימה מקושרת דו כיוונית ממוינת של תחנות העצירה.
+ התחנות מיוצגות על ידי מספרים שלמים.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $tree$
+\end_inset
+
+-עץ 
+\begin_inset Formula $AVL$
+\end_inset
+
+ של תחנות העצירה.
+ איבר בעץ יכיל מפתח שהוא מספר הקומה , והערך שלו יהיה פוינטר לאיבר ברשימה
+ המקושרת.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $level$
+\end_inset
+
+ - פוינטר לאיבר ברשימה המציין את הקומה הנוכחית.
+\end_layout
+
+\begin_layout Standard
+פעולות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Init$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+אתחול רשימה מקושרת עם איבר אחד שערכו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וקביעת ערך 
+\begin_inset Formula $level$
+\end_inset
+
+ להיות כתובת של האיבר.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{addStop(k)}$
+\end_inset
+
+-
+\end_layout
+
+\begin_layout Standard
+חפש את 
+\begin_inset Formula $k$
+\end_inset
+
+ בעץ 
+\begin_inset Formula $tree$
+\end_inset
+
+.
+ סיבוכיות: חיפוש ב
+\begin_inset Formula $AVL-$
+\end_inset
+
+ בעל 
+\begin_inset Formula $n$
+\end_inset
+
+ איברים 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+אם נמצא סיים.
+\end_layout
+
+\begin_layout Standard
+אם לא נמצא, 
+\end_layout
+
+\begin_layout Standard
+זכור את הצומת האחרונה במסלול החיפוש, הוסף איבר בעל ערך 
+\begin_inset Formula $k$
+\end_inset
+
+ לעץ ובצע גלגול מתאים.
+\end_layout
+
+\begin_layout Standard
+אם הצומת האחרונה במסלול החיפוש היא בעלת מפתח גדול מ
+\begin_inset Formula $k$
+\end_inset
+
+ , הוסף את 
+\begin_inset Formula $k$
+\end_inset
+
+ לרשימה לפני איבר זה .
+\end_layout
+
+\begin_layout Standard
+אחרת)הצומת האחרונה במסלול החיפוש היא בעלת מפתח קטן מ
+\begin_inset Formula $k$
+\end_inset
+
+(, הוסף את 
+\begin_inset Formula $k$
+\end_inset
+
+ לרשימה 
+\begin_inset Formula $list$
+\end_inset
+
+ אחרי האיבר.
+\end_layout
+
+\begin_layout Standard
+)נציין שפוינטר לאיבר נמצא בצומת ולכן ניתן להוסיף את 
+\begin_inset Formula $k$
+\end_inset
+
+ לרשימה ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+ ולשמור עליה ממוינת(.
+\end_layout
+
+\begin_layout Standard
+סה
+\begin_inset Quotes erd
+\end_inset
+
+כ סיבוכיות זמן נקבע לפי הפועלה הקבצה שהיא פעולת החיפוש של הצומת בעץ : 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{NextStop()}$
+\end_inset
+
+- 
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $level$
+\end_inset
+
+ מצביע על איבר אחרון ברשימה סיים)השאר בקומה הנוכחית(.
+\end_layout
+
+\begin_layout Standard
+אחרת, קדם את 
+\begin_inset Formula $level$
+\end_inset
+
+ להצביע על האיבר הבא ברשימה 
+\begin_inset Formula $list$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+הדפס את הערך של האיבר ברשימה עליו 
+\begin_inset Formula $level$
+\end_inset
+
+ מצביע.
+\end_layout
+
+\begin_layout Standard
+מספר קבוע של פעולות 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ ולכן סיבוכיות זמן 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Subsection*
+חלק
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+הסבר בקצרה:
+\end_layout
+
+\begin_layout Standard
+נשתמש במערך דינאמי שייצג את הקומות בהן יש עצירות, מההנחה של הקומה הגבוה
+ ביותר שהמעלית עתידה לעצור נובע )נוכיח זאת( ששההפרש בין שתי תחנות עוקבות
+ 
+\begin_inset Quotes eld
+\end_inset
+
+לא רחוק
+\begin_inset Quotes erd
+\end_inset
+
+ בדר
+\begin_inset Quotes erd
+\end_inset
+
+כ ובגלל תכונה זו נעמוד בסיבוכיות המשוערכת.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגדרת המבנה
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שדות המבנה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $level$
+\end_inset
+
+ - מספר הקומה בה כרגע אנחנו נמצאים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $highest\text{\_}level$
+\end_inset
+
+ - מספר הקומה הגדולה ביותר שיש בה עצירה ברגע נתון
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{num\_of\_stops}$
+\end_inset
+
+ - מספר הפעמים שהפונקציה 
+\begin_inset Formula $\text{AddStop}$
+\end_inset
+
+ נקראה 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{stop\_level\_arr}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ - מערך
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ דינמי של בוליאנים , במקומות בהן יש תחנת עצירה יסומן
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ , אחרת 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+ באופן דיפולטיבי הערכים יהיו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{arr\_size}$
+\end_inset
+
+ - גודל המערך 
+\begin_inset Formula $\text{stop\_level\_arr}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+פעולות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Init$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+אתחול המערך 
+\begin_inset Formula $\text{stop\_level\_arr}$
+\end_inset
+
+ למערך בגודל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $level=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{highest\_level=0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{num\_of\_stops=0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{AddStop(k)}$
+\end_inset
+
+- 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{num\_of\_stops++}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\text{2*num\_of\_stops>=arr\_size}$
+\end_inset
+
+ : הגדל את המערך 
+\begin_inset Formula $\text{stop\_level\_arr}$
+\end_inset
+
+ פי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+.)נשמור על גודל המערך תמיד גדול או שווה ל
+\begin_inset Formula $2*num\_of\_stops$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\text{highest\_level<k}$
+\end_inset
+
+ : 
+\begin_inset Formula $\text{highest\_level=k}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{stop\_level\_arr[k]=1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{NextStop()}$
+\end_inset
+
+-
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\text{highest\_level==level }$
+\end_inset
+
+ : סיים והדפס את הקומה הנוכחית.
+\end_layout
+
+\begin_layout Standard
+אחרת:
+\end_layout
+
+\begin_layout Standard
+התקדם במערך 
+\begin_inset Formula $\text{stop\_level\_arr}$
+\end_inset
+
+ מהאיבר ה 
+\begin_inset Formula $\text{level}$
+\end_inset
+
+ עד האיבר הראשון במערך שערכו הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ומסמל תחנת עצירה וסמנו ב 
+\begin_inset Formula $\text{found\_level}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+הדפס את תחנת העצירה שנמצאה , בצע השמה 
+\begin_inset Formula $\text{level=found\_level}$
+\end_inset
+
+ וסיים.
+\end_layout
+
+\begin_layout Standard
+)סיבוכיות הפעולה היא 
+\begin_inset Formula $O(n_{i})$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $n_{i}$
+\end_inset
+
+ הוא ההפרש בין הקומה הקודמת לבאה( 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ניתוח סיבוכיות זמן משוערכת :
+\end_layout
+
+\begin_layout Standard
+יהו 
+\begin_inset Formula $m$
+\end_inset
+
+ פעולות 
+\begin_inset Formula $AddStop(\ensuremath{k_{i}})$
+\end_inset
+
+ ו 
+\begin_inset Formula $NextStop()$
+\end_inset
+
+ .
+ נסמן את הזמן שלוקח לביצוע כולן ב 
+\begin_inset Formula $T$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+נראה 
+\begin_inset Formula $T=O(m)$
+\end_inset
+
+ ומכך ינבע ש 
+\begin_inset Formula $\frac{T}{m}=O(1)$
+\end_inset
+
+ ולכן הסיבוכיות המשוערכת לפעולה תהיה 
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נסמן מספר פעולות 
+\begin_inset Formula $AddStop$
+\end_inset
+
+ ב 
+\begin_inset Formula $a$
+\end_inset
+
+ ו מספר פעולות 
+\begin_inset Formula $NextStop$
+\end_inset
+
+ ב 
+\begin_inset Formula $n$
+\end_inset
+
+ כך ש :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=n+a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+העלות הכוללת של פעולות 
+\begin_inset Formula $n$
+\end_inset
+
+ היא 
+\begin_inset Formula $\sum_{i=1}^{n}n_{i}\leq2a=O(a)$
+\end_inset
+
+ , כיוון שסכום ההפרשים בין שתי קומות הוא לכל היותר 
+\begin_inset Formula $2a$
+\end_inset
+
+ )מהנתון שהקומה הבאה שנקראת תמיד קטנה ממספר הפעמים שהוכנסו קומות חדשות(
+ ו
+\begin_inset Formula $n_{i}$
+\end_inset
+
+ הוא ההפרש בין שתי קומות עוקבות .
+\end_layout
+
+\begin_layout Standard
+העלות המשוערכת של פעולות 
+\begin_inset Formula $a$
+\end_inset
+
+ היא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ כפי שנלמד בהרצאה )הכנסה למערך דינמי, ההגדלה של המערך מחושבת במחיר ( ולכן
+ עלות סך פעולות מסוג 
+\begin_inset Formula $a$
+\end_inset
+
+ הוא 
+\begin_inset Formula $\sum_{i=1}^{a}a_{i}=O(a)$
+\end_inset
+
+ גם כן.
+\end_layout
+
+\begin_layout Standard
+מכאן ש 
+\begin_inset Formula $T=\sum_{i=1}^{n}n_{i}+\sum_{i=1}^{a}a_{i}=O(a)+O(a)\underbrace{=}_{a\leq m}O(m)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\end_layout
+
+\begin_layout Standard
+נפתור באמצעות שימוש במבני 
+\begin_inset Formula $trie$
+\end_inset
+
+, שכן הם יאפשרו לנו להשוות בין מחרוזות ארוכות בסיבוכיות התלויה רק באורכיהן.
+ 
+\end_layout
+
+\begin_layout Standard
+בנוסף לפונקציונליות הרגילה של 
+\begin_inset Formula $trie$
+\end_inset
+
+, כל צומת במבנה יכיל גם את מספר המילים הקיימות בתת ה
+\begin_inset Formula $trie$
+\end_inset
+
+ שמתחיל ממנו.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $trie$
+\end_inset
+
+ אחד ידאג למילים שלפני המקף , והשני ידאג למילים שאחרי המקף.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+לשם כך נגדיר מבנה 
+\begin_inset Formula $trie$
+\end_inset
+
+, המכיל את השדות הבאים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $children$
+\end_inset
+
+: מערך של 
+\begin_inset Formula $n$
+\end_inset
+
+ מצביעים מסוג 
+\begin_inset Formula $trie$
+\end_inset
+
+ המייצג עבור כל צומת את המשכי המילים שהרישא שלהן היא המסלול שעברנו עד עכשיו,
+ כאשר 
+\begin_inset Formula $n$
+\end_inset
+
+ הוא גודל הא
+\begin_inset Quotes erd
+\end_inset
+
+ב 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $subCount$
+\end_inset
+
+: מספר המילים שהרישא שלהן היא המסלול שעברנו עד עכשיו, על פני כל אותיות ההמשך
+ האפשריות.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $endCount$
+\end_inset
+
+: מספר הפעמים שהוכנסה מחרוזת שמסתיימת בצומת הנוכחי.
+ הכרחי על מנת לספור את המילים שהן רישא ממש של המילה הרצויה ולכן קטנות לקסיקוגרפי
+ת ממנה.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ואת המתודות הבאות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Init\text{()}$
+\end_inset
+
+: יוצרת צומת 
+\begin_inset Formula $trie$
+\end_inset
+
+ חדש, בעל מערך ריק של ילדים ומאתחלת את 
+\begin_inset Formula $subCount$
+\end_inset
+
+ להיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ ואת 
+\begin_inset Formula $endCount$
+\end_inset
+
+ להיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+ מהנלמד על יצירת מערך, ניתן לאתחל את הצומת ב 
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $getIndex(ch)$
+\end_inset
+
+: מנרמלת אות 
+\begin_inset Formula $ch$
+\end_inset
+
+ ב
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ לערך בין 
+\begin_inset Formula $0$
+\end_inset
+
+ ל
+\begin_inset Formula $n-1$
+\end_inset
+
+, שהוא האינדקס המזוהה איתה במערך 
+\begin_inset Formula $children$
+\end_inset
+
+.
+ מניחים כי קיים סידור לא
+\begin_inset Quotes erd
+\end_inset
+
+ב, ושומרים על סידור זה גם באינקדסים.
+ לדוגמה, אם 
+\begin_inset Formula $\Sigma$
+\end_inset
+
+ הוא האותיות הקטנות בא
+\begin_inset Quotes erd
+\end_inset
+
+ב האנגלי, 
+\begin_inset Formula $a$
+\end_inset
+
+ תקבל את הערך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+, 
+\begin_inset Formula $b$
+\end_inset
+
+ את הערך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+, עד ל
+\begin_inset Formula $z$
+\end_inset
+
+ שתקבל את הערך 
+\begin_inset Formula $25$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+סיבוכיות הזמן היא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+, שכן ניתן אפילו להשוות את האות המתקבלת לכל ערך אפשרי שלה מתוך גודל סופי
+ וידוע מראש של הא
+\begin_inset Quotes erd
+\end_inset
+
+ב, ולהחזיר את האינדקס המתאים.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Insert(w)$
+\end_inset
+
+: עובדת כמו הכנסה רגילה של 
+\begin_inset Formula $trie$
+\end_inset
+
+ - מתחילים מהשורש, ועבור כל אות הבאה במילה שרוצים להכניס מנסים לעבור לצומת
+ שלה במערך 
+\begin_inset Formula $children$
+\end_inset
+
+ לפי האינדקס שמוחזר על ידי 
+\begin_inset Formula $getIndex$
+\end_inset
+
+ עבור האות.
+ אם הצומת לא קיים, יוצרים אותו.
+\end_layout
+
+\begin_layout Standard
+בכל פעם שעוברים בצומת במהלך ההכנסה, מקדמים את 
+\begin_inset Formula $subCount$
+\end_inset
+
+ שלו באחד.
+ זאת כיוון שלאחר ההכנסה תהיה מילה אחת נוספת שמתחילה בכל רישא שעליה אנחנו
+ עוברים.
+ כל עוד אנחנו עוברים על מסלול קיים, ה
+\begin_inset Formula $subCount$
+\end_inset
+
+ של כל צומת יגדל באחד, וברגע שנתפצל ונתחיל ליצור צמתים, ה
+\begin_inset Formula $subCount$
+\end_inset
+
+ שלהם יוגדר להיות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+עבור הסמל האחרון האחרון במחרוזת, כלומר הצומת האחרון אליו אנחנו מגיעים, נגדיל
+ את 
+\begin_inset Formula $endCount$
+\end_inset
+
+ באחד.
+\end_layout
+
+\begin_layout Standard
+במבנה הראשי, נשתמש במתודה זו רק מתוך השורש.
+\end_layout
+
+\begin_layout Standard
+השינוי לא משפיע על הסיבוכיות כיוון שבכל צומת מבצעים לכל היותר שתי פעולות
+ מעבר להכנסה רגילה, ולכן כמו עבור 
+\begin_inset Formula $trie$
+\end_inset
+
+ רגיל סיבוכיות הזמן תהיה 
+\begin_inset Formula $O(m)$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $m$
+\end_inset
+
+ הוא אורך המחרוזת המוכנסת.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $getSubCount()$
+\end_inset
+
+: מחזירה את 
+\begin_inset Formula $subCount$
+\end_inset
+
+ של הצומת הנוכחי ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+עבור הבעיה הנתונה אין צורך לממש הסרה מה
+\begin_inset Formula $trie$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נגדיר את המבנה הראשי בבעיה, שמכיל את השדות הבאים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m$
+\end_inset
+
+ - הפרמטר המתואר בשאלה.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Formula $prefix$
+\end_inset
+
+- 
+\begin_inset Formula $trie$
+\end_inset
+
+ 
+\series default
+המכיל את כל המחרוזות שהוכנסו והופיעו לפני המקף בצמד שלהן.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $suffix$
+\end_inset
+
+- 
+\begin_inset Formula $trie$
+\end_inset
+
+ המכיל את כל המחרוזות שהוכנסו והופיעו אחרי המקף בצמד שלהן.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ואת המתודות הבאות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Init(m)$
+\end_inset
+
+: מאתחלת את המבנה עם שני צמתי 
+\begin_inset Formula $trie$
+\end_inset
+
+ ריקים, ומאתחלת את הפרמטר 
+\begin_inset Formula $m$
+\end_inset
+
+ להיות הערך המתקבל.
+ אתחולים אלה מתבצעים ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Insert(w_{1},w_{2})$
+\end_inset
+
+: מכניסה את המילה 
+\begin_inset Formula $w_{1}$
+\end_inset
+
+ ל
+\begin_inset Formula $prefix$
+\end_inset
+
+, ואת המילה 
+\begin_inset Formula $w_{2}$
+\end_inset
+
+ ל
+\begin_inset Formula $suffix$
+\end_inset
+
+ באמצעות פונקציית 
+\begin_inset Formula $Insert$
+\end_inset
+
+ של 
+\begin_inset Formula $trie$
+\end_inset
+
+.
+ לפי הידוע על 
+\begin_inset Formula $trie$
+\end_inset
+
+, ההכנסה ל
+\begin_inset Formula $prefix$
+\end_inset
+
+ תתבצע בסיבוכיות 
+\begin_inset Formula $O(|w_{1}|)$
+\end_inset
+
+ וההכנסה ל
+\begin_inset Formula $suffix$
+\end_inset
+
+ תתבצע בסיבוכיות 
+\begin_inset Formula $O(|w_{2}|)$
+\end_inset
+
+.
+ שתי פעולות אלה יתבצעו בכל קריאה ל
+\begin_inset Formula $Insert$
+\end_inset
+
+, ולכן סיבוכיות הפעולה היא 
+\begin_inset Formula $O(|w_{1}|+|w_{2}|)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Magic(w_{1},w_{2})$
+\end_inset
+
+: מתחילה בסריקה של 
+\begin_inset Formula $prefix$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+עבור כל צומת במסלול החיפוש למעט האחרון של 
+\begin_inset Formula $w_{1}$
+\end_inset
+
+ ואות נוכחית של המילה 
+\begin_inset Formula $ch$
+\end_inset
+
+, נוסיף למשתנה סכימה את 
+\begin_inset Formula $subCount$
+\end_inset
+
+ של כל אחד מהצמתים ב
+\begin_inset Formula $children$
+\end_inset
+
+ באינדקסים 
+\begin_inset Formula $\{0,\ldots,getIndex(ch)-1\}$
+\end_inset
+
+ כאשר אם 
+\begin_inset Formula $getIndex(ch)==0$
+\end_inset
+
+ לא נעבור על המערך.
+\end_layout
+
+\begin_layout Standard
+זה יספור בכל שלב בחיפוש את כל המילים במבנה שמתחילות באותה רישא עליה עברנו
+ עד עכשיו, אבל שהמשכן קטן ממש לקסיקוגרפית מהמשך המילה.
+\end_layout
+
+\begin_layout Standard
+אם אנחנו לא בצומת האחרון בחיפוש, נרצה לספור גם את כל המילים שהן רישא ממש
+ של המילה אותה אנחנו מחפשים ולכן נוסיף למשתנה הסכימה את 
+\begin_inset Formula $endCount$
+\end_inset
+
+ של הצומת הנוכחי לפני שנעבור לצומת הבא.
+\end_layout
+
+\begin_layout Standard
+אם בשלב מסוים ננסה לעבור לצומת שאינו קיים, סימן שהמילה לא מופיעה במבנה ולכן
+ נחזיר מיידית 
+\begin_inset Formula $false$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לאחר שנסיים את הסריקה של המילה משתנה הסכימה יחזיק את מספר המילים במבנה שקטן
+ ממש לקסיקוגרפית מ
+\begin_inset Formula $w_{1}$
+\end_inset
+
+.
+ אם מספר זה קטן ממש מ
+\begin_inset Formula $m$
+\end_inset
+
+, נחזיר 
+\begin_inset Formula $false$
+\end_inset
+
+.
+ אחרת, נאפס את משתנה הסכימה ונעבור לסרוק את 
+\begin_inset Formula $suffix$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+עבור כל צומת במסלול החיפוש של 
+\begin_inset Formula $w_{2}$
+\end_inset
+
+ ואות נוכחית של המילה 
+\begin_inset Formula $ch$
+\end_inset
+
+, נוסיף למשתנה הסכימה את 
+\begin_inset Formula $subCount$
+\end_inset
+
+ של כל אחד מהצמתים ב
+\begin_inset Formula $children$
+\end_inset
+
+ באינדקסים 
+\begin_inset Formula $\{n-1,\ldots,getIndex(ch)+1\}$
+\end_inset
+
+ כאשר אם 
+\begin_inset Formula $getIndex(ch)==n-1$
+\end_inset
+
+ לא נעבור על המערך.
+\end_layout
+
+\begin_layout Standard
+זה יספור בכל שלב בחיפוש את כל המילים במבנה שמתחילות באותה רישא עליה עברנו
+ עד עכשיו, אבל שהמשכן גדול ממש לקסיקוגרפית מהמשך המילה.
+\end_layout
+
+\begin_layout Standard
+כאשר הגענו לצומת האחרון במסלול החיפוש של 
+\begin_inset Formula $w_{2}$
+\end_inset
+
+, נוסיף את ה
+\begin_inset Formula $subCount$
+\end_inset
+
+ של כל אחד מהאיברים הקיימים ב
+\begin_inset Formula $children$
+\end_inset
+
+ כיוון שכל המילים ש
+\begin_inset Formula $w_{2}$
+\end_inset
+
+ היא רישא ממש שלהן גדולות ממש ממנה לקסיקוגרפית.
+\end_layout
+
+\begin_layout Standard
+כמו קודם, אם בשלב כלשהו בחיפוש ננסה לעבור לצומת שאינו קיים נחזיר 
+\begin_inset Formula $false$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+לאחר הסריקה של 
+\begin_inset Formula $w_{2}$
+\end_inset
+
+, משתנה הסכימה יחזיק את מספר המילים במבנה שגדולות ממש לקסיקוגרפית ממנה.
+ אם ערך זה קטן מ
+\begin_inset Formula $m$
+\end_inset
+
+ נחזיר 
+\begin_inset Formula $false$
+\end_inset
+
+, אחרת נחזיר 
+\begin_inset Formula $true$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כידוע על 
+\begin_inset Formula $trie$
+\end_inset
+
+, סיבוכיות מעבר שלם על מילה 
+\begin_inset Formula $w$
+\end_inset
+
+ היא 
+\begin_inset Formula $O(|w|)$
+\end_inset
+
+.
+ בכל שלב בחיפוש אנחנו מבצעים 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ פעולות - המערך 
+\begin_inset Formula $children$
+\end_inset
+
+ הוא בגודל של מספר המילים בא
+\begin_inset Quotes erd
+\end_inset
+
+ב הסופי שנחשב גודל קבוע ולכן מעבר על חלק ממנו וביצוע פעולות כמו עדכון משתנה
+ הסכימה הוא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+אנחנו מבצעים לכל היותר מעבר על כל 
+\begin_inset Formula $w_{1}$
+\end_inset
+
+ וכל 
+\begin_inset Formula $w_{2}$
+\end_inset
+
+ ולכן סיבוכיות הפעולה היא 
+\begin_inset Formula $O(|w_{1}|+|w_{2}|)$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
