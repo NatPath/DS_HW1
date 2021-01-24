@@ -241,12 +241,13 @@ status open
 \end_layout
 
 \begin_layout Standard
-נשמור על את המידע אודות מיקום הארגזים בטבלת ערבול דינאמית, כאשר המפתח יהיה
+נשמור את המידע אודות מיקום הארגזים בטבלת ערבול דינאמית, כאשר המפתח יהיה
  
 \begin_inset Formula $id$
 \end_inset
 
- של הארגז והערך יהיה מספר המחסן בו הוא נמצא.
+ של הארגז והערך יהיה הארגז עצמו שמכיל את כל הפרטים אודותיו)מיקום , משקל,
+ נפח ותז(.
 \end_layout
 
 \begin_layout Standard
@@ -1077,7 +1078,7 @@ status open
 \begin_inset Formula $counter$
 \end_inset
 
- מייצג את מספר המפלגותץ
+ מייצג את מספר המפלגות
 \end_layout
 
 \begin_layout Standard
@@ -1104,23 +1105,584 @@ status open
 \end_layout
 
 \begin_layout Standard
+נפעל באופן דומה לנעשה בתרגול
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+9
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+תרגיל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+, בבעיית הקופסאות.
+\end_layout
+
+\begin_layout Standard
 על מנת לאפשר פעולת האיחוד החדשה נשתמש במבנה 
 \begin_inset Formula $UF$
 \end_inset
 
- שיכיל מידע נוסף באברי המערך של אברי הקבוצות.
+ כפי שמומש עד כה אך כעת בנוסף הוא יכיל מידע נוסף בצמתים ובראשי הקבוצת.
 \end_layout
 
 \begin_layout Standard
-המידע הנוסף) בנוסף לגודל הקבוצה והשורש של העץ ההפוך ( יהיה 
-\end_layout
-
-\begin_layout Standard
-נממש את 
-\begin_inset Formula $MergeParties(p_{1},p_{2})$
+נוסיף מידע לכל צומת , שיאפשר לדעת את 
+\begin_inset Quotes eld
 \end_inset
 
- מחדש.
+המרחק הכולל
+\begin_inset Quotes erd
+\end_inset
+
+ מראש הקבוצה.
+\end_layout
+
+\begin_layout Standard
+ובכל ראש קבוצה נכתוב את גודלה.
+ 
+\end_layout
+
+\begin_layout Standard
+נראה גם שאפשר לשמור על המידע נוסף בפעולות המבנה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+מימוש 
+\begin_inset Formula $UF$
+\end_inset
+
+ מעודכן:
+\end_layout
+
+\begin_layout Standard
+נרצה כעת שיהיה סדר בין אברי כל קבוצה, לכן בעת איחוד בין קבוצות מיקום הארגומנטים
+ ל
+\begin_inset Formula $Union$
+\end_inset
+
+ יהיה חשוב.
+\end_layout
+
+\begin_layout Standard
+כל צומת בעץ ההפוך שמייצג קבוצה תכיל כעת מידע נוסף שנסמנו 
+\begin_inset Formula $info$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ובנוסף, כל ראש קבוצה יכיל גם את גודל הקבוצה שנסמנו 
+\begin_inset Formula $size$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+המידע הנוסף של צומת 
+\begin_inset Formula $v$
+\end_inset
+
+ יאפשר את קבלת מיקום 
+\begin_inset Formula $v$
+\end_inset
+
+ בקבוצה לה היא שייכת על ידי סכימה של כל ה
+\begin_inset Formula $info$
+\end_inset
+
+ של הצמתים במסלול מ
+\begin_inset Formula $v$
+\end_inset
+
+ עד לשורש הקבוצה.
+\end_layout
+
+\begin_layout Standard
+באתחול המבנה,
+\end_layout
+
+\begin_layout Standard
+ערך 
+\begin_inset Formula $info$
+\end_inset
+
+ של כל צומת יהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+, זאת כיוון שכל צומת היא ראש הקבוצה שלה עצמה.
+\end_layout
+
+\begin_layout Standard
+ערך 
+\begin_inset Formula $size$
+\end_inset
+
+ של כל צומת יהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, כי כל צומת תהיה ראש קבוצה של צומת אחת.
+\end_layout
+
+\begin_layout Standard
+נראה שאפשר לשמור על המידע הנוסף עדכני בפעולות השונות)נציג מה נצטרך להוסיף
+ בסוף הפעולה כדי לשמור על המידע נוסף עדכני, שאר הפרטים ישארו כשהיו במימוש
+ שנלמד בהרצאה(:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+פעולת 
+\begin_inset Formula $Union(p_{1},p_{2})$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+נסמן שורש של 
+\begin_inset Formula $p_{1}$
+\end_inset
+
+ ב 
+\begin_inset Formula $r_{1}$
+\end_inset
+
+ ושורש של
+\begin_inset Formula $p_{2}$
+\end_inset
+
+ ב 
+\begin_inset Formula $r_{2}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+נפריד לשני מקרים,
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $|p_{1}|\geq|p_{2}|$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+נעדכן
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r_{2}.info=r_{2}.info+r_{1}.size-r_{1}.info$
+\end_inset
+
+ )
+\begin_inset Quotes erd
+\end_inset
+
+דרגת
+\begin_inset Quotes erd
+\end_inset
+
+ כל אחד מהצמתים ב
+\begin_inset Formula $p_{2}$
+\end_inset
+
+ גדלה בגובה של 
+\begin_inset Formula $r_{1}.size$
+\end_inset
+
+ , הכוונה בדרגה היא סכום ה
+\begin_inset Formula $info$
+\end_inset
+
+ של הצמתים במסלול מהצומת עד השורש החדש של הקבוצה ( .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r_{1}.size=r_{1}.size+r_{2}.size$
+\end_inset
+
+ )גודל הקבוצה המאוחדת הוא סכום גדלי הקבוצות(.
+\end_layout
+
+\begin_layout Standard
+אחרת, ) 
+\begin_inset Formula $|p_{1}|<|p_{2}|$
+\end_inset
+
+ ( :
+\end_layout
+
+\begin_layout Standard
+נעדכן 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r_{2}.size=r_{1}.size+r_{2}.size$
+\end_inset
+
+ )גודל הקבוצה המאוחדת הוא סכום גדלי הקבוצות(.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r_{2}.info=r_{2}.info+r_{1}.size$
+\end_inset
+
+ )כעת 
+\begin_inset Formula $r_{2}$
+\end_inset
+
+ היא ראש הקבוצה החדשה, לכן בצורה זו 
+\begin_inset Quotes eld
+\end_inset
+
+נגדיל
+\begin_inset Quotes erd
+\end_inset
+
+ את המרחק מהשורש של כל צומת ב
+\begin_inset Formula $p_{2}$
+\end_inset
+
+ ב
+\begin_inset Formula $r_{1}.size$
+\end_inset
+
+ (.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r_{1}.info=r_{1}.info-r_{2}.info$
+\end_inset
+
+ )כשנסכום דרגה של צומת מ
+\begin_inset Formula $p_{1}$
+\end_inset
+
+ , אנו סוכמים את ה 
+\begin_inset Formula $info$
+\end_inset
+
+ של ראש הקבוצה 
+\begin_inset Formula $p_{2}$
+\end_inset
+
+ ולכן נדאג להחסיר אותו(.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+פעולת 
+\begin_inset Formula $Find(p)$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+כעת נרצה לדאוג שבעת כיווץ המסלולים נשמור על שמורת המידע הנוסף.
+\end_layout
+
+\begin_layout Standard
+נשמור את הצמתים במסלולמ 
+\begin_inset Formula $p$
+\end_inset
+
+ עד שורש הקבוצה)לא כולל את השורש( .
+ נסמן הצמתים ב 
+\begin_inset Formula $p,v_{1},v_{2}...v_{n}$
+\end_inset
+
+ כאשר סדרם הוא גם סדר הופעתם במסלול.
+\end_layout
+
+\begin_layout Standard
+כל צומת נחבר ל שורש הקבוצה שמצאנו )כפי שנעשה בכיווץ מסלולים רגיל(, אך כעת
+ נעדכן את 
+\begin_inset Formula $info$
+\end_inset
+
+ של כל אחד מהצמתים באופן הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p.info=p.info+\sum_{i=1}^{n}v_{i}.info$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לכל 
+\begin_inset Formula $j$
+\end_inset
+
+ מ
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עד 
+\begin_inset Formula $n$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v_{j}.info=\sum_{i=j}^{n}v_{i}.info$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+שינוי המידע של הצמתים במסלול ישמור על כך שבעת חישוב הדרגה, הדרגה לאחר הכיווץ
+ תהיה כפי שהייתה קודם לכן) 
+\begin_inset Formula $Find$
+\end_inset
+
+ לא אמור לשנות דרגות של צמתים(.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+נוסיף פעולה חדשה למבנה ה 
+\begin_inset Formula $\underline{UF}$
+\end_inset
+
+ שמחשבת את דרגת כל צומת בקבוצה בה היא נמצאת:
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $calcRank(p)$
+\end_inset
+
+-
+\end_layout
+
+\begin_layout Standard
+נגש לצומת 
+\begin_inset Formula $p$
+\end_inset
+
+ דרך המערך , ונסכום את ה
+\begin_inset Formula $info$
+\end_inset
+
+ של הצמתים במסלול החיפוש עד השורש של הקבוצה ונחזיר אותו.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+נממש כעת את הפונקציה 
+\begin_inset Formula $PlaceInParty(p)$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{return union\_find.calcRank(p)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Section*
