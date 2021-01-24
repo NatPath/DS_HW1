@@ -1,0 +1,1339 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Title
+מבני נתונים - גיליון יבש
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Plain Layout
+בן הלפרין |
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+209086578
+\end_layout
+
+\begin_layout Plain Layout
+נתיב מאור |
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+319002911
+\numeric off
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הסבר בקצרה:
+\end_layout
+
+\begin_layout Standard
+נשמור על את המידע אודות מיקום הארגזים בטבלת ערבול דינאמית, כאשר המפתח יהיה
+ 
+\begin_inset Formula $id$
+\end_inset
+
+ של הארגז והערך יהיה מספר המחסן בו הוא נמצא.
+\end_layout
+
+\begin_layout Standard
+בנוסף, נשמור מערך בגודל 
+\begin_inset Formula $k$
+\end_inset
+
+ שייצג את המחסנים.
+ האיבר ה
+\begin_inset Formula $i$
+\end_inset
+
+ במערך יכיל עץ דרגות וייצג את המחסן ה
+\begin_inset Formula $i$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+עץ הדרגות יכיל מידע אודות הקופסאות באותו מחסן.
+ הוא ימוין לפי נפח , וכיוון שנפח לא בהכרח יחודי לארגז , ימוין מיון משני
+ לפי 
+\begin_inset Formula $id$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+המידע הנוסף בכל צומת שבעץ הדרגות יהיה 
+\begin_inset Quotes eld
+\end_inset
+
+מצביע לארגז בעל המשקל הגדול ביותר הנמצא בתת העץ ומשקלו
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+שדות המבנה:
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $Containers$
+\end_inset
+
+-
+\end_layout
+
+\begin_layout Standard
+מערך בגודל 
+\begin_inset Formula $k$
+\end_inset
+
+ שכל איבר בו מייצג מחסן בעזרת עץ דרגות 
+\begin_inset Formula $Container\text{\_}tree$
+\end_inset
+
+ המכיל מידע אודותיו.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $BoxLocation$
+\end_inset
+
+-
+\end_layout
+
+\begin_layout Standard
+טבלת ערבול דינמית שתכיל מידע אודות מיקומי הארגזים.
+\end_layout
+
+\begin_layout Standard
+אברי הטבלה הם הארגזים - ארגז מורכב מצמד 
+\begin_inset Formula $(key=(int)id,value=\text{(Box)box\_object})$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+הטבלה תמומש בשיטת 
+\begin_inset Formula $\text{chain hashing}$
+\end_inset
+
+ ובאמצעות פונקצית ערבול מפזרת אחיד)למשל 
+\begin_inset Formula $mod(size)$
+\end_inset
+
+ (.
+\end_layout
+
+\begin_layout Standard
+הטבלה תהיה דינמית ותגדיל את גודלה עם הכנסת ארגזים נוספים כדי לשמור על פאקטור
+ עומס 
+\begin_inset Formula $\alpha\leq2$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+סיבוכיות זמן החיפוש בטבלה הוא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ בממוצע על הקלט כפי שנלמד.
+\end_layout
+
+\begin_layout Standard
+סיבוכיות זמן ההכנסה לטבלה היא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ בממוצע על הקלט באופן משוערך.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+טיפוסי עזר)לא שדות, אלה שדות של השדות(:
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $Container\text{\_}tree$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+עץ דרגות מאוזן המייצג מחסן והקופסאות שנמצאות בו.
+\end_layout
+
+\begin_layout Standard
+איבריו יהיו הארגזים המכילים את כל המידע אודותם)
+\begin_inset Formula $id,w,v$
+\end_inset
+
+( .
+\end_layout
+
+\begin_layout Standard
+המיון בעץ יעשה לפי נפח בסדר עולה)ארגזים בעלי נפח גדול יותר יהיו מימין(,
+ כיוון שנפח לא יחודי, נוסף על כך יהיה מיון משנה יהיה לפי 
+\begin_inset Formula $id$
+\end_inset
+
+ )שהוא כן יחודי( בסדר יורד, כך שההשוואה בין קופסאות תעשה לפי זוג סדור של
+ נפח ו
+\begin_inset Formula $id$
+\end_inset
+
+ כאשר לנפח חשיבות גדולה יותר.
+\end_layout
+
+\begin_layout Standard
+כל צומת בעץ תכיל בנוסף מידע של מה הוא הארגז בעל המשקל הגדול ביותר בתת העץ
+ שמתחתיה)כולל את עצמה( ותכיל גם מצביע אליו )
+\begin_inset Formula $\text{max\_weight,ptr\_to\_box}$
+\end_inset
+
+(
+\begin_inset Formula $info=$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בעת הכנסת איברים לעץ ובעת גלגולים ערך המידע הנוסף בצומת תלוי רק בתקינות
+ המידע של הצמתים מתחתיו, וניתן לשחזור משני בניו.
+ לכן כפי שלמדנו בהרצאה ניתן לשמור על תקינות המידע במהלך הפעולות הנעשות על
+ העץ על ידי שיפוץ הגלגולים.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Box$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+טיפוס המכיל את השדות 
+\begin_inset Formula $id,w,v,container$
+\end_inset
+
+ ומייצג קופסא
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $id$
+\end_inset
+
+- מזהה הארגז
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $w$
+\end_inset
+
+- משקל הארגז
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v$
+\end_inset
+
+ - נפח הארגז
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $container$
+\end_inset
+
+- המחסן בו הארגז נמצא
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\bar under
+פעולות:
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $Init$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+אתחול מערך 
+\begin_inset Formula $Containers$
+\end_inset
+
+ , ערך דיפולטיבי עץ דרגות ריק.
+ 
+\end_layout
+
+\begin_layout Standard
+סיבוכיות הזמן לכך היא 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ כפי שנלמד בהרצאות.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $AddBox(i,id,w,v)$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+יצירת הקופסא: 
+\begin_inset Formula $b=Box(id,w,v,i)$
+\end_inset
+
+ .בסיבוכיות זמן 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+בדיקה האם קיים איבר עם המפתח 
+\begin_inset Formula $id$
+\end_inset
+
+ בטבלת הערבול 
+\begin_inset Formula $BoxLocation$
+\end_inset
+
+ , אם קיים נחזיר שגיאה )לא נרשה כפילות 
+\begin_inset Formula $id$
+\end_inset
+
+ לארגז במבנה( .
+\end_layout
+
+\begin_layout Standard
+אחרת, נכניס ל
+\begin_inset Formula $BoxLocation$
+\end_inset
+
+ את 
+\begin_inset Formula $b$
+\end_inset
+
+ בעזרת המפתח 
+\begin_inset Formula $b$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Standard
+הכנסה לטבלת ערבול נעשית ב 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ בממוצע על הקלט באופן משעורך .
+\end_layout
+
+\begin_layout Standard
+הכנסתו לעץ 
+\begin_inset Formula $\text{Container\_tree}$
+\end_inset
+
+ שבאיבר ה
+\begin_inset Formula $i$
+\end_inset
+
+ במערך 
+\begin_inset Formula $\text{Containers}$
+\end_inset
+
+.
+ סיבוכיות זמן 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ כהכנסה לעץ דרגות מאוזן)תוך שמירה על שמורת המידע הנוסף(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סה
+\begin_inset Quotes erd
+\end_inset
+
+כ סיבוכיות זמן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ בממוצע על הקלט באופן משוערך.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $TransferBox(i,j,V)$
+\end_inset
+
+-
+\end_layout
+
+\begin_layout Standard
+נבצע חיפוש ב
+\begin_inset Formula $\text{Container\_tree }$
+\end_inset
+
+ של מחסן 
+\begin_inset Formula $i$
+\end_inset
+
+ לארגז בעל נפח 
+\begin_inset Formula $V$
+\end_inset
+
+ ו
+\begin_inset Formula $id=-1$
+\end_inset
+
+ )כך שבמקרה שיש כמה ארגזים מאותו הנפח נעצור את החיפוש על המינימלי מביניהם(,
+ ונשמור כל צומת שבה פנינו פניה ימינה במסלול החיפוש במחסנית 
+\begin_inset Formula $s$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+גודל המחסנית הוא לכל היותר כגובה העץ וכיוון שהעץ הוא עץ מאוזן 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+תתי העצים השמאליים של הצמתים במחסנית יכילו את כל הצמתים שנפחם לכל היותר
+ 
+\begin_inset Formula $V$
+\end_inset
+
+ ואת כולם .
+\end_layout
+
+\begin_layout Standard
+נמצא את הארגז בעל המשקל המקסימלי בתתי העצים השמאליים של הצמתים במחסנית:
+\end_layout
+
+\begin_layout Itemize
+ניצור מערך בגודל המחסנית שנסמנו 
+\begin_inset Formula $\text{max\_arr}$
+\end_inset
+
+ )סיבוכיות זמן 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ ליצירתו ( ,
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+לכל צומת 
+\begin_inset Formula $k$
+\end_inset
+
+ ב
+\begin_inset Formula $s$
+\end_inset
+
+)אינדקס מיקום של הצומת במחסנית( :
+\end_layout
+
+\begin_layout Standard
+נכניס למקום ה
+\begin_inset Formula $k$
+\end_inset
+
+ במערך את המשקל המקסימלי של ארגז בתת העץ השמאלי שלה )העץ שכולל אותה עצמה,הכוונה
+ היא שלשם כך נדרשת עוד השווה מלבד משיכת המידע מהצומת השמאלית( ואת המצביע
+ אל הצומת של אותו ארגז .
+ נעשה זאת בסיבוכיות זמן 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ כיוון שהמידע אודות ארגז עם משקל מקסימלי בתת העץ ומצביע אליו נמצא במידע
+ הנוסף של כל צומת.
+ 
+\end_layout
+
+\begin_layout Itemize
+נמצא את הצומת בעלת המשקל המקסימלי בערך 
+\begin_inset Formula $\text{max\_arr}$
+\end_inset
+
+ )סיבוכיות זמן בסדר גודל של גודל המערך לכן 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ ( ,נסמנה ב 
+\begin_inset Formula $v$
+\end_inset
+
+ ) 
+\begin_inset Formula $v$
+\end_inset
+
+ היא הצומת המייצגת את הארגז בעל המשקל הגדול ביותר מבין כל הצמתים שנפחם לכל
+ היותר 
+\begin_inset Formula $V$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת, נעבור אל הצומת 
+\begin_inset Formula $v$
+\end_inset
+
+ וננתק אותה מהעץ 
+\begin_inset Formula $i$
+\end_inset
+
+ )כולל ביצוע גלגולים ושמירה על השמורה של המידע הנוסף בעץ הדרגות(- נעשה ב
+\begin_inset Formula $O(logn)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נכניס את הארגז )נסמנו 
+\begin_inset Formula $b=\text{v.ptr\_to\_box}$
+\end_inset
+
+( ש
+\begin_inset Formula $v$
+\end_inset
+
+ מצביע אליו לעץ 
+\begin_inset Formula $Containters[j]$
+\end_inset
+
+ .) 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ (
+\end_layout
+
+\begin_layout Standard
+נשנה ערך של המחסן של 
+\begin_inset Formula $b$
+\end_inset
+
+ מ 
+\begin_inset Formula $i$
+\end_inset
+
+ ל
+\begin_inset Formula $j$
+\end_inset
+
+ באוביקט עצמו ) 
+\begin_inset Formula $\text{\ensuremath{b->setContainer(j)}}$
+\end_inset
+
+( כדי שבטבלת הערבול 
+\begin_inset Formula $BoxLocation$
+\end_inset
+
+ המידע אודות מיקום הארגז ישאר אמין)נעקוף חיפוש בתוך הטבלה בעזרת שימוש במצביע
+ לאוביקט(.
+\begin_inset Formula $(O(logn))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סה
+\begin_inset Quotes erd
+\end_inset
+
+כ סיבוכיות זמן :
+\end_layout
+
+\begin_layout Standard
+מספר קבוע של פעולות בסיבוכיות 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+ והשאר 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ לכן סיבוכיות זמן 
+\begin_inset Formula $O(logn)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+\begin_inset Formula $LocateBox(id)$
+\end_inset
+
+ -
+\end_layout
+
+\begin_layout Standard
+חיפוש המפתח 
+\begin_inset Formula $id$
+\end_inset
+
+ בטבלת הערבול 
+\begin_inset Formula $BoxLocation$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+אם לא נמצא, נחזיר שגיאה.
+\end_layout
+
+\begin_layout Standard
+אם נמצא,נחזיר את מספר המחסן של הארגז שנמצא )דאגנו לשמור מידע זה אמין לאורך
+ התוכנית(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סיבוכיות זמן:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $O(1)$
+\end_inset
+
+ בממוצע על הקלט כחיפוש בטבלת ערבול כפי שלמדנו בהרצאה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Subsection*
+סעיף א
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+שדות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $counter$
+\end_inset
+
+ - מונה את מספר המפלגות.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{union\_find}$
+\end_inset
+
+ - מבנה 
+\begin_inset Formula $UF$
+\end_inset
+
+ )הממומש באמצעות עצים הפוכים איחוד לפי גודל וכיווץ מסלולים( שיתאר את המפלגות
+ ) מפלגה היא קבוצה של מועמדים(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+פעולות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Init(n)$
+\end_inset
+
+ - נאתחל את 
+\begin_inset Formula $counter$
+\end_inset
+
+ ל 
+\begin_inset Formula $n$
+\end_inset
+
+ ונאתחל מבנה 
+\begin_inset Formula $UF$
+\end_inset
+
+ ) נעשב ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+, אתחול המערך של 
+\begin_inset Formula $n$
+\end_inset
+
+ הקבוצות (.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $IsSameParty(p_{1},p_{2})$
+\end_inset
+
+ - נבדוק האם המפלגות של המועמדים זהות : 
+\begin_inset Formula $find(p_{1})==find(p_{2})$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $MergeParties(p_{1},p_{2})$
+\end_inset
+
+ -נבצע את הפעולה 
+\begin_inset Formula $IsSameParty(p_{1},p_{2})$
+\end_inset
+
+ , אם מחזירה ערך אמת, נסיים.
+\end_layout
+
+\begin_layout Standard
+אחרת, נבצע 
+\begin_inset Formula $Union(find(p_{1}),find(p_{2}))$
+\end_inset
+
+ ונקטין את 
+\begin_inset Formula $counter$
+\end_inset
+
+ ב
+\numeric on
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+כי לאחר איחוד בין שתי קבוצות שונות יש לנו קבוצה אחת פחות.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סיבוכיות זמן משוערכת של 
+\begin_inset Formula $IsSameParty$
+\end_inset
+
+ ו 
+\begin_inset Formula $MergeParties$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
+סיבוכיות הזמן המשוערכת של פעולות 
+\begin_inset Formula $Union$
+\end_inset
+
+ ו 
+\begin_inset Formula $Find$
+\end_inset
+
+ של מבנה 
+\begin_inset Formula $UF$
+\end_inset
+
+ )הממומש באמצעות עצים הפוכים איחוד לפי גודל וכיווץ מסלולים( יחד היא 
+\begin_inset Formula $O(log^{*}n)$
+\end_inset
+
+ כפי שנדרש.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $AvergePartySize()$
+\end_inset
+
+ - מספר המועמדים הכולל הוא קבוע ותמיד 
+\begin_inset Formula $n$
+\end_inset
+
+, 
+\begin_inset Formula $counter$
+\end_inset
+
+ מייצג את מספר המפלגותץ
+\end_layout
+
+\begin_layout Standard
+לכן כדי להחזיר ממוצע של גודל מפלגה נחזיר 
+\begin_inset Formula $\frac{counter}{n}$
+\end_inset
+
+.
+ מספר קבוע של פעולות לכן נעשה בסיבוכיות זמן של 
+\begin_inset Formula $O(1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+סעיף ב
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הסבר בקצרה:
+\end_layout
+
+\begin_layout Standard
+על מנת לאפשר פעולת האיחוד החדשה נשתמש במבנה 
+\begin_inset Formula $UF$
+\end_inset
+
+ שיכיל מידע נוסף באברי המערך של אברי הקבוצות.
+\end_layout
+
+\begin_layout Standard
+המידע הנוסף) בנוסף לגודל הקבוצה והשורש של העץ ההפוך ( יהיה 
+\end_layout
+
+\begin_layout Standard
+נממש את 
+\begin_inset Formula $MergeParties(p_{1},p_{2})$
+\end_inset
+
+ מחדש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+הסבר בקצרה:
+\end_layout
+
+\begin_layout Standard
+נעבור על העץ המקולקל בסיור 
+\begin_inset Formula $PostOrder$
+\end_inset
+
+ ונסתמך על זה שקשתות אל העלים צריכות להסתיים באנדקס של אורך המחרוזת )כולל
+ הסיומת, נסמן מספר זה ב
+\begin_inset Formula $n$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+על צמתים המובילות לעלים נעדכן את הערך על הקשת להיות 
+\begin_inset Formula $(n,n-k+1)$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $k$
+\end_inset
+
+ הוא ערך הקשת הנוכחי.
+\end_layout
+
+\begin_layout Standard
+בכל צומת שנעבור עליה)ונעבור על כולן בסופו של דבר(, בסיום המעבר תתוקן הקשת
+ המובילה אליה בעזרת המידע המתוקן בקשת הכי שמאלית שלה)נבחר בשמאלית באופן
+ שרירותי, יכול להיות כל צומת אחרת(.
+\end_layout
+
+\begin_layout Standard
+ערך ההחזרה של הסיור בצומת הכי שמאלית יהיה האנדקס התחתון של הקשת המובילה
+ אליה.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+נתאר את האלגוריתם בעזרת פסודו קוד:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{int fixRoot(node root,int string\_length)}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+אם 
+\begin_inset Formula $\text{root}$
+\end_inset
+
+ עלה, סיים והחזר 
+\begin_inset Formula $\text{string\_length}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בצע 
+\begin_inset Formula $\text{int fix\_val=fixRoot(root.left)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תקן את הקשת המובילה ל
+\begin_inset Formula $\text{root.left}$
+\end_inset
+
+ להיות 
+\begin_inset Formula $(\text{fix\_val},\text{fix\_val-k+1})$
+\end_inset
+
+ כאשר ערכה הנוכחי הוא 
+\begin_inset Formula $k$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+עבור על כל שאר הבנים של 
+\begin_inset Formula $\text{root}$
+\end_inset
+
+ ובצע עבורם 
+\begin_inset Formula $\text{fixRoot(node)}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+החזר 
+\begin_inset Formula $\text{fix\_val-1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+סיבוכיות זמן:
+\end_layout
+
+\begin_layout Standard
+למדנו בהרצאה שמספר הצמתים בעץ סיומות דחוס הוא 
+\begin_inset Formula $O(|s|)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+לכן 
+\begin_inset Formula $preOrder$
+\end_inset
+
+ על העץ יעשה בסיבוכיות זמן של 
+\begin_inset Formula $O(|s|)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+)נציין שעל כל צומת עוברים פעם אחת בלבד ובכל צומת נעשה מספר קבוע של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פעולות(.
+\end_layout
+
+\begin_layout Standard
+
+\bar under
+נכונות האלגוריתם:
+\end_layout
+
+\begin_layout Standard
+תיקון של קשת המובילה לצומת הוא פשוט בהינתן ש הקשתות מהצומת מתוקנות.
+\end_layout
+
+\begin_layout Standard
+אורך הסיומת החל מצומת מסוימת הוא סך ערכי אורכי הקשתות של
+\end_layout
+
+\end_body
+\end_document
