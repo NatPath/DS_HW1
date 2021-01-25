@@ -1063,7 +1063,31 @@ status open
 \begin_inset Formula $O(log^{*}n)$
 \end_inset
 
- כפי שנדרש.
+ .
+\end_layout
+
+\begin_layout Standard
+בכל סדרה של 
+\begin_inset Formula $m$
+\end_inset
+
+ פעולות משני הסוגים נעשה מספר קבוע של פעולות 
+\begin_inset Formula $Union$
+\end_inset
+
+ ו 
+\begin_inset Formula $Find$
+\end_inset
+
+ ושאר הפעולות 
+\begin_inset Formula $O(1)$
+\end_inset
+
+ , לכן ישוערכו יחד גם הם ל 
+\begin_inset Formula $O(log^{*}n)$
+\end_inset
+
+ .
 \end_layout
 
 \begin_layout Standard
@@ -1273,6 +1297,19 @@ status open
 \end_inset
 
  עד לשורש הקבוצה.
+ למיקום בקבוצה נקרא 
+\begin_inset Quotes eld
+\end_inset
+
+דרגה- 
+\begin_inset Formula $rank$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ .
 \end_layout
 
 \begin_layout Standard
@@ -1375,7 +1412,36 @@ status open
 \uwave default
 \noun default
 \color inherit
-, כי כל צומת תהיה ראש קבוצה של צומת אחת.
+, כי כל צומת תהיה ראש קבוצה של צומת אחת ולכן דרגתה היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
 \end_layout
 
 \begin_layout Standard
@@ -1451,11 +1517,20 @@ status open
 \begin_inset Formula $r_{1}.size$
 \end_inset
 
- , הכוונה בדרגה היא סכום ה
+ , נזכיר שלקבלת הדרגה יש לסכום ה
 \begin_inset Formula $info$
 \end_inset
 
- של הצמתים במסלול מהצומת עד השורש החדש של הקבוצה ( .
+ של הצמתים במסלול מהצומת עד השורש החדש של הקבוצה, לכן לא נרצה לסכום פעמיים
+ את 
+\begin_inset Formula $r_{1}.info$
+\end_inset
+
+ כשנחשב דרגת צמתים מ הקבוצה 
+\begin_inset Formula $p_{2}$
+\end_inset
+
+ ( .
 \end_layout
 
 \begin_layout Standard
@@ -1664,6 +1739,27 @@ status open
 \end_layout
 
 \begin_layout Standard
+נציין שלאחר מעבר על הצמתים במסלול החיפוש עד השורש נבצע כיווץ מסלולים כפי
+ שנעשה ב 
+\begin_inset Formula $Find$
+\end_inset
+
+ , כך שסיבוכיות 
+\begin_inset Formula $calcRank$
+\end_inset
+
+ בשערוך עם 
+\begin_inset Formula $Union$
+\end_inset
+
+ היא גם כן 
+\begin_inset Formula $O(log^{*}n)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \bar under
@@ -1675,6 +1771,26 @@ status open
 \end_layout
 
 \begin_layout Standard
+נבצע את הפעולה 
+\begin_inset Formula $calcRank(p)$
+\end_inset
+
+ על המבנה 
+\begin_inset Formula $\text{union\_find}$
+\end_inset
+
+, וערכת ההחזרה יהיה דרגת 
+\begin_inset Formula $p$
+\end_inset
+
+ בקבוצה הנוכחית שלו, שזה מיקומו במפלגה.
+\end_layout
+
+\begin_layout Standard
+נחזיר את מיקומו.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula $\text{return union\_find.calcRank(p)}$
 \end_inset
 
@@ -1683,6 +1799,57 @@ status open
 
 \begin_layout Standard
 
+\bar under
+הסבר סיבוכיות:
+\end_layout
+
+\begin_layout Standard
+הפונקציה 
+\begin_inset Formula $PlaceInParty$
+\end_inset
+
+ בסה
+\begin_inset Quotes erd
+\end_inset
+
+כ קוראת לפונקציה 
+\begin_inset Formula $calcRank$
+\end_inset
+
+ שזהה בסיבוכיות ל
+\begin_inset Formula $Find$
+\end_inset
+
+ כשהיא משוערכת ביחד עם 
+\begin_inset Formula $Union$
+\end_inset
+
+ )שסיבוכיותה כיוון שגם היא מכווצת מסלולים.
+ לכן שערוך של שלושת הפונקציות 
+\begin_inset Formula $PlaceInParty$
+\end_inset
+
+ , 
+\begin_inset Formula $MergeParties$
+\end_inset
+
+ ו 
+\begin_inset Formula $IsSameParty$
+\end_inset
+
+ יחד יהיה גם הוא כמו שערוך 
+\begin_inset Formula $IsSameParty$
+\end_inset
+
+ ו 
+\begin_inset Formula $MergeParties$
+\end_inset
+
+ : 
+\begin_inset Formula $O(log^{*}n)$
+\end_inset
+
+ .
 \end_layout
 
 \begin_layout Section*
@@ -1886,7 +2053,7 @@ status open
 \begin_layout Standard
 
 \bar under
-נכונות האלגוריתם:
+הסבר לגבי נכונות האלגוריתם:
 \end_layout
 
 \begin_layout Standard
@@ -1894,7 +2061,80 @@ status open
 \end_layout
 
 \begin_layout Standard
-אורך הסיומת החל מצומת מסוימת הוא סך ערכי אורכי הקשתות של
+כל מסלול מהשורש לעלה בעץ סיומות דחוס מייצג סיומת, לכן תת מחרוזת של המילה
+ המקורית.
+\end_layout
+
+\begin_layout Standard
+תהא סיומת 
+\begin_inset Formula $s=s_{1}s_{2}s_{3}..s_{k}$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $s_{i}$
+\end_inset
+
+ הן תתי מחרוזות של 
+\begin_inset Formula $s$
+\end_inset
+
+ ומייצגות את הקשתות שבמסלול מהשורש של עץ הסיומות עד לעלה, כאשר אורכן ידוע.
+\end_layout
+
+\begin_layout Standard
+נראה כיצד ניתן לשחזר את אנדקס ההתחלה והסוף של כל אחת מהתתי מחרוזות.
+\end_layout
+
+\begin_layout Standard
+בסיס: אנדקס הסיום של 
+\begin_inset Formula $s_{k}$
+\end_inset
+
+ הוא תמיד 
+\begin_inset Formula $n$
+\end_inset
+
+ ) אורך המחרוזת(, כיוון שאורך 
+\begin_inset Formula $s_{k}$
+\end_inset
+
+ ידוע )נסמנו ב 
+\begin_inset Formula $l_{k}$
+\end_inset
+
+( ברור ש אנדקס ההתחלה הוא 
+\begin_inset Formula $n-l_{k}+1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+כך באופן אינדוקטיבי נוכל לדעת את אנדקס ההתחלה והסיום של כל אחת מהתתי מחרוזות.
+\end_layout
+
+\begin_layout Standard
+צעד : אם ידוע האורך של סך המחרוזות מ 
+\begin_inset Formula $s_{i+1}$
+\end_inset
+
+ עד 
+\begin_inset Formula $s_{k}$
+\end_inset
+
+ )נסמנו ב
+\begin_inset Formula $l_{i}$
+\end_inset
+
+(, אז אנדקס הסיום שלה הוא 
+\begin_inset Formula $l_{i}+1$
+\end_inset
+
+ ואנדקס ההתחלה הוא 
+\begin_inset Formula $n-l_{i}+1$
+\end_inset
+
+.
 \end_layout
 
 \end_body
