@@ -1606,6 +1606,14 @@ status open
 \end_layout
 
 \begin_layout Standard
+*בנוגע לסיבוכיות- מתווסף מספר קבוע של פעולות ולכן סיבוכיות הזמן 
+\begin_inset Formula $Union$
+\end_inset
+
+ החדש זהה לשל הישן.
+\end_layout
+
+\begin_layout Standard
 
 \series bold
 \bar under
@@ -1627,7 +1635,7 @@ status open
 
  עד שורש הקבוצה)לא כולל את השורש( .
  נסמן הצמתים ב 
-\begin_inset Formula $p,v_{1},v_{2}...v_{n}$
+\begin_inset Formula $p,v_{1},v_{2}...v_{k}$
 \end_inset
 
  כאשר סדרם הוא גם סדר הופעתם במסלול.
@@ -1643,7 +1651,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $p.info=p.info+\sum_{i=1}^{n}v_{i}.info$
+\begin_inset Formula $p.info=p.info+\sum_{i=1}^{k}v_{i}.info$
 \end_inset
 
 
@@ -1684,14 +1692,14 @@ status open
 \noun default
 \color inherit
 עד 
-\begin_inset Formula $n$
+\begin_inset Formula $k$
 \end_inset
 
  :
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $v_{j}.info=\sum_{i=j}^{n}v_{i}.info$
+\begin_inset Formula $v_{j}.info=\sum_{i=j}^{k}v_{i}.info$
 \end_inset
 
  
@@ -1704,6 +1712,133 @@ status open
 \end_inset
 
  לא אמור לשנות דרגות של צמתים(.
+\end_layout
+
+\begin_layout Standard
+*בנוגע לסיבוכיות- נציין שחישוב ה
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Formula $\sum$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ות יכול להעשות על ידי מערך של סכומים חלקיים 
+\begin_inset Formula $S_{i}$
+\end_inset
+
+ .שנסכום 
+\begin_inset Formula $v_{i}.info$
+\end_inset
+
+ מ
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+עד 
+\begin_inset Formula $k$
+\end_inset
+
+ פעם אחת ב 
+\begin_inset Formula $O(k)$
+\end_inset
+
+ ונשמור סכומים חלקיים במהלך הסכימה במקום ה 
+\begin_inset Formula $S_{i}$
+\end_inset
+
+, כך נוכל לדעת לכל 
+\begin_inset Formula $j$
+\end_inset
+
+ את 
+\begin_inset Formula $\sum_{i=j}^{k}v_{i}.info$
+\end_inset
+
+ לפי 
+\begin_inset Formula $S_{k}-S_{j}$
+\end_inset
+
+ ב
+\begin_inset Formula $O(1)$
+\end_inset
+
+ .
+ 
+\end_layout
+
+\begin_layout Standard
+פעולת 
+\begin_inset Formula $find$
+\end_inset
+
+ הרגילה עוברת גם היא על המסלול עד השורש ולכן 
+\begin_inset Formula $O(k)$
+\end_inset
+
+ גם היא, ומכאן שסיבוכיות 
+\begin_inset Formula $Find$
+\end_inset
+
+ המתוקנת זהה ל
+\begin_inset Formula $Find$
+\end_inset
+
+ המוכרת .
 \end_layout
 
 \begin_layout Standard
